@@ -1,0 +1,881 @@
+{
+    "PASS_NAME": {
+        "Mnemonic": "PASS_NAME",
+        "Description": "Pass Name",
+        "DataType": "string",
+        "Unit": "unitless",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "DVER": {
+        "Mnemonic": "DVER",
+        "Description": "Hole Depth (TVD)",
+        "DataType": "double",
+        "Unit": "m",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "BDTI": {
+        "Mnemonic": "BDTI",
+        "Description": "Bit Drill Time",
+        "DataType": "double",
+        "Unit": "h",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "S2AC": {
+        "Mnemonic": "S2AC",
+        "Description": "zzz:undefined",
+        "DataType": "double",
+        "Unit": "kPa",
+        "dataSource": "General",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "PMPT": {
+        "Mnemonic": "PMPT",
+        "Description": "Pump Time",
+        "DataType": "double",
+        "Unit": "h",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GR_CONF": {
+        "Mnemonic": "GR_CONF",
+        "Description": "MWD GR Bit Confidence Flag",
+        "DataType": "double",
+        "Unit": "%",
+        "dataSource": "MWD",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_HKLD": {
+        "Mnemonic": "GS_HKLD",
+        "Description": "Weight On Hook",
+        "DataType": "double",
+        "Unit": "kkgf",
+        "dataSource": "MudLog",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "A40H_COND_RT": {
+        "Mnemonic": "A40H_COND_RT",
+        "Description": "IMP/ARC Attenuation Conductivity 40-in. at 2 MHz",
+        "DataType": "double",
+        "Unit": "mS/m",
+        "dataSource": "IMP_ARC",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "DRET": {
+        "Mnemonic": "DRET",
+        "Description": "zzz:undefined",
+        "DataType": "double",
+        "Unit": "unitless",
+        "dataSource": "General",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "RPI5": {
+        "Mnemonic": "RPI5",
+        "Description": "Inverse ROP (5ft avg)",
+        "DataType": "double",
+        "Unit": "s/m",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "STUCK_RT": {
+        "Mnemonic": "STUCK_RT",
+        "Description": "zzz:undefined",
+        "DataType": "double",
+        "Unit": "unitless",
+        "dataSource": "General",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "APRS_RT": {
+        "Mnemonic": "APRS_RT",
+        "Description": "ARC Annular Pressure",
+        "DataType": "double",
+        "Unit": "kPa",
+        "dataSource": "ARC",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "RGX_RT": {
+        "Mnemonic": "RGX_RT",
+        "Description": "zzz:undefined",
+        "DataType": "double",
+        "Unit": "unitless",
+        "dataSource": "General",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_G_C2": {
+        "Mnemonic": "GS_G_C2",
+        "Description": "Ethane (C2)",
+        "DataType": "double",
+        "Unit": "ppm",
+        "dataSource": "GeoService",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "RPM": {
+        "Mnemonic": "RPM",
+        "Description": "Average Rotary Speed",
+        "DataType": "double",
+        "Unit": "rpm",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "AJAM_MWD": {
+        "Mnemonic": "AJAM_MWD",
+        "Description": "zzz:undefined",
+        "DataType": "double",
+        "Unit": "unitless",
+        "dataSource": "General",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "CRPM_RT": {
+        "Mnemonic": "CRPM_RT",
+        "Description": "MWD Collar RPM",
+        "DataType": "double",
+        "Unit": "rpm",
+        "dataSource": "MWD",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "P28H_UNC_RT": {
+        "Mnemonic": "P28H_UNC_RT",
+        "Description": "IMP/ARC Non-BHcorr Phase-Shift Resistivity 28-in. at 2 MHz",
+        "DataType": "double",
+        "Unit": "ohm.m",
+        "dataSource": "IMP_ARC",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "HKLD": {
+        "Mnemonic": "HKLD",
+        "Description": "Average Hookload",
+        "DataType": "double",
+        "Unit": "kkgf",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_DRTV": {
+        "Mnemonic": "GS_DRTV",
+        "Description": "Lag Depth (TVD)",
+        "DataType": "double",
+        "Unit": "m",
+        "dataSource": "GeoService",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_SPPA": {
+        "Mnemonic": "GS_SPPA",
+        "Description": "Stand Pipe Pressure",
+        "DataType": "double",
+        "Unit": "kPa",
+        "dataSource": "MudLog",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_G_C1": {
+        "Mnemonic": "GS_G_C1",
+        "Description": "Methane (C1)",
+        "DataType": "double",
+        "Unit": "ppm",
+        "dataSource": "GeoService",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_TFLO": {
+        "Mnemonic": "GS_TFLO",
+        "Description": "Flow Pumps",
+        "DataType": "double",
+        "Unit": "L/min",
+        "dataSource": "MudLog",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "P40H_COND_RT": {
+        "Mnemonic": "P40H_COND_RT",
+        "Description": "IMP/ARC Phase-Shift Conductivity 40-in. at 2 MHz",
+        "DataType": "double",
+        "Unit": "mS/m",
+        "dataSource": "IMP_ARC",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_TDH": {
+        "Mnemonic": "GS_TDH",
+        "Description": "TMP In",
+        "DataType": "double",
+        "Unit": "degC",
+        "dataSource": "MudLog",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "TREV": {
+        "Mnemonic": "TREV",
+        "Description": "Total Bit Revolutions",
+        "DataType": "double",
+        "Unit": "unitless",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "AVG_CONF": {
+        "Mnemonic": "AVG_CONF",
+        "Description": "zzz:undefined",
+        "DataType": "double",
+        "Unit": "unitless",
+        "dataSource": "General",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_G_IC4": {
+        "Mnemonic": "GS_G_IC4",
+        "Description": "Iso-butane (IC4)",
+        "DataType": "double",
+        "Unit": "ppm",
+        "dataSource": "GeoService",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_G_C3": {
+        "Mnemonic": "GS_G_C3",
+        "Description": "Propane (C3)",
+        "DataType": "double",
+        "Unit": "ppm",
+        "dataSource": "GeoService",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "HKLO": {
+        "Mnemonic": "HKLO",
+        "Description": "zzz:undefined",
+        "DataType": "double",
+        "Unit": "kkgf",
+        "dataSource": "General",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "DMEA": {
+        "Mnemonic": "DMEA",
+        "Description": "Hole depth (MD)",
+        "DataType": "double",
+        "Unit": "m",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "SHKRSK_RT": {
+        "Mnemonic": "SHKRSK_RT",
+        "Description": "MWD Shock Risk",
+        "DataType": "double",
+        "Unit": "unitless",
+        "dataSource": "MWD",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GTF_RT": {
+        "Mnemonic": "GTF_RT",
+        "Description": "MWD Gravity Toolface",
+        "DataType": "double",
+        "Unit": "dega",
+        "dataSource": "MWD",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_G_NC4": {
+        "Mnemonic": "GS_G_NC4",
+        "Description": "Nor-butane (NC4)",
+        "DataType": "double",
+        "Unit": "ppm",
+        "dataSource": "GeoService",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "DEPTH": {
+        "Mnemonic": "DEPTH",
+        "Description": "Measured Depth",
+        "DataType": "double",
+        "Unit": "m",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "MWTI": {
+        "Mnemonic": "MWTI",
+        "Description": "Mud Density In",
+        "DataType": "double",
+        "Unit": "g/cm3",
+        "dataSource": "Hydraulics",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "OSTM": {
+        "Mnemonic": "OSTM",
+        "Description": "zzz:undefined",
+        "DataType": "double",
+        "Unit": "s",
+        "dataSource": "General",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_G_NC5": {
+        "Mnemonic": "GS_G_NC5",
+        "Description": "n-Penthane",
+        "DataType": "double",
+        "Unit": "ppm",
+        "dataSource": "GeoService",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GRM1": {
+        "Mnemonic": "GRM1",
+        "Description": "MWD Gamma Ray (API BH corrected)",
+        "DataType": "double",
+        "Unit": "gAPI",
+        "dataSource": "MWD",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_TVA": {
+        "Mnemonic": "GS_TVA",
+        "Description": "Tank volume (active)",
+        "DataType": "double",
+        "Unit": "m3",
+        "dataSource": "GeoService",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "ACTC": {
+        "Mnemonic": "ACTC",
+        "Description": "Rig Mode",
+        "DataType": "double",
+        "Unit": "unitless",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_DXC": {
+        "Mnemonic": "GS_DXC",
+        "Description": "Corr. Drilling Exponent",
+        "DataType": "double",
+        "Unit": "unitless",
+        "dataSource": "GeoService",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_RPM": {
+        "Mnemonic": "GS_RPM",
+        "Description": "Averaged RPM",
+        "DataType": "double",
+        "Unit": "rpm",
+        "dataSource": "MudLog",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "CWOB": {
+        "Mnemonic": "CWOB",
+        "Description": "Corrected Surface Weight on Bit",
+        "DataType": "double",
+        "Unit": "kkgf",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "TQA": {
+        "Mnemonic": "TQA",
+        "Description": "Average Surface Torque",
+        "DataType": "double",
+        "Unit": "kN.m",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "TEMP_DNI_RT": {
+        "Mnemonic": "TEMP_DNI_RT",
+        "Description": "MWD DNI Temperature",
+        "DataType": "double",
+        "Unit": "degC",
+        "dataSource": "MWD",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "TOFB": {
+        "Mnemonic": "TOFB",
+        "Description": "zzz:undefined",
+        "DataType": "double",
+        "Unit": "s",
+        "dataSource": "General",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "IMWT": {
+        "Mnemonic": "IMWT",
+        "Description": "zzz:undefined",
+        "DataType": "double",
+        "Unit": "g/cm3",
+        "dataSource": "General",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "BITRUN": {
+        "Mnemonic": "BITRUN",
+        "Description": "Bit run number",
+        "DataType": "double",
+        "Unit": "unitless",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "TVDE": {
+        "Mnemonic": "TVDE",
+        "Description": "Extrapolated Hole TVD",
+        "DataType": "double",
+        "Unit": "m",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GRR": {
+        "Mnemonic": "GRR",
+        "Description": "MWD Raw Gamma Ray",
+        "DataType": "double",
+        "Unit": "1/s",
+        "dataSource": "MWD",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "BHFG": {
+        "Mnemonic": "BHFG",
+        "Description": "zzz:undefined",
+        "DataType": "double",
+        "Unit": "unitless",
+        "dataSource": "General",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "DRPM": {
+        "Mnemonic": "DRPM",
+        "Description": "Total Downhole RPM",
+        "DataType": "double",
+        "Unit": "rpm",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "HKLI": {
+        "Mnemonic": "HKLI",
+        "Description": "zzz:undefined",
+        "DataType": "double",
+        "Unit": "kkgf",
+        "dataSource": "General",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "SHKPK_RT": {
+        "Mnemonic": "SHKPK_RT",
+        "Description": "MWD Shock Peak",
+        "DataType": "double",
+        "Unit": "m/s2",
+        "dataSource": "MWD",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "AZIM_CONT_RT": {
+        "Mnemonic": "AZIM_CONT_RT",
+        "Description": "MWD Continuous Azimuth",
+        "DataType": "double",
+        "Unit": "dega",
+        "dataSource": "MWD",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "TRPM_RT": {
+        "Mnemonic": "TRPM_RT",
+        "Description": "MWD Turbine RPM",
+        "DataType": "double",
+        "Unit": "rpm",
+        "dataSource": "MWD",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "ROP5": {
+        "Mnemonic": "ROP5",
+        "Description": "Rate of Penetration (5ft avg)",
+        "DataType": "double",
+        "Unit": "m/h",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_MWTI": {
+        "Mnemonic": "GS_MWTI",
+        "Description": "Mud Density In",
+        "DataType": "double",
+        "Unit": "g/cm3",
+        "dataSource": "MudLog",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "DEPT": {
+        "Mnemonic": "DEPT",
+        "Description": "Bit Depth",
+        "DataType": "double",
+        "Unit": "m",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "SPM2": {
+        "Mnemonic": "SPM2",
+        "Description": "Pump 2 Stroke Rate",
+        "DataType": "double",
+        "Unit": "1/min",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "ETSL": {
+        "Mnemonic": "ETSL",
+        "Description": "Elapsed time in-slips",
+        "DataType": "double",
+        "Unit": "s",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_BDDI": {
+        "Mnemonic": "GS_BDDI",
+        "Description": "Bit Drilling Run",
+        "DataType": "double",
+        "Unit": "m",
+        "dataSource": "MudLog",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_TREV": {
+        "Mnemonic": "GS_TREV",
+        "Description": "Bit Revolutions  (cum)",
+        "DataType": "double",
+        "Unit": "unitless",
+        "dataSource": "GeoService",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "STK2": {
+        "Mnemonic": "STK2",
+        "Description": "Pump 2 Strokes",
+        "DataType": "double",
+        "Unit": "unitless",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "ROPI": {
+        "Mnemonic": "ROPI",
+        "Description": "Inverse ROP",
+        "DataType": "double",
+        "Unit": "s/m",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_MDOA": {
+        "Mnemonic": "GS_MDOA",
+        "Description": "Mud Density Out",
+        "DataType": "double",
+        "Unit": "g/cm3",
+        "dataSource": "MudLog",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "STK1": {
+        "Mnemonic": "STK1",
+        "Description": "Pump 1 Strokes",
+        "DataType": "double",
+        "Unit": "unitless",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "SHKRATE_RT": {
+        "Mnemonic": "SHKRATE_RT",
+        "Description": "PowerUP Shock Rate",
+        "DataType": "double",
+        "Unit": "1/s",
+        "dataSource": "PowerUp",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "SPM4": {
+        "Mnemonic": "SPM4",
+        "Description": "Pump 4 Stroke Rate",
+        "DataType": "double",
+        "Unit": "1/min",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "INCL_CONT_RT": {
+        "Mnemonic": "INCL_CONT_RT",
+        "Description": "MWD Continuous Inclination",
+        "DataType": "double",
+        "Unit": "dega",
+        "dataSource": "MWD",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_BDTI": {
+        "Mnemonic": "GS_BDTI",
+        "Description": "Bit Drilling Time",
+        "DataType": "double",
+        "Unit": "h",
+        "dataSource": "MudLog",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "ATMP_RT": {
+        "Mnemonic": "ATMP_RT",
+        "Description": "Annular Temperature",
+        "DataType": "double",
+        "Unit": "degC",
+        "dataSource": "IMP_ARC",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "TSPM": {
+        "Mnemonic": "TSPM",
+        "Description": "Total SPM",
+        "DataType": "double",
+        "Unit": "1/min",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "CHK": {
+        "Mnemonic": "CHK",
+        "Description": "Corrected Hookload",
+        "DataType": "double",
+        "Unit": "kkgf",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "SMOD": {
+        "Mnemonic": "SMOD",
+        "Description": "SPN Sp_RigMode 2hz",
+        "DataType": "double",
+        "Unit": "unitless",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_DVER": {
+        "Mnemonic": "GS_DVER",
+        "Description": "Total Vertical Depth",
+        "DataType": "double",
+        "Unit": "m",
+        "dataSource": "MudLog",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "S1AC": {
+        "Mnemonic": "S1AC",
+        "Description": "zzz:undefined",
+        "DataType": "double",
+        "Unit": "kPa",
+        "dataSource": "General",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "P40H_UNC_RT": {
+        "Mnemonic": "P40H_UNC_RT",
+        "Description": "IMP/ARC Non-BHcorr Phase-Shift Resistivity 40-in. at 2 MHz",
+        "DataType": "double",
+        "Unit": "ohm.m",
+        "dataSource": "IMP_ARC",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "CTH": {
+        "Mnemonic": "CTH",
+        "Description": "Corrected Total Hookload",
+        "DataType": "double",
+        "Unit": "kkgf",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "TFLO": {
+        "Mnemonic": "TFLO",
+        "Description": "Mud Flow In",
+        "DataType": "double",
+        "Unit": "L/min",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "SPM1": {
+        "Mnemonic": "SPM1",
+        "Description": "Pump 1 Stroke Rate",
+        "DataType": "double",
+        "Unit": "1/min",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_GASA": {
+        "Mnemonic": "GS_GASA",
+        "Description": "Gas (avg)",
+        "DataType": "double",
+        "Unit": "%",
+        "dataSource": "GeoService",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "SHK3TM_RT": {
+        "Mnemonic": "SHK3TM_RT",
+        "Description": "zzz:undefined",
+        "DataType": "double",
+        "Unit": "min",
+        "dataSource": "General",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "ARC_GR_RT": {
+        "Mnemonic": "ARC_GR_RT",
+        "Description": "ARC Gamma Ray (BH corrected)",
+        "DataType": "double",
+        "Unit": "gAPI",
+        "dataSource": "ARC",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "THKD": {
+        "Mnemonic": "THKD",
+        "Description": "Total Hookload",
+        "DataType": "double",
+        "Unit": "kkgf",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "A40H_UNC_RT": {
+        "Mnemonic": "A40H_UNC_RT",
+        "Description": "IMP/ARC Non-BHcorr Attenuation Resistivity 40-in. at 2 MHz",
+        "DataType": "double",
+        "Unit": "ohm.m",
+        "dataSource": "IMP_ARC",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "Stick_RT": {
+        "Mnemonic": "Stick_RT",
+        "Description": "MWD Stick-Slip PKtoPK RPM",
+        "DataType": "double",
+        "Unit": "rpm",
+        "dataSource": "MWD",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "TSTK": {
+        "Mnemonic": "TSTK",
+        "Description": "Total Strokes",
+        "DataType": "double",
+        "Unit": "unitless",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "ROP": {
+        "Mnemonic": "ROP",
+        "Description": "Rate of Penetration",
+        "DataType": "double",
+        "Unit": "m/h",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "RHX_RT": {
+        "Mnemonic": "RHX_RT",
+        "Description": "zzz:undefined",
+        "DataType": "double",
+        "Unit": "unitless",
+        "dataSource": "General",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "EDRT": {
+        "Mnemonic": "EDRT",
+        "Description": "zzz:undefined",
+        "DataType": "double",
+        "Unit": "unitless",
+        "dataSource": "General",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "TOBO": {
+        "Mnemonic": "TOBO",
+        "Description": "zzz:undefined",
+        "DataType": "double",
+        "Unit": "s",
+        "dataSource": "General",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "A28H_UNC_RT": {
+        "Mnemonic": "A28H_UNC_RT",
+        "Description": "IMP/ARC Non-BHcorr Attenuation Resistivity 28-in. at 2 MHz",
+        "DataType": "double",
+        "Unit": "ohm.m",
+        "dataSource": "IMP_ARC",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_MTOA": {
+        "Mnemonic": "GS_MTOA",
+        "Description": "Temperature Out",
+        "DataType": "double",
+        "Unit": "degC",
+        "dataSource": "MudLog",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "STK3": {
+        "Mnemonic": "STK3",
+        "Description": "Pump 3 Strokes",
+        "DataType": "double",
+        "Unit": "unitless",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "ROPH": {
+        "Mnemonic": "ROPH",
+        "Description": "1/2ft ROP",
+        "DataType": "double",
+        "Unit": "m/h",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "P28H_COND_RT": {
+        "Mnemonic": "P28H_COND_RT",
+        "Description": "IMP/ARC Phase-Shift Conductivity 28-in. at 2 MHz",
+        "DataType": "double",
+        "Unit": "mS/m",
+        "dataSource": "IMP_ARC",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_G_IC5": {
+        "Mnemonic": "GS_G_IC5",
+        "Description": "Iso-pentane (IC5)",
+        "DataType": "double",
+        "Unit": "ppm",
+        "dataSource": "GeoService",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "SPPA": {
+        "Mnemonic": "SPPA",
+        "Description": "Average Standpipe Pressure",
+        "DataType": "double",
+        "Unit": "kPa",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_SWOB": {
+        "Mnemonic": "GS_SWOB",
+        "Description": "Averaged WOB",
+        "DataType": "double",
+        "Unit": "kkgf",
+        "dataSource": "MudLog",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "STK4": {
+        "Mnemonic": "STK4",
+        "Description": "Pump 4 Strokes",
+        "DataType": "double",
+        "Unit": "unitless",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "SPM3": {
+        "Mnemonic": "SPM3",
+        "Description": "Pump 3 Stroke Rate",
+        "DataType": "double",
+        "Unit": "1/min",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "SHKTOT_RT": {
+        "Mnemonic": "SHKTOT_RT",
+        "Description": "MWD Total Shocks",
+        "DataType": "double",
+        "Unit": "unitless",
+        "dataSource": "MWD",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "MIN_CONF": {
+        "Mnemonic": "MIN_CONF",
+        "Description": "zzz:undefined",
+        "DataType": "double",
+        "Unit": "unitless",
+        "dataSource": "General",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "STWT": {
+        "Mnemonic": "STWT",
+        "Description": "String weight (rot,avg)",
+        "DataType": "double",
+        "Unit": "kkgf",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_TQA": {
+        "Mnemonic": "GS_TQA",
+        "Description": "Averaged TRQ",
+        "DataType": "double",
+        "Unit": "kN.m",
+        "dataSource": "MudLog",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "SWOB": {
+        "Mnemonic": "SWOB",
+        "Description": "Weight on Bit",
+        "DataType": "double",
+        "Unit": "kkgf",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "ROPIH": {
+        "Mnemonic": "ROPIH",
+        "Description": "zzz:undefined",
+        "DataType": "double",
+        "Unit": "s/m",
+        "dataSource": "General",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    },
+    "GS_ROP": {
+        "Mnemonic": "GS_ROP",
+        "Description": "Rate of penetration",
+        "DataType": "double",
+        "Unit": "m/h",
+        "dataSource": "GeoService",
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001"
+    }
+}

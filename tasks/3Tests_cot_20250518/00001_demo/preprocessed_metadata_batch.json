@@ -1,0 +1,50 @@
+{
+    "GS_G_NC5": {
+        "Mnemonic": "GS_G_NC5",
+        "Description": "n-Penthane",
+        "DataType": "double",
+        "Unit": "ppm",
+        "dataSource": "GeoService",
+        "Namespace": "http://ddhub.demo/zzz/00001_demo"
+    },
+    "GS_ROP": {
+        "Mnemonic": "GS_ROP",
+        "Description": "Rate of penetration",
+        "DataType": "double",
+        "Unit": "m/h",
+        "dataSource": "GeoService",
+        "Namespace": "http://ddhub.demo/zzz/00001_demo"
+    },
+    "HKLD": {
+        "Mnemonic": "HKLD",
+        "Description": "Average Hookload",
+        "DataType": "double",
+        "Unit": "kkgf",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/00001_demo"
+    },
+    "SPPA": {
+        "Mnemonic": "SPPA",
+        "Description": "Average Standpipe Pressure",
+        "DataType": "double",
+        "Unit": "kPa",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/00001_demo"
+    },
+    "SPM2": {
+        "Mnemonic": "SPM2",
+        "Description": "Pump 2 Stroke Rate",
+        "DataType": "double",
+        "Unit": "1/min",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/00001_demo"
+    },
+    "SWOB": {
+        "Mnemonic": "SWOB",
+        "Description": "Weight on Bit",
+        "DataType": "double",
+        "Unit": "kkgf",
+        "dataSource": "Drilling",
+        "Namespace": "http://ddhub.demo/zzz/00001_demo"
+    }
+}

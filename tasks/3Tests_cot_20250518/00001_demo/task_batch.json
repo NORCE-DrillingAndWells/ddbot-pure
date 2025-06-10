@@ -1,0 +1,80 @@
+{
+    "GS_G_NC5": {
+        "Namespace": "http://ddhub.demo/zzz/00001_demo",
+        "DrillingDataPoint_name": "GS_G_NC5",
+        "PrototypeData_class": "",
+        "PrototypeData_class_candidates": [],
+        "MeasurableQuantity_class": "",
+        "Quantity_class": "",
+        "Unit_name": "ppm",
+        "Unit_class": "",
+        "Unit_class_candidates": [],
+        "Provider_name": "",
+        "ToIdentify": ""
+    },
+    "GS_ROP": {
+        "Namespace": "http://ddhub.demo/zzz/00001_demo",
+        "DrillingDataPoint_name": "GS_ROP",
+        "PrototypeData_class": "",
+        "PrototypeData_class_candidates": [],
+        "MeasurableQuantity_class": "",
+        "Quantity_class": "",
+        "Unit_name": "m/h",
+        "Unit_class": "",
+        "Unit_class_candidates": [],
+        "Provider_name": "",
+        "ToIdentify": ""
+    },
+    "HKLD": {
+        "Namespace": "http://ddhub.demo/zzz/00001_demo",
+        "DrillingDataPoint_name": "HKLD",
+        "PrototypeData_class": "",
+        "PrototypeData_class_candidates": [],
+        "MeasurableQuantity_class": "",
+        "Quantity_class": "",
+        "Unit_name": "kkgf",
+        "Unit_class": "",
+        "Unit_class_candidates": [],
+        "Provider_name": "",
+        "ToIdentify": ""
+    },
+    "SPPA": {
+        "Namespace": "http://ddhub.demo/zzz/00001_demo",
+        "DrillingDataPoint_name": "SPPA",
+        "PrototypeData_class": "",
+        "PrototypeData_class_candidates": [],
+        "MeasurableQuantity_class": "",
+        "Quantity_class": "",
+        "Unit_name": "kPa",
+        "Unit_class": "",
+        "Unit_class_candidates": [],
+        "Provider_name": "",
+        "ToIdentify": ""
+    },
+    "SPM2": {
+        "Namespace": "http://ddhub.demo/zzz/00001_demo",
+        "DrillingDataPoint_name": "SPM2",
+        "PrototypeData_class": "",
+        "PrototypeData_class_candidates": [],
+        "MeasurableQuantity_class": "",
+        "Quantity_class": "",
+        "Unit_name": "1/min",
+        "Unit_class": "",
+        "Unit_class_candidates": [],
+        "Provider_name": "",
+        "ToIdentify": ""
+    },
+    "SWOB": {
+        "Namespace": "http://ddhub.demo/zzz/00001_demo",
+        "DrillingDataPoint_name": "SWOB",
+        "PrototypeData_class": "",
+        "PrototypeData_class_candidates": [],
+        "MeasurableQuantity_class": "",
+        "Quantity_class": "",
+        "Unit_name": "kkgf",
+        "Unit_class": "",
+        "Unit_class_candidates": [],
+        "Provider_name": "",
+        "ToIdentify": ""
+    }
+}

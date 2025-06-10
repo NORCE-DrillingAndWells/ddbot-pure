@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JSON Editor</title>
+    <style>
+        /* 新增控制栏样式 */
+        .controls {
+            position: fixed;
+            left: 20px;
+            top: 20px;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        .data-section {
+            border: 1px solid #ccc;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        .property-row {
+            margin: 8px 0;
+            display: flex;
+            align-items: baseline;
+        }
+
+        /* 标签宽度调整为300px（原250px*1.2） */
+        .property-name {
+            width: 300px;
+            font-weight: bold;
+            color: #333;
+            flex-shrink: 0;
+            /* 防止标签被压缩 */
+        }
+
+        textarea {
+            width: 400px;
+            height: 60px;
+            padding: 5px;
+        }
+
+        input {
+            min-width: 300px;
+            max-width: 400px;
+            width: auto;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+            display: block;
+            /* 按钮垂直排列 */
+            width: 220px;
+        }
+
+        .download-btn {
+            background-color: #008CBA;
+        }
+
+        /* 文件输入样式调整 */
+        #fileInput {
+            margin: 5px;
+            display: block;
+        }
+
+        /* 新增说明样式 */
+        .instructions {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            border: 1px solid #dee2e6;
+            color: #495057;
+            font-size: 0.9em;
+            line-height: 1.6;
+            max-width: 220px;
+            /* 与控制栏同宽 */
+        }
+
+        .instructions p {
+            margin: 8px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 新增控制栏容器 -->
+    <div class="controls">
+        <input type="file" id="fileInput" accept=".json">
+        <button onclick="downloadJSON()" class="download-btn">Download modified JSON</button>
+        <!-- 新增说明区域 -->
+        <div class="instructions">
+            <strong>Instructions：</strong>
+            <p>1. Format your statements as "User: {}".</p>
+            <p>2. Use strong and clear statements.</p>
+            <p>3. Delete or modify the LLM interpretation ("LLM: xx") if it is wrong.</p>
+            <p>Example 1: "User: {This is SPP. The quantity is pressure.}".</p>
+            <p>Example 2: "User: {Return "None" as we do not have a term for it yet.}".</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="content"></div>
+    </div>
+
+    <script>
+        let jsonData = {};
+        let PrototypeData_class_list = ["ActiveVolume",
+            "Azimuth",
+            "BitDepth",
+            "DensityIn",
+            "DensityOut",
+            "DownholeECD",
+            "DownholePressure",
+            "DownholeRPM",
+            "DownholeTemperature",
+            "DownholeTorque",
+            "FlowRateIn",
+            "FlowRateOut",
+            "HoleDepth",
+            "HookLoad",
+            "HookPosition",
+            "HookVelocity",
+            "Inclination",
+            "MeasuredDepth",
+            "PumpRate",
+            "ROP",
+            "SPP",
+            "SurfaceRPM",
+            "SurfaceTorque",
+            "TemperatureIn",
+            "TemperatureOut",
+            "TopOfStringPosition",
+            "WOB",
+            "PorePressure",
+            "PorePressureGradient",
+            "FracturingPressure",
+            "FracturingPressureGradient",
+            "CollapsePressure",
+            "CollapsePressureGradient",
+            "ShearRate",
+            "ShearStress",
+            "MinimumHorizontalStress",
+            "MinimumHorizontalStressGradient",
+            "OverburdenPressure",
+            "OverburdenPressureGradient",
+            "BOPOpening",
+            "BOPPressure",
+            "MPDChokeOpening",
+            "MPDChokePressure",
+            "MPDPumpRate",
+            "MPDPumpFlowRate",
+            "GasFlowRate",
+            "BackPressurePumpPressure",
+            "MechanicalSpecificEnergy",
+        ];
+        let Quantity_class_list = ["AccelerationQuantity",
+            "AmountSubstanceQuantity",
+            "AngleGradientPerLengthQuantity",
+            "AngleMagneticFluxDensityQuantity",
+            "AngularAccelerationQuantity",
+            "AngularVelocityQuantity",
+            "AreaQuantity",
+            "CompressibilityQuantity",
+            "CurvatureQuantity",
+            "DimensionlessQuantity",
+            "DynamicViscosityQuantity",
+            "ElectricCapacitanceQuantity",
+            "ElectricCurrentQuantity",
+            "ElectricResistivityQuantity",
+            "ElongationGradientPerLengthQuantity",
+            "EnergyDensityQuantity",
+            "EnergyQuantity",
+            "ForceGradientPerLengthQuantity",
+            "ForceQuantity",
+            "FrequencyQuantity",
+            "FrequencyRateOfChangeQuantity",
+            "GravitationalLoadQuantity",
+            "HeatTransferCoefficientQuantity",
+            "HydraulicConductivityQuantity",
+            "InterfacialTensionQuantity",
+            "IsobaricSpecificHeatCapacityGradientPerTemperatureQuantity",
+            "IsobaricSpecificHeatCapacityQuantity",
+            "LengthQuantity",
+            "LuminousIntensityQuantity",
+            "MagneticFluxDensityQuantity",
+            "MagneticFluxQuantity",
+            "MassDensityGradientPerLengthQuantity",
+            "MassDensityGradientPerTemperatureQuantity",
+            "MassDensityQuantity",
+            "MassDensityRateOfChangeQuantity",
+            "MassGradientPerLengthQuantity",
+            "MassQuantity",
+            "MassRateQuantity",
+            "MaterialStrengthQuantity",
+            "PlaneAngleQuantity",
+            "PorousMediumPermeabilityQuantity",
+            "PowerQuantity",
+            "PressureGradientPerLengthQuantity",
+            "PressureLossConstantQuantity",
+            "PressureQuantity",
+            "ProportionQuantity",
+            "RandomWalkQuantity",
+            "RelativeTemperatureQuantity",
+            "RotationalFrequencyRateOfChangeQuantity",
+            "SolidAngleQuantity",
+            "StressQuantity",
+            "TemperatureGradientPerLengthQuantity",
+            "TemperatureQuantity",
+            "TensionQuantity",
+            "ThermalConductivityGradientPerTemperatureQuantity",
+            "ThermalConductivityQuantity",
+            "TimeQuantity",
+            "TorqueGradientPerLengthQuantity",
+            "TorqueQuantity",
+            "VelocityQuantity",
+            "VolumeQuantity",
+            "VolumetricFlowRateOfChangeQuantity",
+            "VolumetricFlowRateQuantity",
+            "WaveNumberQuantity",
+        ];
+        let Unit_class_list = [];
+
+        document.getElementById('fileInput').addEventListener('change', function (e) {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                try {
+                    jsonData = JSON.parse(e.target.result);
+                    displayData();
+                } catch (error) {
+                    alert('Failed to parse JSON: ' + error.message);
+                }
+            };
+            reader.readAsText(file);
+        });
+
+        function displayData() {
+            const contentDiv = document.getElementById('content');
+            contentDiv.innerHTML = '';
+
+            for (const [key, value] of Object.entries(jsonData)) {
+                const section = document.createElement('div');
+                section.className = 'data-section';
+
+                let html = `<h3>${key}</h3>`;
+                for (const [prop, val] of Object.entries(value)) {
+                    // html += `
+                    //     <div class="property-row">
+                    //         <div class="property-name">${prop}:</div>
+                    //         ${prop === 'Interpretation_user'
+                    //         ? `<textarea data-key="${key}">${val}</textarea>`
+                    //         : `<div>${Array.isArray(val) ? val.join(', ') : val}</div>`}
+                    //     </div>`;
+                    const propertyNameHtml = `<div class="property-name">${prop}:</div>`;
+
+                    // 根据属性名称决定如何生成对应的值部分的 HTML
+                    let propertyValueHtml;
+                    if (prop === 'Interpretation_user') {
+                        // 如果属性是 'Interpretation_user'，使用 <textarea> 显示可编辑内容
+                        propertyValueHtml = `<textarea data-key="${key}" data-prop="${prop}">${val}</textarea>`;
+                    }
+                    else if (prop === 'PrototypeData_class') {
+                        const datalistId = `datalist-${key}-${prop}`;
+                        propertyValueHtml = `
+                                        <input list="${datalistId}" data-key="${key}" data-prop="${prop}" value="${val}">
+                                        <datalist id="${datalistId}">
+                                            ${PrototypeData_class_list.map(option => `<option value="${option}">`).join('')}
+                                        </datalist>`;
+                    }
+                    else if (prop === 'Quantity_class') {
+                        const datalistId = `datalist-${key}-${prop}`;
+                        propertyValueHtml = `
+                                        <input list="${datalistId}" data-key="${key}" data-prop="${prop}" value="${val}">
+                                        <datalist id="${datalistId}">
+                                            ${Quantity_class_list.map(option => `<option value="${option}">`).join('')}
+                                        </datalist>`;
+                    }
+                    else if (prop === 'Unit_class') {
+                        const datalistId = `datalist-${key}-${prop}`;
+                        propertyValueHtml = `
+                                        <input list="${datalistId}" data-key="${key}" data-prop="${prop}" value="${val}">
+                                        <datalist id="${datalistId}">
+                                            ${Unit_class_list.map(option => `<option value="${option}">`).join('')}
+                                        </datalist>`;
+                    }
+                    else {
+                        // 对于其他属性，直接显示值，如果是数组则用逗号分隔
+                        const displayValue = Array.isArray(val) ? val.join(', ') : val;
+                        propertyValueHtml = `<div>${displayValue}</div>`;
+                    }
+
+                    // 将属性名称和对应的值部分组合成一行，并添加到整体 HTML 中
+                    html += `
+                        <div class="property-row">
+                            ${propertyNameHtml}
+                            ${propertyValueHtml}
+                        </div>`;
+                }
+
+                section.innerHTML = html;
+                contentDiv.appendChild(section);
+            }
+
+            // 添加事件监听器
+            document.querySelectorAll('input, textarea').forEach(element => {
+                element.addEventListener('input', event => {
+                    const key = event.target.dataset.key;
+                    const prop = event.target.dataset.prop;
+                    jsonData[key][prop] = event.target.value; // 更新 jsonData
+                });
+            });
+        }
+
+        function downloadJSON() {
+            if (!Object.keys(jsonData).length) {
+                alert('Upload JSON');
+                return;
+            }
+
+            const blob = new Blob([JSON.stringify(jsonData, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'modified_task_batch.json';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+    </script>
+</body>
+
+</html>

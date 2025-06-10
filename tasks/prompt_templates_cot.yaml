@@ -1,0 +1,173 @@
+Interpret_mnemonic:
+  placeholders: [<user_query>, <complementary_knowledge>, <last_answer>]
+  stages:
+    analysis: |-
+      Task Objective: Split the provided mnemonic used in the drilling domain into meaningful components, interpret the meaning of each component.
+      Do it step by step strictly:
+      1. Split the mnemonic by special symbol like '_', '#'.
+      2. Consider to split the mnemonic if there is a number suffix. It often means the index of the series data channel, such as 'SPM2' means 'the 2nd SPM data'. But the number can also be part of a name, such as 'C3' can mean 'Propane'.
+      3. Split the mnemonic if it includes a combination of a number and a time unit as a suffix. This often represents a data filter, e.g., RPM30s means "the average RPM over 30 seconds".
+      4. Split the mnemonic if it includes strings as prefix and keyword from the complementary knowledge.
+      5. Consider to split the mnemonic if some parts of the mnemonic can be considered as shorthand for drilling terms. For example, 'THKD' can be splitted into 'T' and 'HKD', as 'HKD' can be a drilling term 'Hookload'.
+      6. Interpret the mnemonic component by component using both the unit and the text description, including all components. If a component is not understandable, use 'undefined'. For example, according to 'Total Hookload, kkgf', 'THKD' can be interpreted as '{T:Total, HKD: Hookload}'. According to 'MudPit Volume Average 9, m3', 'GS_TV09' can be interpreted as '{GS:GeoService, TV: tank volume, 09: index 9}'.
+      7. Provide some short remarks, e.g., if the unit is 'm', the physical quantity can be 'Length' or 'Depth'; if the unit is 'm/s', it can be a 'Velocity'.
+
+      Input:
+      User query: {<user_query>}.
+      Complementary knowledge: {<complementary_knowledge>}.
+
+      Output: A brief analysis process.
+    extraction: |-
+      Task Objective: Extract the result from the given analysis and format it strictly as required. Minor format adjustments are allowed if the orignal format is not perfect.
+      Input: analysis: {<last_answer>}.
+
+      Output:
+      The extracted result in the format: {"mnemonic component 1": meaning, "mnemonic component 2": meaning, ..., Remark: Remarks}, without any explanation or additional information. For example, 'THKD' can be interpreted as '{T:Total, HKD: Hookload, Remark:ForceQuantity}'.
+Quantity:
+  placeholders:
+    [
+      <user_query>,
+      <interpretation>,
+      <selection_range>,
+      <complementary_knowledge>,
+      <last_answer>,
+    ]
+  stages:
+    analysis: |-
+      Task Objective: Based on mnemonic-based metadata in user query used in the drilling domain, select the best matching quantity from a provided candidate list. Do it step by step strictly:
+      1. Unit Matching (Find relevant matches):
+        For each candidate in the list, compare the candidate's QuantityHasUnit with the Unit from the user query. 
+        If the 2 units are semantically similar, include the candidate in the matching list.
+        Note that the 2 units from the candidate and user query do not have to be identical, as long as they are semantically similar. For example, "m/s" and "meterPerSecond" are semantically similar.
+        If the user query’s unit does not explicitly appear in any candidate but you understand it and reasonably believe it applies to a candidate, still include that candidate.
+      2. Semantic Matching (Find strong matches):
+        For each candidate in the candidate list, use the Description, Interpretation, and Complementary knowledge, and your own drilling knowledge, to check if the candidate aligns with the meaning of mnemonic in user query. If yes, include this candidate in a matching list and mark it as a strong match.
+        Note that the user's interpretation is trustworthy if it exists, while the LLM's interpretation could be helpful but not guaranteed.
+      3. Select the best match from the matching list, especially considering the strong matches.
+      4. Relevance recheck: Double check if the selected is relevant. If it is not relevant in any sense, just return 'None' as placeholder.
+      5. Name recheck (Priority 0): Ensure the selected candidate is from the provided candidate list, using the exact name as given. The name is the value of 'ddhub:Quantity' field. For example, `ForceQuantity`, not `ddhub:ForceQuantity`.
+      6. Return the top 3 best matching quantity names, putting the best match at first.
+
+      Input:
+      User query: {<user_query>}.
+      Interpretation: {<interpretation>}.
+      Candidate list: {<selection_range>}.
+      Complementary knowledge: {<complementary_knowledge>}.
+
+      Output: The top3 quantity names, or `None` as placeholder. Briefly explain the analysis process, without being long.
+    extraction: |-
+      Task Objective: Extract the result from the given analysis and format it strictly as required.
+      Do it step by step strictly:
+      1. Locate the result or equivalent in analysis, and extract the result.
+      2. Ensure the extracted result is the exact name in the provided candidate list. The name is the value of 'ddhub:Quantity' field if the candidate list contains extra information, without the key name. For example, `ForceQuantity`, not `ddhub:ForceQuantity`.
+      3. Return 'None' as a placeholder if no matches found in the given analysis.
+      Input:
+      analysis: {<last_answer>}.
+      Candidate list: {<selection_range>}.
+
+      Output: Only the top 3 matching quantity names with the best match at first, or `None` as placeholder, format it strictly as `item1,item2,item3`, without any explanation or additional information.
+Unit:
+  placeholders:
+    [
+      <user_query>,
+      <interpretation>,
+      <selection_range>,
+      <complementary_knowledge>,
+      <last_answer>,
+    ]
+  stages:
+    analysis: |-
+      Task Objective: Based on mnemonic-based metadata in user query used in the drilling domain, select the best matching unit from a provided list. Do it step by step strictly:
+      1. Semantic Matching (Find relevant matches):
+        Use the Description, Interpretation, and Complementary knowledge, along with your own drilling knowledge, to check if a candidate unit is relevant with the user query. If yes, include this candidate in a matching list.
+        Note that the user's interpretation is trustworthy if it exists, while the LLM's interpretation could be helpful but not guaranteed.
+      2. Direct Matching (Find strong matches):
+        For each candidate in the candidate list, compare the `ddhub:Unit` field of a candidate and the `Unit` field in user query.
+        If they are semantically similar, include this candidate in a matching list and mark it as a strong match.
+        Note that the 2 units from the candidate and user query do not have to be identical, as long as they are semantically similar. For example, "m/s" and "meterPerSecond" are semantically similar.
+      3. Select the best match from the matching list, especially considering the strong matches.
+      4. Relevance recheck: Double check if the selected is relevant. If it is not relevant in any sense, just return 'None' as placeholder.
+      5. Name recheck (Priority 0): Ensure the selected candidate is from the provided candidate list, using the exact name as given. The name is the value of 'ddhub:Unit' field, without the key name. For example, `newton`, not `ddhub:newton` nor `ddhub:Unit newton`.
+
+      Input:
+      User query: {<user_query>}.
+      Interpretation: {<interpretation>}.
+      Candidate list: {<selection_range>}.
+      Complementary knowledge: {<complementary_knowledge>}.
+
+      Output: The selected unit name, or `None` as placeholder. Briefly explain the analysis process, without being long.
+    extraction: |-
+      Task Objective: Extract the result from the given analysis and format it strictly as required.
+      Do it step by step strictly:
+      1. Locate the result or equivalent in analysis, and extract the result.
+      2. Ensure the extracted result is the exact name in the provided candidate list. The name is the value of 'ddhub:Unit' field if the candidate list contains extra information, without the key name. For example, `newton`, not `ddhub:newton` nor `ddhub:Unit newton`.
+      3. Return 'None' as a placeholder if no matches found in the given analysis.
+      Input:
+      analysis: {<last_answer>}.
+      Candidate list: {<selection_range>}.
+
+      Output: Only the extracted unit name or `None` as placeholder, without any explanation or additional information.
+PrototypeData:
+  placeholders:
+    [
+      <user_query>,
+      <interpretation>,
+      <selection_range>,
+      <complementary_knowledge>,
+      <last_answer>,
+    ]
+  stages:
+    analysis: |-
+      Task Objective: Based on mnemonic-based metadata in user query used in the drilling domain, select the best matching prototypeData from a provided candidate list. Do it step by step strictly:
+      1. Unit Matching (Find relevant matches):
+        For each candidate in the candidate list, check if the unit of the user query is a possible unit of 'ddhub:IsOfBaseQuantity' of each candidate. If not, rule out this PrototypeData. If yes or unsure, include it in a matching list.
+      2. Semantic Matching (Find strong matches):
+        For each candidate in the matching list, if it can explain the mnemonic or part of the mnemonic according to `complementary knowledge`, mark it as a strong match.
+      3. Semantic Exclusion:
+        For each candidate in the matching list, use the Description, Interpretation, and Complementary knowledge, and your own drilling knowledge, to check if the candidate aligns with the meaning of mnemonic in user query. If the candidate is impossible and unsure, exclude it from the matching list.
+        Note that the user's interpretation is trustworthy if it exists, while the LLM's interpretation could be helpful but not guaranteed.
+      4. Select the best match from the matching list, especially considering the strong matches.
+      5. Relevance recheck: Double check if the selected is relevant. If it is not perfect match, just return 'None' as placeholder. 'None' is better than a wrong match.
+      6. Name recheck (Priority 0): Ensure the selected candidate is from the provided candidate list, using the exact name as given. The name is the value of 'ddhub:PrototypeData' field, without the key name. For example, `WOB`, not `ddhub:WOB`.
+
+      Input:
+      User query: {<user_query>}.
+      Interpretation: {<interpretation>}.
+      Candidate list: {<selection_range>}.
+      Complementary knowledge: {<complementary_knowledge>}.
+
+      Output: The selected prototypeData name, or `None` as placeholder. Briefly explain the analysis process, without being long.
+    extraction: |-
+      Task Objective: Extract the result from the given analysis and format it strictly as required.
+      Do it step by step strictly:
+      1. Locate the result or equivalent in analysis, and extract the result.
+      2. Ensure the extracted result is the exact name in the provided candidate list. The name is the value of 'ddhub:PrototypeData' field if the candidate list contains extra information, without the key name. For example, `WOB`, not `ddhub:WOB`.
+      3. Return 'None' as a placeholder if no matches found in the given analysis.
+
+      Input:
+      analysis: {<last_answer>}.
+      Candidate list: {<selection_range>}.
+
+      Output: Only the extracted PrototypeData name or `None` as placeholder, without any explanation or additional information.
+complementary_knowledge:
+  basic: |-
+    SPP: Stand Pipe Pressure.
+    SPM: Strokes Per Minutes, SPM is PumpRate, which is FrequencyQuantity.
+    RPM: Revolutions Per Minute. RPM means SurfaceRPM not DownholeRPM unless specified. It is FrequencyQuantity not AngularVelocityQuantity.
+    DRPM: Downhole RPM.
+    ROP: Rate of Penetration.
+    GS: GeoService.
+    SRV: Survey.
+    HKLD: Hookload.
+    HKD: Hookload.
+    POS: Position.
+    WOB: Weight of Bit.
+    SWOB: Surface Weight of Bit.
+    TV: Tank volume.
+    TQ: Torque. TQ is SurfaceTorque not DownholeTorque unless specified.
+    WT: Weight.
+    MPD: Managed pressure drilling.
+    MD: Measured depth.
+    TVD: True vertical depth. When a depth is not specified to be TVD, it is usually measured depth.
+    A: Sometimes means 'Average' in a mnemonic.
+    kkgf: kilo kilogram force, or thousand kilogram force, or ton force.

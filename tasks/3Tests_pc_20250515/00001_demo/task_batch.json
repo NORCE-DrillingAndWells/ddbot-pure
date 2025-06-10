@@ -1,0 +1,164 @@
+{
+    "GS_G_NC5": {
+        "Namespace": "http://ddhub.demo/zzz/00001_demo",
+        "DrillingDataPoint_name": "GS_G_NC5",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "ConcentrationQuantity",
+        "Quantity_class_candidates": [
+            "ConcentrationQuantity"
+        ],
+        "Unit_name": "ppm",
+        "Unit_class": "PartPerMillion",
+        "Unit_class_candidates": [
+            "PartPerMillion"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"G\": \"undefined\", \"NC\": \"undefined\", \"5\": \"index 5\", Remark: \"ConcentrationQuantity\"}"
+    },
+    "GS_ROP": {
+        "Namespace": "http://ddhub.demo/zzz/00001_demo",
+        "DrillingDataPoint_name": "GS_ROP",
+        "PrototypeData_class": "ROP",
+        "PrototypeData_class_candidates": [
+            "ROP",
+            "MechanicalSpecificEnergy",
+            "ShearRate",
+            "CollapsePressureGradient",
+            "FracturingPressureGradient"
+        ],
+        "MeasurableQuantity_class": "RateOfPenetrationDrillingQuantity",
+        "Quantity_class": "VelocityQuantity",
+        "Quantity_class_candidates": [
+            "VelocityQuantity"
+        ],
+        "Unit_name": "m/h",
+        "Unit_class": "MetrePerHour",
+        "Unit_class_candidates": [
+            "MetrePerHour",
+            "CentimetrePerHour",
+            "FootPerHour",
+            "KilometrePerHour"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"ROP\": \"Rate of Penetration\", Remark: \"Velocity\"}"
+    },
+    "HKLD": {
+        "Namespace": "http://ddhub.demo/zzz/00001_demo",
+        "DrillingDataPoint_name": "HKLD",
+        "PrototypeData_class": "HookLoad",
+        "PrototypeData_class_candidates": [
+            "HookLoad",
+            "WOB",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening"
+        ],
+        "MeasurableQuantity_class": "HookLoadDrillingQuantity",
+        "Quantity_class": "ForceQuantity",
+        "Quantity_class_candidates": [
+            "ForceQuantity",
+            "GravitationalLoadQuantity",
+            "StressQuantity"
+        ],
+        "Unit_name": "kkgf",
+        "Unit_class": "ThousandKilogramForce",
+        "Unit_class_candidates": [
+            "KilogramForce",
+            "KilopoundForce",
+            "ThousandKilogramForce",
+            "Kilodecanewton",
+            "Kilonewton"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"HKLD\": \"Hookload\", \"Remark\": \"ForceQuantity\"}"
+    },
+    "SPPA": {
+        "Namespace": "http://ddhub.demo/zzz/00001_demo",
+        "DrillingDataPoint_name": "SPPA",
+        "PrototypeData_class": "SPP",
+        "PrototypeData_class_candidates": [
+            "SPP",
+            "MPDChokePressure",
+            "OverburdenPressure",
+            "BackPressurePumpPressure"
+        ],
+        "MeasurableQuantity_class": "PressureDrillingQuantity",
+        "Quantity_class": "PressureQuantity",
+        "Quantity_class_candidates": [
+            "PressureQuantity"
+        ],
+        "Unit_name": "kPa",
+        "Unit_class": "Kilopascal",
+        "Unit_class_candidates": [
+            "Kilopascal",
+            "Bar",
+            "Megapascal",
+            "Pascal",
+            "Millibar"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SPP\": \"Stand Pipe Pressure\", \"A\": \"Average\", \"Remark\": \"PressureQuantity\"}"
+    },
+    "SPM2": {
+        "Namespace": "http://ddhub.demo/zzz/00001_demo",
+        "DrillingDataPoint_name": "SPM2",
+        "PrototypeData_class": "PumpRate",
+        "PrototypeData_class_candidates": [
+            "PumpRate",
+            "SurfaceRPM",
+            "MPDPumpFlowRate",
+            "MPDPumpRate",
+            "BackPressurePumpPressure"
+        ],
+        "MeasurableQuantity_class": "StrokeFrequencyQuantity",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity"
+        ],
+        "Unit_name": "1/min",
+        "Unit_class": "Spm",
+        "Unit_class_candidates": [
+            "Spm",
+            "Rpm",
+            "StrokePerSecond",
+            "ReciprocalSecond",
+            "Hertz"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SPM\": \"Strokes Per Minute\", \"2\": \"index 2\", Remark: \"FrequencyQuantity\"}"
+    },
+    "SWOB": {
+        "Namespace": "http://ddhub.demo/zzz/00001_demo",
+        "DrillingDataPoint_name": "SWOB",
+        "PrototypeData_class": "WOB",
+        "PrototypeData_class_candidates": [
+            "WOB",
+            "MechanicalSpecificEnergy",
+            "HookLoad",
+            "BitDepth"
+        ],
+        "MeasurableQuantity_class": "WeightOnBitDrillingQuantity",
+        "Quantity_class": "ForceQuantity",
+        "Quantity_class_candidates": [
+            "ForceQuantity"
+        ],
+        "Unit_name": "kkgf",
+        "Unit_class": "ThousandKilogramForce",
+        "Unit_class_candidates": [
+            "KilogramForce",
+            "ThousandKilogramForce",
+            "Decanewton",
+            "Kilodecanewton",
+            "Kilonewton"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SW\": \"Surface\", \"OB\": \"Weight on Bit\", Remark: \"ForceQuantity\"}"
+    }
+}

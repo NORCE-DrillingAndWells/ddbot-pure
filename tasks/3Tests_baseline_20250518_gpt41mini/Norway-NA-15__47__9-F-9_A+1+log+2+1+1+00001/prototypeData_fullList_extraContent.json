@@ -1,0 +1,413 @@
+{
+    "ActiveVolume": {
+        "ddhub:PrototypeData": "ActiveVolume",
+        "rdfs:comment": [
+            "The volume of fluid actively circulating in the wellbore."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "VolumeDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "VolumeQuantity"
+    },
+    "Azimuth": {
+        "ddhub:PrototypeData": "Azimuth",
+        "rdfs:comment": [
+            "The angle between the horizontal component of the wellbore direction at a particular point, representing the compass direction of a directional survey or of the wellbore as planned or measured by a directional survey. It is usually specified in degrees with respect to the geographic or magnetic north pole, measured clockwise from a reference direction (usually North)"
+        ],
+        "ddhub:IsOfMeasurableQuantity": "PlaneAngleDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "PlaneAngleQuantity"
+    },
+    "BOPOpening": {
+        "ddhub:PrototypeData": "BOPOpening",
+        "rdfs:comment": [
+            "The opening status of the blowout preventer (BOP)."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "ProportionStandardQuantity",
+        "ddhub:IsOfBaseQuantity": "DimensionlessQuantity"
+    },
+    "BOPPressure": {
+        "ddhub:PrototypeData": "BOPPressure",
+        "rdfs:comment": [
+            "The pressure within the blowout preventer (BOP)."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "PressureDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "PressureQuantity"
+    },
+    "BackPressurePumpPressure": {
+        "ddhub:PrototypeData": "BackPressurePumpPressure",
+        "rdfs:comment": [
+            "The pressure that opposes the flow of fluid being discharged by the pump. This back pressure builds up on the discharge side of the pump when it is working against high resistance, such as a partially closed valve, long narrow pipes, or other obstructions. It is crucial to monitor and manage back pressure to ensure the efficient operation of the pump and to prevent potential damage to the pump components."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "PressureDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "PressureQuantity"
+    },
+    "BitDepth": {
+        "ddhub:PrototypeData": "BitDepth",
+        "rdfs:comment": [
+            "Curvilinear abscissa of the bottom of the bit, in the reference frame centered in the wellbore.\r\n",
+            "The depth of the drill bit in the wellbore, measured along the well path."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "DepthDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "LengthQuantity"
+    },
+    "CollapsePressure": {
+        "ddhub:PrototypeData": "CollapsePressure",
+        "rdfs:comment": [
+            "The externally applied pressure at which a casing or tubing will undergo permanent deformation or collapse. This pressure is critical in well design to ensure the structural integrity of the casing under various downhole conditions. It is influenced by factors such as the material properties, wall thickness, and diameter of the casing."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "PressureDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "PressureQuantity"
+    },
+    "CollapsePressureGradient": {
+        "ddhub:PrototypeData": "CollapsePressureGradient",
+        "rdfs:comment": [
+            "The rate of change of collapse pressure with depth."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "PressureGradientPerLengthDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "PressureGradientPerLengthQuantity"
+    },
+    "DensityIn": {
+        "ddhub:PrototypeData": "DensityIn",
+        "rdfs:comment": [
+            "The density of the drilling fluid entering (going in to) the wellbore."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "MassDensityDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "MassDensityQuantity"
+    },
+    "DensityOut": {
+        "ddhub:PrototypeData": "DensityOut",
+        "rdfs:comment": [
+            "The density of the drilling fluid exiting (going out of) the wellbore."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "MassDensityDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "MassDensityQuantity"
+    },
+    "DownholeECD": {
+        "ddhub:PrototypeData": "DownholeECD",
+        "rdfs:comment": [
+            "The equivalent circulating density (ECD) measured downhole. ECD is a crucial parameter in drilling operations, representing the effective density of the drilling fluid in the wellbore, taking into account the pressure exerted by the fluid\u2019s circulation."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "MassDensityDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "MassDensityQuantity"
+    },
+    "DownholePressure": {
+        "ddhub:PrototypeData": "DownholePressure",
+        "rdfs:comment": [
+            "The pressure measured at a specific point downhole."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "PressureDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "PressureQuantity"
+    },
+    "DownholeRPM": {
+        "ddhub:PrototypeData": "DownholeRPM",
+        "rdfs:comment": [
+            "The rotational speed of the drill string measured downhole, measured in revolutions per minute (RPM)."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "RotationalFrequencyQuantity",
+        "ddhub:IsOfBaseQuantity": "FrequencyQuantity"
+    },
+    "DownholeTemperature": {
+        "ddhub:PrototypeData": "DownholeTemperature",
+        "rdfs:comment": [
+            "The temperature measured at a specific point downhole."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "TemperatureDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "TemperatureQuantity"
+    },
+    "DownholeTorque": {
+        "ddhub:PrototypeData": "DownholeTorque",
+        "rdfs:comment": [
+            "The torque measured at a specific point downhole."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "TorqueDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "TorqueQuantity"
+    },
+    "FlowRateIn": {
+        "ddhub:PrototypeData": "FlowRateIn",
+        "rdfs:comment": [
+            "The volumetric flow rate (flowrate) at which fluid (e.g., cement) is pumped in to the wellbore."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "VolumetricFlowrateDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "VolumetricFlowRateQuantity"
+    },
+    "FlowRateOut": {
+        "ddhub:PrototypeData": "FlowRateOut",
+        "rdfs:comment": [
+            "The volumetric flow rate (flowrate) at which fluid (e.g., cement) is pumped out from the wellbore."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "VolumetricFlowrateDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "VolumetricFlowRateQuantity"
+    },
+    "FracturingPressure": {
+        "ddhub:PrototypeData": "FracturingPressure",
+        "rdfs:comment": [
+            "The hydraulic pressure required to fracture the formation. It is applied at the wellhead to inject fluid and proppant into a formation during a hydraulic fracturing treatment. This pressure is necessary to create and propagate fractures in the rock, allowing for the extraction of oil or gas."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "PressureDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "PressureQuantity"
+    },
+    "FracturingPressureGradient": {
+        "ddhub:PrototypeData": "FracturingPressureGradient",
+        "rdfs:comment": [
+            "The rate of change of fracturing pressure with depth."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "PressureGradientPerLengthDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "PressureGradientPerLengthQuantity"
+    },
+    "GasFlowRate": {
+        "ddhub:PrototypeData": "GasFlowRate",
+        "rdfs:comment": [
+            "The volumetric flow rate (flowrate) at which gas flows."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "VolumetricFlowrateDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "VolumetricFlowRateQuantity"
+    },
+    "HoleDepth": {
+        "ddhub:PrototypeData": "HoleDepth",
+        "rdfs:comment": [
+            "The total depth of the wellbore."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "DepthDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "LengthQuantity"
+    },
+    "HookLoad": {
+        "ddhub:PrototypeData": "HookLoad",
+        "rdfs:comment": [
+            "The total gravitational force exerted on the derrick's hook or traveling block due to the weight of the drill string, casing, and any other equipment suspended in the wellbore."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "HookLoadDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "ForceQuantity",
+        "zzz:commonMnemonics": [
+            "HKLD"
+        ]
+    },
+    "HookPosition": {
+        "ddhub:PrototypeData": "HookPosition",
+        "rdfs:comment": [
+            "The vertical position of the hook or traveling block. Some times it is also called block position"
+        ],
+        "ddhub:IsOfMeasurableQuantity": "PositionDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "LengthQuantity"
+    },
+    "HookVelocity": {
+        "ddhub:PrototypeData": "HookVelocity",
+        "rdfs:comment": [
+            "The speed at which the hook (or traveling block) is moving. Sometimes, it is also called block velocity."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "BlockVelocityDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "VelocityQuantity"
+    },
+    "Inclination": {
+        "ddhub:PrototypeData": "Inclination",
+        "rdfs:comment": [
+            "The angle of the wellbore relative to vertical."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "PlaneAngleDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "PlaneAngleQuantity"
+    },
+    "MPDChokeOpening": {
+        "ddhub:PrototypeData": "MPDChokeOpening",
+        "rdfs:comment": [
+            "The opening status of the managed pressure drilling (MPD) choke."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "ProportionStandardQuantity",
+        "ddhub:IsOfBaseQuantity": "DimensionlessQuantity"
+    },
+    "MPDChokePressure": {
+        "ddhub:PrototypeData": "MPDChokePressure",
+        "rdfs:comment": [
+            "The pressure within the managed pressure drilling (MPD) choke."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "PressureDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "PressureQuantity"
+    },
+    "MPDPumpFlowRate": {
+        "ddhub:PrototypeData": "MPDPumpFlowRate",
+        "rdfs:comment": [
+            "The volumetric flow rate (flowrate) of the pump in managed pressure drilling (MPD)."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "VolumetricFlowrateDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "VolumetricFlowRateQuantity"
+    },
+    "MPDPumpRate": {
+        "ddhub:PrototypeData": "MPDPumpRate",
+        "rdfs:comment": [
+            "The stroke rate (frequency) at which drilling fluid (mud) is pumped into the well during MPD (managed pressure drilling) operations."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "StrokeFrequencyQuantity",
+        "ddhub:IsOfBaseQuantity": "FrequencyQuantity"
+    },
+    "MeasuredDepth": {
+        "ddhub:PrototypeData": "MeasuredDepth",
+        "rdfs:comment": [
+            "The length of the wellbore measured along the well path."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "DepthDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "LengthQuantity"
+    },
+    "MechanicalSpecificEnergy": {
+        "ddhub:PrototypeData": "MechanicalSpecificEnergy",
+        "rdfs:comment": [
+            "Mechanical Specific Energy (MSE) is a measure of drilling efficiency, defined as the amount of energy required to remove a unit volume of rock. It is used to evaluate the performance of the drilling process and optimize drilling parameters. Lower MSE values indicate more efficient drilling. MSE is influenced by factors such as weight on bit (WOB), torque, rate of penetration (ROP), and drill bit revolutions per minute (RPM)."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "EnergyDensityDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "EnergyDensityQuantity"
+    },
+    "MinimumHorizontalStress": {
+        "ddhub:PrototypeData": "MinimumHorizontalStress",
+        "rdfs:comment": [
+            "The minimum stress in the horizontal plane."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "FluidShearStressQuantity",
+        "ddhub:IsOfBaseQuantity": "StressQuantity"
+    },
+    "MinimumHorizontalStressGradient": {
+        "ddhub:PrototypeData": "MinimumHorizontalStressGradient",
+        "rdfs:comment": [
+            "The rate of change of minimum horizontal stress with depth."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "PressureGradientPerLengthDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "PressureGradientPerLengthQuantity"
+    },
+    "OverburdenPressure": {
+        "ddhub:PrototypeData": "OverburdenPressure",
+        "rdfs:comment": [
+            "The pressure exerted by the weight of overlying formations, i.e., the overlying rock and soil layers at a specific depth below the Earth's surface. It is also known as lithostatic or geostatic pressure."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "FormationStrengthDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "MaterialStrengthQuantity"
+    },
+    "OverburdenPressureGradient": {
+        "ddhub:PrototypeData": "OverburdenPressureGradient",
+        "rdfs:comment": [
+            "The rate of change of overburden pressure with depth."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "PressureGradientPerLengthDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "PressureGradientPerLengthQuantity"
+    },
+    "PorePressure": {
+        "ddhub:PrototypeData": "PorePressure",
+        "rdfs:comment": [
+            "The pressure exerted by fluids (such as water, oil, or gas) within the pore spaces of a rock formation. In drilling, it is a critical parameter as it influences the stability of the wellbore and the design of drilling fluids."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "PressureDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "PressureQuantity"
+    },
+    "PorePressureGradient": {
+        "ddhub:PrototypeData": "PorePressureGradient",
+        "rdfs:comment": [
+            "The rate of change of pore pressure with depth."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "PressureGradientPerLengthDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "PressureGradientPerLengthQuantity"
+    },
+    "PumpRate": {
+        "ddhub:PrototypeData": "PumpRate",
+        "rdfs:comment": [
+            "The stroke rate (frequency) at which the drilling fluid is pumped into the well."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "StrokeFrequencyQuantity",
+        "ddhub:IsOfBaseQuantity": "FrequencyQuantity",
+        "zzz:commonMnemonics": [
+            "SPM"
+        ]
+    },
+    "ROP": {
+        "ddhub:PrototypeData": "ROP",
+        "rdfs:comment": [
+            "Rate of penetration, the speed at which the drill bit advances."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "RateOfPenetrationDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "VelocityQuantity",
+        "zzz:commonMnemonics": [
+            "ROP"
+        ]
+    },
+    "SPP": {
+        "ddhub:PrototypeData": "SPP",
+        "rdfs:comment": [
+            "Standpipe pressure, the pressure in the drill pipe."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "PressureDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "PressureQuantity",
+        "zzz:commonMnemonics": [
+            "SPP"
+        ]
+    },
+    "ShearRate": {
+        "ddhub:PrototypeData": "ShearRate",
+        "rdfs:comment": [
+            "The rate of change of velocity at which one layer of fluid passes over an adjacent layer. The velocity gradient measured across the diameter of a fluid-flow channel, be it a pipe, annulus or other shape."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "FluidShearRateQuantity",
+        "ddhub:IsOfBaseQuantity": "FrequencyQuantity"
+    },
+    "ShearStress": {
+        "ddhub:PrototypeData": "ShearStress",
+        "rdfs:comment": [
+            "The stress required to shear the fluid. The force per unit area required to sustain a constant rate of fluid movement."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "FluidShearStressQuantity",
+        "ddhub:IsOfBaseQuantity": "StressQuantity"
+    },
+    "SurfaceRPM": {
+        "ddhub:PrototypeData": "SurfaceRPM",
+        "rdfs:comment": [
+            "The rotational speed of the drill string at the surface, measured in revolutions per minute (RPM)."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "RotationalFrequencyQuantity",
+        "ddhub:IsOfBaseQuantity": "FrequencyQuantity"
+    },
+    "SurfaceTorque": {
+        "ddhub:PrototypeData": "SurfaceTorque",
+        "rdfs:comment": [
+            "The torque applied to the drill string at the surface."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "TorqueDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "TorqueQuantity"
+    },
+    "TemperatureIn": {
+        "ddhub:PrototypeData": "TemperatureIn",
+        "rdfs:comment": [
+            "The temperature of the drilling fluid entering the wellbore."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "TemperatureDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "TemperatureQuantity"
+    },
+    "TemperatureOut": {
+        "ddhub:PrototypeData": "TemperatureOut",
+        "rdfs:comment": [
+            "The temperature of the drilling fluid exiting the wellbore."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "TemperatureDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "TemperatureQuantity"
+    },
+    "TopOfStringPosition": {
+        "ddhub:PrototypeData": "TopOfStringPosition",
+        "rdfs:comment": [
+            "The position of the top of the drill string."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "PositionDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "LengthQuantity"
+    },
+    "TrueVerticalDepth": {
+        "ddhub:PrototypeData": "TrueVerticalDepth",
+        "rdfs:comment": [
+            "The depth from the surface to the bottom of the borehole (or anywhere along its length) in a straight perpendicular line. Abbreviated as TVD."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "DepthDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "LengthQuantity",
+        "zzz:commonMnemonics": [
+            "TVD"
+        ]
+    },
+    "WOB": {
+        "ddhub:PrototypeData": "WOB",
+        "rdfs:comment": [
+            "Weight on Bit (WOB) is the amount of downward force applied on the drill bit during drilling operations. This force is provided by the weight of the drill collars, which are thick-walled tubular pieces in the drilling assembly."
+        ],
+        "ddhub:IsOfMeasurableQuantity": "WeightOnBitDrillingQuantity",
+        "ddhub:IsOfBaseQuantity": "ForceQuantity",
+        "zzz:commonMnemonics": [
+            "WOB"
+        ]
+    }
+}

@@ -1,0 +1,1418 @@
+{
+    "AccelerationQuantity": {
+        "ddhub:Quantity": "AccelerationQuantity",
+        "rdfs:comment": [
+            "**Acceleration** is defined as the rate of change of velocity with respect to time. Velocity itself is the rate of change of displacement (or position) with respect to time. Therefore, acceleration is the rate of change of displacement twice with respect to time.\r\nLet's break this down:\r\n1. **Displacement** (or position) has the dimension of **Length(L)**.\r\n2. **Velocity** is displacement per unit time:\r\n$$\\text{Velocity} = \\frac{\\text{Length}}{\\text{Time}} = \\frac{L}{T}$$\r\nSo, the dimension of velocity is **$[L T^{ -1}]$**.\r\n3. **Acceleration** is the rate of change of velocity with respect to time:\r\n$$\\text{Acceleration} = \\frac{\\text{Velocity}}{\\text{Time}} = \\frac{L T^{ -1}}{T} = L T ^{-2}$$\r\nTherefore, the dimension of acceleration is $[LT^{-2}]$.\r\nThe SI unit for **acceleration** is: metre per second squared with the associated unit label $\\frac{m}{s^{2}}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "CentimetrePerHourPerSecond",
+            "CentimetrePerMinutePerSecond",
+            "CentimetrePerSecondSquared",
+            "FootPerHourPerSecond",
+            "FootPerMinutePerSecond",
+            "FootPerSecondSquared",
+            "Galileo",
+            "GravityStandard",
+            "InchPerHourPerSecond",
+            "InchPerMinutePerSecond",
+            "InchPerSecondSquared",
+            "KilometrePerHourPerSecond",
+            "KilometrePerMinutePerSecond",
+            "KilometrePerSecondSquared",
+            "KnotPerSecond",
+            "MetrePerSecondPerMillisecond",
+            "MetrePerSecondSquared",
+            "MilePerHourPerSecond",
+            "MilePerMinutePerSecond",
+            "MilePerSecondSquared"
+        ]
+    },
+    "AmountSubstanceQuantity": {
+        "ddhub:Quantity": "AmountSubstanceQuantity",
+        "rdfs:comment": [
+            "The **amount of substance** refers to the quantity of entities (such as atoms, molecules, ions, or other particles) in a system.The standard unit used to measure the amount of substance is the **mole** (mol). One mole corresponds to $6.022\u00d710^{23}$ entities (Avogadro's number) of the given substance.\r\nThis is one of the nine fundamental dimensions in the International System of Units (SI).A fundamental quantity does not depend on any combinations of other fundamental dimensions.It is denoted $[N]$.\r\nThe SI unit for **amount substance** is: mole with the associated unit label $mol$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "Centimole",
+            "Decimole",
+            "Kilomole",
+            "Micromole",
+            "Millimole",
+            "Mole",
+            "Nanomole",
+            "Picomole"
+        ]
+    },
+    "AngleGradientPerLengthQuantity": {
+        "ddhub:Quantity": "AngleGradientPerLengthQuantity",
+        "rdfs:comment": [
+            "Consider a situation where you have a length $L$ along which an angle $\\theta$ changes. The angle variation gradient is defined as the **rate of change of the angle** per unit change in length. Mathematically, it can be expressed as: \r\n$$\\text{ Angle Variation Gradient} = \\frac{ d\\theta}{ dL}$$\r\nwhere: \r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "DegreePerCentimetre",
+            "DegreePerDecimetre",
+            "DegreePerFoot",
+            "DegreePerInch",
+            "DegreePerMetre",
+            "DegreePerMillimetre",
+            "RadianPerCentimetre",
+            "RadianPerDecimetre",
+            "RadianPerFoot",
+            "RadianPerInch",
+            "RadianPerMetre",
+            "RadianPerMillimetre"
+        ]
+    },
+    "AngleMagneticFluxDensityQuantity": {
+        "ddhub:Quantity": "AngleMagneticFluxDensityQuantity",
+        "rdfs:comment": [
+            "The **angle magnetic flux density** is the product of an angle by a magnetic flux density. Let's break it down step by step:\r\n1. Magnetic Flux Density\r\nThe **magnetic flux density** $\\mathbf{B}$ is a measure of the strength and direction of the magnetic field at a particular point in space. It represents the amount of magnetic flux passing through a unit area perpendicular to the direction of the magnetic field. In simpler terms, it describes how dense or concentrated the magnetic field lines are in a given region.It can be expressed in terms of the fundamental dimensions as:\r\n$$[M][T]^{-2}[I]^{-1}$$\r\nWhere:\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "DegreeGauss",
+            "DegreeMaxwellPerSquareCentimetre",
+            "DegreeMicrotesla",
+            "DegreeMilligauss",
+            "DegreeMillitesla",
+            "DegreeNanotesla",
+            "DegreeTesla",
+            "DegreeWeberPerSquareMetre",
+            "RadianGauss",
+            "RadianMaxwellPerSquareCentimetre",
+            "RadianMicrotesla",
+            "RadianMilligauss",
+            "RadianMillitesla",
+            "RadianNanotesla",
+            "RadianTesla",
+            "RadianWeberPerSquareMetre"
+        ]
+    },
+    "AngularAccelerationQuantity": {
+        "ddhub:Quantity": "AngularAccelerationQuantity",
+        "rdfs:comment": [
+            "An angular acceleration is the second derivative compared to time of a plan angle: $\\frac{d^2\\theta}{dt^2}$.\r\nThe dimension of angular acceleration is:\r\n$$[{\\theta}T^{-2}]$$.\r\nThe SI unit for **angular acceleration** is: radian per second squared with the associated unit label $\\frac{rad}{s^{2}}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "DegreePerDayPerHour",
+            "DegreePerDayPerMinute",
+            "DegreePerDayPerSecond",
+            "DegreePerDaySquared",
+            "DegreePerHourPerDay",
+            "DegreePerHourPerMinute",
+            "DegreePerHourPerSecond",
+            "DegreePerHourSquared",
+            "DegreePerMinutePerDay",
+            "DegreePerMinutePerHour",
+            "DegreePerMinutePerSecond",
+            "DegreePerMinuteSquared",
+            "DegreePerSecondPerDay",
+            "DegreePerSecondPerHour",
+            "DegreePerSecondPerMinute",
+            "DegreePerSecondSquared",
+            "RadianPerDayPerHour",
+            "RadianPerDayPerMinute",
+            "RadianPerDayPerSecond",
+            "RadianPerDaySquared",
+            "RadianPerHourPerDay",
+            "RadianPerHourPerMinute",
+            "RadianPerHourPerSecond",
+            "RadianPerHourSquared",
+            "RadianPerMinutePerDay",
+            "RadianPerMinutePerHour",
+            "RadianPerMinutePerSecond",
+            "RadianPerMinuteSquared",
+            "RadianPerSecondPerDay",
+            "RadianPerSecondPerHour",
+            "RadianPerSecondPerMinute",
+            "RadianPerSecondSquared"
+        ]
+    },
+    "AngularVelocityQuantity": {
+        "ddhub:Quantity": "AngularVelocityQuantity",
+        "rdfs:comment": [
+            "An angular velocity is the first derivative compared to time of a plan angle: $\\frac{d\\theta}{dt}$.\r\nThe dimension of angular velocity is:\r\n$$[{\\theta}T^{-1}]$$.\r\nThe SI unit for **angular velocity** is: radian per second with the associated unit label $\\frac{rad}{s}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "DegreePerDay",
+            "DegreePerHour",
+            "DegreePerMinute",
+            "DegreePerSecond",
+            "RadianPerDay",
+            "RadianPerHour",
+            "RadianPerMinute",
+            "RadianPerSecond"
+        ]
+    },
+    "AreaQuantity": {
+        "ddhub:Quantity": "AreaQuantity",
+        "rdfs:comment": [
+            "Area is the measure of the extent of a surface or the size of a two-dimensional shape.\r\nThe dimension of area is:\r\n$$[L^{2}]$$.\r\nThe SI unit for **area** is: square metre with the associated unit label $m^{2}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "Acre",
+            "Hectare",
+            "SquareCentimetre",
+            "SquareDecametre",
+            "SquareDecimetre",
+            "SquareFoot",
+            "SquareInch",
+            "SquareKilometre",
+            "SquareMetre",
+            "SquareMicrometre",
+            "SquareMile",
+            "SquareMillimetre",
+            "SquareYard"
+        ]
+    },
+    "CompressibilityQuantity": {
+        "ddhub:Quantity": "CompressibilityQuantity",
+        "rdfs:comment": [
+            "Compressibility is the measure of how much a substance's volume decreases under pressure. It indicates how easily a material or fluid can be compressed and is typically expressed as a change in volume per unit change in pressure.\r\nThe dimension of compressibility is:\r\n$$[T^{2}LM^{-1}]$$.\r\nThe SI unit for **compressibility** is: inverse pascal with the associated unit label $\\frac{1}{Pa}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "InverseAtmosphere",
+            "InverseBar",
+            "InversePascal",
+            "InversePoundPerSquareInch"
+        ]
+    },
+    "ConcentrationQuantity": {
+        "ddhub:Quantity": "ConcentrationQuantity",
+        "rdfs:comment": [
+            "Concentration is the abundance of a constituent divided by the total volume of a mixture. Several types of mathematical description can be distinguished: mass concentration, molar concentration, number concentration, and volume concentration.\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "PartPerMillion"
+        ]
+    },
+    "CurvatureQuantity": {
+        "ddhub:Quantity": "CurvatureQuantity",
+        "rdfs:comment": [
+            "A curvature is the second derivative of a position compared to the curvilinear abscissa: $\\frac{d^2x}{ds^2}$, where $x$ is the position and $s$ is the curvilinear abscissa.\r\nThe dimension of curvature is:\r\n$$[{\\theta}L^{-1}]$$.\r\nThe SI unit for **curvature** is: radian per metre with the associated unit label $\\frac{rad}{m}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "DegreePer100ft",
+            "DegreePer10m",
+            "DegreePer30ft",
+            "DegreePer30m",
+            "DegreePerCentimeter",
+            "DegreePerDecameter",
+            "DegreePerDecimeter",
+            "DegreePerFoot",
+            "DegreePerHectometer",
+            "DegreePerKilometer",
+            "DegreePerMetre",
+            "DegreePerMicrometer",
+            "DegreePerMile",
+            "DegreePerMillimeter",
+            "DegreePerNanometer",
+            "DegreePerYard",
+            "RadianPerCentimeter",
+            "RadianPerDecameter",
+            "RadianPerDecimeter",
+            "RadianPerFoot",
+            "RadianPerHectometer",
+            "RadianPerKilometer",
+            "RadianPerMetre",
+            "RadianPerMicrometer",
+            "RadianPerMile",
+            "RadianPerMillimeter",
+            "RadianPerNanometer",
+            "RadianPerYard"
+        ]
+    },
+    "DimensionlessQuantity": {
+        "ddhub:Quantity": "DimensionlessQuantity",
+        "rdfs:comment": [
+            "As its name indicates, a dimensionless quantity has no dimension:\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "Dimensionless",
+            "Percent"
+        ]
+    },
+    "DynamicViscosityQuantity": {
+        "ddhub:Quantity": "DynamicViscosityQuantity",
+        "rdfs:comment": [
+            "Dynamic viscosity is a measure of a fluid's resistance to shear or flow when a force is applied. It quantifies how thick or thin the fluid is.\r\nThe dimension of dynamic viscosity is:\r\n$$[ML^{-1}T^{-1}]$$.\r\nThe SI unit for **dynamic viscosity** is: pascal second with the associated unit label $Pa \\cdot s$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "Centipoise",
+            "DyneSecondPerSquareCentimetre",
+            "MicropascalSecond",
+            "Micropoise",
+            "MillipascalSecond",
+            "Millipoise",
+            "PascalSecond",
+            "Poise",
+            "PoundSecondPer100SquareFoot",
+            "PoundSecondPerSquareFoot",
+            "PoundSecondPerSquareInch"
+        ]
+    },
+    "ElectricCapacitanceQuantity": {
+        "ddhub:Quantity": "ElectricCapacitanceQuantity",
+        "rdfs:comment": [
+            "lectric capacitance is the ability of a capacitor or a component to store electrical charge per unit voltage applied across it.\r\nThe dimension of electric capacitance is:\r\n$$[T^{4}I^{2}M^{-1}L^{-2}]$$.\r\nThe SI unit for **electric capacitance** is: farad with the associated unit label $F$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "CoulombPerVolt",
+            "Farad",
+            "Microfarad",
+            "Millifarad",
+            "Nanofarad",
+            "Picofarad"
+        ]
+    },
+    "ElectricCurrentQuantity": {
+        "ddhub:Quantity": "ElectricCurrentQuantity",
+        "rdfs:comment": [
+            "Electric current is the flow of electric charge through a conductor or circuit.\r\nThe dimension of electric current is:\r\n$$[I]$$.\r\nThe SI unit for **electric current** is: ampere with the associated unit label $A$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "Abampere",
+            "Ampere",
+            "Biot",
+            "Centiampere",
+            "CoulombPerSecond",
+            "Deciampere",
+            "Gigaampere",
+            "Kiloampere",
+            "Megaampere",
+            "Microampere",
+            "Milliampere",
+            "Nanoampere",
+            "Picoampere",
+            "SiemensVolt",
+            "Statampere",
+            "Teraampere",
+            "VoltPerOhm",
+            "WattPerVolt",
+            "WeberPerHenry"
+        ]
+    },
+    "ElectricPotentialQuantity": {
+        "ddhub:Quantity": "ElectricPotentialQuantity",
+        "rdfs:comment": [
+            "The electric potential energy per unit charge. This value can be calculated in either a static (time-invariant) or a dynamic (time-varying) electric field at a specific time with the unit joules per coulomb (J\u22c5C\u22121) or volt (V).\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "Centivolt",
+            "Gigavolt",
+            "Kilovolt",
+            "Megavolt",
+            "Microvolt",
+            "Millivolt",
+            "Nanovolt",
+            "Picovolt",
+            "Volt"
+        ]
+    },
+    "ElectricResistivityQuantity": {
+        "ddhub:Quantity": "ElectricResistivityQuantity",
+        "rdfs:comment": [
+            "Electric resistivity is a material's inherent property that measures how strongly it resists the flow of electric current.\r\nThe dimension of resistivity is:\r\n$$[L^{3}MI^{-2}T^{-3}]$$.\r\nThe SI unit for **electric resistivity** is: ohm metre with the associated unit label $\\Omega \\cdot m$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "GigaOhmMetre",
+            "KiloOhmMetre",
+            "MegaOhmMetre",
+            "OhmMetre"
+        ]
+    },
+    "ElongationGradientPerLengthQuantity": {
+        "ddhub:Quantity": "ElongationGradientPerLengthQuantity",
+        "rdfs:comment": [
+            "An elongation gradient per length is the first derivative of an elongation compared to a distance: $\\frac{d\\epsilon}{ds}$, where $\\epsilon$ is an elongation and $s$ is a distance.\r\nIt is dimensionless.\r\nThe SI unit for **elongation gradient per length** is: metre per metre with the associated unit label $\\frac{m}{m}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "CentimetrePerKilometre",
+            "CentimetrePerMetre",
+            "DecimetrePerKilometre",
+            "DecimetrePerMetre",
+            "FootPerFoot",
+            "FootPerMile",
+            "FootPerYard",
+            "InchPerFoot",
+            "InchPerMile",
+            "InchPerYard",
+            "MetrePerKilometre",
+            "MetrePerMetre",
+            "MicrometrePerKilometre",
+            "MicrometrePerMetre",
+            "MillimetrePerKilometre",
+            "MillimetrePerMetre",
+            "YardPerFoot",
+            "YardPerMile",
+            "YardPerYard"
+        ]
+    },
+    "EnergyDensityQuantity": {
+        "ddhub:Quantity": "EnergyDensityQuantity",
+        "rdfs:comment": [
+            "Energy density is the amount of energy stored per unit volume or mass of a substance or system.\r\nThe dimension of energy density is:\r\n$$[ML^{-1}T^{-2}]$$.\r\nThe SI unit for **energy density** is: joule per cubic metre with the associated unit label $\\frac{J}{m^{3}}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "BritishThermalUnitPerCubicFoot",
+            "BritishThermalUnitPerCubicInch",
+            "BritishThermalUnitPerCubicMetre",
+            "BritishThermalUnitPerGallonUk",
+            "BritishThermalUnitPerGallonUs",
+            "BritishThermalUnitPerLitre",
+            "CaloriePerCubicFoot",
+            "CaloriePerCubicInch",
+            "CaloriePerCubicMetre",
+            "CaloriePerGallonUk",
+            "CaloriePerGallonUs",
+            "CaloriePerLitre",
+            "GigajoulePerCubicFoot",
+            "GigajoulePerCubicInch",
+            "GigajoulePerCubicMetre",
+            "GigajoulePerGallonUk",
+            "GigajoulePerGallonUs",
+            "GigajoulePerLitre",
+            "JoulePerCubicFoot",
+            "JoulePerCubicInch",
+            "JoulePerCubicMetre",
+            "JoulePerGallonUk",
+            "JoulePerGallonUs",
+            "JoulePerLitre",
+            "KiloBritishThermalUnitPerCubicFoot",
+            "KiloBritishThermalUnitPerCubicInch",
+            "KiloBritishThermalUnitPerCubicMetre",
+            "KiloBritishThermalUnitPerGallonUk",
+            "KiloBritishThermalUnitPerGallonUs",
+            "KiloBritishThermalUnitPerLitre",
+            "KilocaloriePerCubicFoot",
+            "KilocaloriePerCubicInch",
+            "KilocaloriePerCubicMetre",
+            "KilocaloriePerGallonUk",
+            "KilocaloriePerGallonUs",
+            "KilocaloriePerLitre",
+            "KilojoulePerCubicFoot",
+            "KilojoulePerCubicInch",
+            "KilojoulePerCubicMetre",
+            "KilojoulePerGallonUk",
+            "KilojoulePerGallonUs",
+            "KilojoulePerLitre",
+            "MegajoulePerCubicFoot",
+            "MegajoulePerCubicInch",
+            "MegajoulePerCubicMetre",
+            "MegajoulePerGallonUk",
+            "MegajoulePerGallonUs",
+            "MegajoulePerLitre"
+        ]
+    },
+    "EnergyQuantity": {
+        "ddhub:Quantity": "EnergyQuantity",
+        "rdfs:comment": [
+            "Energy is the quantitative property that is transferred to a body or to a physical system, recognizable in the performance of work and in the form of heat and light. Energy is a conserved quantity\u2014the law of conservation of energy states that energy can be converted in form, but not created or destroyed; matter and energy may also be converted to one another.\r\nThe dimension of energy is:\r\n$$[L^{2}MT^{-2}]$$.\r\nThe SI unit for **energy** is: joule with the associated unit label $J$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "BritishThermalUnit",
+            "Calorie",
+            "Gigajoule",
+            "Joule",
+            "KiloBritishThermalUnit",
+            "Kilocalorie",
+            "Kilojoule",
+            "MegaBritishThermalUnit",
+            "Megajoule"
+        ]
+    },
+    "ForceGradientPerLengthQuantity": {
+        "ddhub:Quantity": "ForceGradientPerLengthQuantity",
+        "rdfs:comment": [
+            "A force gradient per length is the first derivative compared to a distance of a force: $\\frac{dF}{ds}$ where $F$ is a force and $s$ is a distance.\r\nThe dimension of force gradient per length is:\r\n$$[MT^{-2}]$$.\r\nThe SI unit for **force gradient per length** is: newton per metre with the associated unit label $\\frac{N}{m}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "DecanewtonPer10Metre",
+            "DecanewtonPer30Metre",
+            "DecanewtonPerCentimetre",
+            "DecanewtonPerDecimetre",
+            "DecanewtonPerMetre",
+            "DecanewtonPerMillimetre",
+            "KilonewtonPer10Metre",
+            "KilonewtonPer30Metre",
+            "KilonewtonPerCentimetre",
+            "KilonewtonPerDecimetre",
+            "KilonewtonPerMetre",
+            "KilonewtonPerMillimetre",
+            "KilopoundPer100Foot",
+            "KilopoundPer30Foot",
+            "KilopoundPerFoot",
+            "KilopoundPerInch",
+            "NewtonPer10Metre",
+            "NewtonPer30Metre",
+            "NewtonPerCentimetre",
+            "NewtonPerDecimetre",
+            "NewtonPerMetre",
+            "NewtonPerMillimetre",
+            "PoundPer100Foot",
+            "PoundPer30Foot",
+            "PoundPerFoot",
+            "PoundPerInch"
+        ]
+    },
+    "ForceQuantity": {
+        "ddhub:Quantity": "ForceQuantity",
+        "rdfs:comment": [
+            "A force is an influence that can cause an object to change its velocity unless counterbalanced by other forces.\r\nThe dimension of force is:\r\n$$[LMT^{-2}]$$.\r\nThe SI unit for **force** is: newton with the associated unit label $N$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "Decanewton",
+            "Kilodecanewton",
+            "KilogramForce",
+            "Kilonewton",
+            "KilopoundForce",
+            "Newton",
+            "PoundForce",
+            "ThousandKilogramForce"
+        ]
+    },
+    "FrequencyQuantity": {
+        "ddhub:Quantity": "FrequencyQuantity",
+        "rdfs:comment": [
+            "Frequency is the number of occurrences of a repeating event per unit of time.\r\nThe dimension of frequency is:\r\n$$[T^{-1}]$$.\r\nThe SI unit for **frequency** is: hertz with the associated unit label $Hz$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "Gigahertz",
+            "Hertz",
+            "Kilohertz",
+            "Megahertz",
+            "ReciprocalSecond",
+            "RotationPerHour",
+            "RotationPerSecond",
+            "Rpm",
+            "ShockPerHour",
+            "ShockPerMinute",
+            "ShockPerSecond",
+            "Spm",
+            "StrokePerHour",
+            "StrokePerSecond",
+            "Terahertz"
+        ]
+    },
+    "FrequencyRateOfChangeQuantity": {
+        "ddhub:Quantity": "FrequencyRateOfChangeQuantity",
+        "rdfs:comment": [
+            "A frequency rate of change is the time derivative of a frequency: $\\frac{df}{dt}$, where $f$ is a frequency and $t$ is time.\r\nThe dimension of frequency rate of change is:\r\n$$[T^{-2}]$$.\r\nThe SI unit for **frequency rate of change** is: hertz per second with the associated unit label $\\frac{Hz}{s}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "GigaHertzPerDay",
+            "GigaHertzPerHour",
+            "GigaHertzPerMinute",
+            "GigaHertzPerSecond",
+            "GigaHertzPerYear",
+            "HertzPerDay",
+            "HertzPerHour",
+            "HertzPerMinute",
+            "HertzPerSecond",
+            "HertzPerYear",
+            "KiloHertzPerDay",
+            "KiloHertzPerHour",
+            "KiloHertzPerMinute",
+            "KiloHertzPerSecond",
+            "KiloHertzPerYear",
+            "MegaHertzPerDay",
+            "MegaHertzPerHour",
+            "MegaHertzPerMinute",
+            "MegaHertzPerSecond",
+            "MegaHertzPerYear"
+        ]
+    },
+    "GravitationalLoadQuantity": {
+        "ddhub:Quantity": "GravitationalLoadQuantity",
+        "rdfs:comment": [
+            "Mass can be experimentally defined as a measure of the body's inertia, meaning the resistance to acceleration (change of velocity) when a net force is applied. The object's mass also determines the strength of its gravitational attraction to other bodies.\r\nThe dimension of mass is:\r\n$$[M]$$.\r\nThe SI unit for **mass** is: kilogram with the associated unit label $kg$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "Kilogram",
+            "Kilopound",
+            "Pound",
+            "TonUk",
+            "TonneMetric"
+        ]
+    },
+    "HeatTransferCoefficientQuantity": {
+        "ddhub:Quantity": "HeatTransferCoefficientQuantity",
+        "rdfs:comment": [
+            "Heat transfer coefficient is a measure of the efficiency with which heat is transferred between a solid surface and a fluid (or between two fluids) per unit area and temperature difference.\r\nThe dimension of heat transfer coefficient is:\r\n$$[MK^{-1}T^{-3}]$$.\r\nThe SI unit for **heat transfer coefficient** is: watt per square metre per kelvin with the associated unit label $\\frac{W}{m^{2} \\cdot K}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "BritishThermalUnitPerHourPerSquareFootPerDegreeFahrenheit",
+            "WattPerSquareMetrePerKelvin"
+        ]
+    },
+    "HydraulicConductivityQuantity": {
+        "ddhub:Quantity": "HydraulicConductivityQuantity",
+        "rdfs:comment": [
+            "A velocity is the time derivative of a position or a displacement: $\\frac{dx}{dt}$, where $x$ is a position and $t$ is time.\r\nThe dimension of velocity is:\r\n$$[LT^{-1}]$$.\r\nThe SI unit for **velocity** is: metre per second with the associated unit label $\\frac{m}{s}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "CentimetrePerSecond",
+            "FootPerDay",
+            "FootPerHour",
+            "FootPerMinute",
+            "FootPerSecond",
+            "InchPerSecond",
+            "MetrePerDay",
+            "MetrePerHour",
+            "MetrePerMinute",
+            "MetrePerSecond"
+        ]
+    },
+    "InterfacialTensionQuantity": {
+        "ddhub:Quantity": "InterfacialTensionQuantity",
+        "rdfs:comment": [
+            "Interfacial tension is the force per unit length acting along the boundary between two immiscible liquids, resisting their mixing.\r\nThe dimension of interfacial tension is:\r\n$$[MT^{-2}]$$.\r\nThe SI unit for **interfacial tension** is: newton per metre with the associated unit label $\\frac{N}{m}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "DynePerCentimetre",
+            "MillinewtonPerMetre",
+            "NewtonPerMetre",
+            "PoundPerSecondSquared"
+        ]
+    },
+    "IsobaricSpecificHeatCapacityGradientPerTemperatureQuantity": {
+        "ddhub:Quantity": "IsobaricSpecificHeatCapacityGradientPerTemperatureQuantity",
+        "rdfs:comment": [
+            "An isobaric specific heat capacity gradient per temperature is the first derivative of an isobaric specific heat capacity compared to temperature: $\\frac{dC_p}{dT}$, where $C_p$ is a isobaric specific heat capacity and $T$ is a temperature.\r\nThe dimension of specific heat capacity gradient per temperature is:\r\n$$[L^{2}T^{-2}K^{-2}]$$.\r\nThe SI unit for **isobaric specific heat capacity gradient per temperature** is: joule per kilogram squared kelvin with the associated unit label $\\frac{J}{kg \\cdot K^{2}}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "BritishThermalUnitPerPoundSquaredDegreeFahrenheit",
+            "CaloriePerGramDegreeSquaredCelsius",
+            "JoulePerGramDegreeSquaredCelsius",
+            "JoulePerGramSquaredKelvin",
+            "JoulePerKilogramSquaredKelvin"
+        ]
+    },
+    "IsobaricSpecificHeatCapacityQuantity": {
+        "ddhub:Quantity": "IsobaricSpecificHeatCapacityQuantity",
+        "rdfs:comment": [
+            "Isobaric specific heat capacity is the amount of heat required to raise the temperature of one unit mass of a substance by one unit of temperature at constant pressure. It indicates how much heat energy a material can store.\r\nThe dimension of specific heat capacity is:\r\n$$[L^{2}K^{-1}T^{-2}]$$.\r\nThe SI unit for **isobaric specific heat capacity** is: joule per kilogram kelvin with the associated unit label $\\frac{J}{kg \\cdot K}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "BritishThermalUnitPerPoundDegreeFahrenheit",
+            "CaloriePerGramDegreeCelsius",
+            "JoulePerGramDegreeCelsius",
+            "JoulePerGramKelvin",
+            "JoulePerKilogramKelvin",
+            "KilocaloriePerGramDegreeCelsius"
+        ]
+    },
+    "LengthQuantity": {
+        "ddhub:Quantity": "LengthQuantity",
+        "rdfs:comment": [
+            "Length is a measure of distance.\r\nThe dimension of length is:\r\n$$[L]$$.\r\nThe SI unit for **length** is: metre with the associated unit label $m$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "Aangstroem",
+            "AstronomicalUnit",
+            "Centimetre",
+            "Decametre",
+            "Decimetre",
+            "Fathom",
+            "Foot",
+            "Furlong",
+            "Hand",
+            "Hectometre",
+            "Inch",
+            "InchPer32",
+            "InternationalNauticalMile",
+            "Kilometre",
+            "LightYear",
+            "Metre",
+            "Micrometre",
+            "Mil",
+            "Mile",
+            "Millimetre",
+            "Nanometre",
+            "Parsec",
+            "Picometre",
+            "ScandinavianMile",
+            "SurveyorSChain",
+            "Thou",
+            "UkNauticalMile",
+            "UsSurveyFoot",
+            "Yard"
+        ]
+    },
+    "LuminousIntensityQuantity": {
+        "ddhub:Quantity": "LuminousIntensityQuantity",
+        "rdfs:comment": [
+            "Luminous intensity is the measure of the amount of visible light emitted by a source in a particular direction.\r\nThe dimension of luminous intensity is:\r\n$$[J]$$.\r\nThe SI unit for **luminous intensity** is: candela with the associated unit label $cd$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "BerlinerLichteinheit",
+            "Candela",
+            "Carcel",
+            "DecimalCandle",
+            "DvwgCandle",
+            "Hefnerkerze",
+            "InternationalCandle",
+            "Kilocandela",
+            "LumenPerSteradian",
+            "Millicandela",
+            "Violle"
+        ]
+    },
+    "MagneticFluxDensityQuantity": {
+        "ddhub:Quantity": "MagneticFluxDensityQuantity",
+        "rdfs:comment": [
+            "Magnetic flux density is the measure of the strength of a magnetic field per unit area through which the magnetic flux passes. It indicates how concentrated the magnetic field is.\r\nThe dimension of magnetic flux density is:\r\n$$[MI^{-1}T^{-2}]$$.\r\nThe SI unit for **magnetic flux density** is: tesla with the associated unit label $T$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "Gauss",
+            "MaxwellPerSquareCentimetre",
+            "Microtesla",
+            "Milligauss",
+            "Millitesla",
+            "Nanotesla",
+            "Tesla",
+            "WeberPerSquareMetre"
+        ]
+    },
+    "MagneticFluxQuantity": {
+        "ddhub:Quantity": "MagneticFluxQuantity",
+        "rdfs:comment": [
+            "Magnetic flux is the measure of the total magnetic field passing through a given area. It quantifies the strength and distribution of a magnetic field over a surface.\r\nThe dimension of magnetic flux is:\r\n$$[L^{2}MI^{-1}T^{-2}]$$.\r\nThe SI unit for **magnetic flux** is: weber with the associated unit label $Wb$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "GaussSquareCentimetre",
+            "Kiloline",
+            "Line",
+            "MagneticFluxQuantum",
+            "Maxwell",
+            "Megaline",
+            "Microweber",
+            "Milliweber",
+            "TeslaSquareCentimetre",
+            "TeslaSquareMetre",
+            "UnitPole",
+            "VoltSecond",
+            "Weber"
+        ]
+    },
+    "MassDensityGradientPerLengthQuantity": {
+        "ddhub:Quantity": "MassDensityGradientPerLengthQuantity",
+        "rdfs:comment": [
+            "A mass density gradient per length is the first derivative of a mass density compared to a distance: $\\frac{d\\rho}{ds}$, where $\\rho$ is the mass density and $s$ is a distance.\r\nThe dimension of mass density gradient per length is:\r\n$$[ML^{-4}]$$.\r\nThe SI unit for **mass density gradient per length** is: kilogram per cubic metre per metre with the associated unit label $\\frac{\\frac{kg}{m^{3}}}{m}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "GramPerCubicCentimetrePer100Metre",
+            "GramPerCubicCentimetrePer10Metre",
+            "GramPerCubicCentimetrePer30Metre",
+            "GramPerCubicCentimetrePerMetre",
+            "KilogramPerCubicMetrePer100Metre",
+            "KilogramPerCubicMetrePer10Metre",
+            "KilogramPerCubicMetrePer30Metre",
+            "KilogramPerCubicMetrePerMetre",
+            "PoundPerCubicFootPer100Foot",
+            "PoundPerCubicFootPer30Foot",
+            "PoundPerCubicFootPerFoot",
+            "PoundPerCubicInchPer100Foot",
+            "PoundPerCubicInchPer30Foot",
+            "PoundPerCubicInchPerFoot",
+            "PoundPerCubicYardPer100Foot",
+            "PoundPerCubicYardPer30Foot",
+            "PoundPerCubicYardPerFoot",
+            "PoundPerGallonUkPer100Foot",
+            "PoundPerGallonUkPer30Foot",
+            "PoundPerGallonUkPerFoot",
+            "PoundPerGallonUsPer100Foot",
+            "PoundPerGallonUsPer30Foot",
+            "PoundPerGallonUsPerFoot",
+            "SpecificGravityPer100Metre",
+            "SpecificGravityPer10Metre",
+            "SpecificGravityPer30Metre",
+            "SpecificGravityPerMetre"
+        ]
+    },
+    "MassDensityGradientPerTemperatureQuantity": {
+        "ddhub:Quantity": "MassDensityGradientPerTemperatureQuantity",
+        "rdfs:comment": [
+            "A mass density gradient per temperature is the first derivative of a mass density compared to temperature: $\\frac{d\\rho}{dT}$, where $\\rho$ is a mass density and $T$ is temperature.\r\nThe dimension of mass density gradient per temperature is:\r\n$$[MK^{-1}L^{-3}]$$.\r\nThe SI unit for **mass density gradient per temperature** is: kilogram per cubic metre per kelvin with the associated unit label $\\frac{\\frac{kg}{m^{3}}}{K}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "GramPerCubicCentimetrePerCelsius",
+            "KilogramPerCubicMetrePerKelvin",
+            "PoundPerCubicFootPerCelsius",
+            "PoundPerCubicFootPerFahrenheit",
+            "PoundPerCubicInchPerCelsius",
+            "PoundPerCubicInchPerFahrenheit",
+            "PoundPerCubicYardPerCelsius",
+            "PoundPerCubicYeardPerFahrenheit",
+            "PoundPerGallonUkPerCelsius",
+            "PoundPerGallonUkPerFahrenheit",
+            "PoundPerGallonUsPerCelsius",
+            "PoundPerGallonUsPerFahrenheit",
+            "SpecificGravityPerCelsius"
+        ]
+    },
+    "MassDensityQuantity": {
+        "ddhub:Quantity": "MassDensityQuantity",
+        "rdfs:comment": [
+            "Mass density is the amount of mass per unit volume of a substance.\r\nThe dimension of mass density is:\r\n$$[ML^{-3}]$$.\r\nThe SI unit for **mass density** is: kilogram per cubic metre with the associated unit label $\\frac{kg}{m^{3}}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "GramPerCubicCentimetre",
+            "GramPerCubicMetre",
+            "KilogramPerCubicMetre",
+            "PoundPerCubicFoot",
+            "PoundPerCubicInch",
+            "PoundPerCubicYard",
+            "PoundPerGallonUk",
+            "PoundPerGallonUs",
+            "SpecificGravity"
+        ]
+    },
+    "MassDensityRateOfChangeQuantity": {
+        "ddhub:Quantity": "MassDensityRateOfChangeQuantity",
+        "rdfs:comment": [
+            "A mass density rate of change is the time derivative of a mass density: $\\frac{d\\rho}{dt}$, where $\\rho$ is the mass density and $t$ is time.\r\nThe dimension of mass density rate of change is:\r\n$$[MT^{-1}L^{-3}]$$.\r\nThe SI unit for **mass density rate of change** is: kilogram per cubic metre per second with the associated unit label $\\frac{\\frac{kg}{m^{3}}}{s}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "GramPerCubicCentimetrePerHour",
+            "GramPerCubicCentimetrePerMinute",
+            "GramPerCubicCentimetrePerSecond",
+            "KilogramPerCubicMetrePerSecond",
+            "PoundPerGallonUkPerHour",
+            "PoundPerGallonUkPerMinute",
+            "PoundPerGallonUkPerSecond",
+            "PoundPerGallonUsPerHour",
+            "PoundPerGallonUsPerMinute",
+            "PoundPerGallonUsPerSecond",
+            "SpecificGravityPerHour",
+            "SpecificGravityPerMinute",
+            "SpecificGravityPerSecond"
+        ]
+    },
+    "MassGradientPerLengthQuantity": {
+        "ddhub:Quantity": "MassGradientPerLengthQuantity",
+        "rdfs:comment": [
+            "A mass gradient per length is the first derivative of a mass compared to a distance: $\\frac{dm}{ds}$, where $m$ is a mass and $s$ is a distance.\r\nThe dimension of mass gradient per length is:\r\n$$[ML^{-1}]$$.\r\nThe SI unit for **mass gradient per length** is: kilogram per metre with the associated unit label $\\frac{kg}{m}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "GramPerMetre",
+            "KilogramPerMetre",
+            "PoundPerFoot"
+        ]
+    },
+    "MassQuantity": {
+        "ddhub:Quantity": "MassQuantity",
+        "rdfs:comment": [
+            "Mass can be experimentally defined as a measure of the body's inertia, meaning the resistance to acceleration (change of velocity) when a net force is applied. The object's mass also determines the strength of its gravitational attraction to other bodies.\r\nThe dimension of mass is:\r\n$$[M]$$.\r\nThe SI unit for **mass** is: kilogram with the associated unit label $kg$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "AtomMassUnit",
+            "Centigram",
+            "Decagram",
+            "EarthMass",
+            "Gigatonne",
+            "Grain",
+            "Gram",
+            "Hectogram",
+            "HundredWeights",
+            "Kilogram",
+            "Kilopound",
+            "Kilotonne",
+            "Megatonne",
+            "Microgram",
+            "Milligram",
+            "Nanogram",
+            "Ounce",
+            "Pound",
+            "SolarMass",
+            "Stone",
+            "TonUk",
+            "TonUs",
+            "TonneMetric"
+        ]
+    },
+    "MassRateQuantity": {
+        "ddhub:Quantity": "MassRateQuantity",
+        "rdfs:comment": [
+            "A mass rate is the time derivative of a mass: $\\frac{dm}{dt}$, where $m$ is a mass and $t$ is time.\r\nThe dimension of mass rate is:\r\n$$[MT^{-1}]$$.\r\nThe SI unit for **mass rate** is: kilogram per second with the associated unit label $\\frac{kg}{s}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "KilogramPerHour",
+            "KilogramPerMinute",
+            "KilogramPerSecond",
+            "KilogramPerYear",
+            "PoundPerHour",
+            "PoundPerMinute",
+            "PoundPerSecond",
+            "PoundPerYear"
+        ]
+    },
+    "MaterialStrengthQuantity": {
+        "ddhub:Quantity": "MaterialStrengthQuantity",
+        "rdfs:comment": [
+            "Material strength refers to the ability of a material to withstand an applied force or load without failing or deforming. It measures how much stress a material can endure before it breaks, bends, or permanently deforms, often categorized into types like tensile, compressive, and shear strength.\r\nThe dimension of material strength is:\r\n$$[ML^{-1}T^{-2}]$$.\r\nThe SI unit for **material strength** is: pascal with the associated unit label $Pa$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "Gigapascal",
+            "Megapascal",
+            "MegapoundPerSquareInch",
+            "Pascal",
+            "PoundPer100SquareFoot",
+            "Psi"
+        ]
+    },
+    "PlaneAngleQuantity": {
+        "ddhub:Quantity": "PlaneAngleQuantity",
+        "rdfs:comment": [
+            "A plane angle is the angle formed between two intersecting lines or planes in a two-dimensional or three-dimensional space.\r\nThe dimension of plane angle is:\r\n$$[{\\theta}]$$.\r\nThe SI unit for **plane angle** is: radian with the associated unit label $rad$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "ArcMinute",
+            "ArcSecond",
+            "Circle",
+            "Degree",
+            "Gon",
+            "Grad",
+            "Milliradian",
+            "Octant",
+            "Quadrant",
+            "Radian",
+            "Revolution",
+            "Sextant"
+        ]
+    },
+    "PorousMediumPermeabilityQuantity": {
+        "ddhub:Quantity": "PorousMediumPermeabilityQuantity",
+        "rdfs:comment": [
+            "The permeability is a property of porous medium that quantifies its ability to allow fluids to pass through it.\r\nThe dimension of porous medium permeability is:\r\n$$[L^{2}]$$.\r\nThe SI unit for **porous medium permeability** is: square metre with the associated unit label $m^{2}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "Darcy",
+            "Microdarcy",
+            "Millidarcy",
+            "Nanodarcy",
+            "SquareMetre"
+        ]
+    },
+    "PowerQuantity": {
+        "ddhub:Quantity": "PowerQuantity",
+        "rdfs:comment": [
+            "Power is the rate at which work is done or energy is transferred over time.\r\nThe dimension of power is:\r\n$$[L^{2}MT^{-3}]$$.\r\nThe SI unit for **power** is: watt with the associated unit label $W$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "Attowatt",
+            "Centiwatt",
+            "Decawatt",
+            "Deciwatt",
+            "Exawatt",
+            "Femtowatt",
+            "Gigawatt",
+            "Hectowatt",
+            "Kilowatt",
+            "Megawatt",
+            "Microwatt",
+            "Milliwatt",
+            "Nanowatt",
+            "Petawatt",
+            "Picowatt",
+            "Terawatt",
+            "Watt"
+        ]
+    },
+    "PressureGradientPerLengthQuantity": {
+        "ddhub:Quantity": "PressureGradientPerLengthQuantity",
+        "rdfs:comment": [
+            "A pressure gradient per length is the first derivative of a pressure compared to a distance: $\\frac{dp}{ds}$, where $p$ is a pressure and $s$ is a distance.\r\nThe dimension of pressure gradient per length is:\r\n$$[ML^{-2}T^{-2}]$$.\r\nThe SI unit for **pressure gradient per length** is: pascal per metre with the associated unit label $\\frac{Pa}{m}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "BarPerMetre",
+            "PascalPerMetre",
+            "PsiPerFoot",
+            "PsiPerMetre"
+        ]
+    },
+    "PressureLossConstantQuantity": {
+        "ddhub:Quantity": "PressureLossConstantQuantity",
+        "rdfs:comment": [
+            "The pressure loss constant is a parameter used to quantify the resistance to flow in a system, such as a pipe or more complex tubulars, which leads to a reduction in pressure. It helps in calculating the pressure drop due to friction or other factors in fluid dynamics.\r\nThe dimension of pressure loss constant is:\r\n$$[L^{4}]$$.\r\nThe SI unit for **pressure loss constant** is: pressure loss constant SI with the associated unit label $(\\frac{m^{3}}{s})^{2} \\cdot \\frac{(\\frac{kg}{m^{3}})}{Pa}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "PressureLossConstantMetric",
+            "PressureLossConstantSi",
+            "PressureLossConstantUk",
+            "PressureLossConstantUs"
+        ]
+    },
+    "PressureQuantity": {
+        "ddhub:Quantity": "PressureQuantity",
+        "rdfs:comment": [
+            "Pressure is the force applied per unit area on a surface.\r\nThe dimension of pressure is:\r\n$$[ML^{-1}T^{-2}]$$.\r\nThe SI unit for **pressure** is: pascal with the associated unit label $Pa$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "Bar",
+            "CentimetreMercuryAtZeroDegreeCelsius",
+            "CentimetreWaterAt4DegreeCelsius",
+            "DynePerSquareCentimetre",
+            "FootWaterAt4DegreeCelsius",
+            "Gigapascal",
+            "InchMercuryAt32DegreeFahrenheit",
+            "InchMercuryAt60DegreeFahrenheit",
+            "InchWaterAt4DegreeCelsius",
+            "KilonewtonPerSquareMetre",
+            "Kilopascal",
+            "KilopoundPerSquareInch",
+            "Megapascal",
+            "MegapoundPerSquareInch",
+            "Microbar",
+            "Millibar",
+            "MillimetreMercuryAtZeroDegreeCelsius",
+            "MillimetreWaterAt4DegreeCelsius",
+            "NewtonPerSquareCentimetre",
+            "NewtonPerSquareMetre",
+            "NewtonPerSquareMillimetre",
+            "Pascal",
+            "PoundPer100SquareFoot",
+            "PoundPerSquareFoot",
+            "PoundPerSquareInch",
+            "StandardAtmosphere",
+            "Torr"
+        ]
+    },
+    "ProportionQuantity": {
+        "ddhub:Quantity": "ProportionQuantity",
+        "rdfs:comment": [
+            "A proportion is the ratio of two quantities with the same dimension. It represents how one quantity compares to another in relative terms.\r\nA proportion is dimensionless:\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "PartPerMillion",
+            "PerThousand",
+            "Percent",
+            "Proportion"
+        ]
+    },
+    "RandomWalkQuantity": {
+        "ddhub:Quantity": "RandomWalkQuantity",
+        "rdfs:comment": [
+            "A random walk is a mathematical concept describing a path consisting of a series of random steps or movements, where each step's direction or magnitude is determined probabilistically. It is used to model various phenomena in fields like physics, finance, and computer science.\r\nThe dimension of random walk is:\r\n$$[{\\theta}T^{-0.5}]$$.\r\nThe SI unit for **random walk** is: radian per square root second with the associated unit label $\\frac{rad}{\\sqrt{s}}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "DegreePerSquareRootDay",
+            "DegreePerSquareRootHour",
+            "DegreePerSquareRootMinute",
+            "DegreePerSquareRootSecond",
+            "RadianPerSquareRootDay",
+            "RadianPerSquareRootHour",
+            "RadianPerSquareRootMinute",
+            "RadianPerSquareRootSecond"
+        ]
+    },
+    "RelativeTemperatureQuantity": {
+        "ddhub:Quantity": "RelativeTemperatureQuantity",
+        "rdfs:comment": [
+            "Relative temperature is a measure of temperature expressed in relation to a reference point or baseline, often used to compare temperature differences rather than absolute values.\r\nThe dimension of relative temperature is:\r\n$$[K]$$.\r\nThe SI unit for **relative temperature** is: kelvin with the associated unit label $K$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "Kelvin",
+            "Rankine",
+            "RelativeCelsius"
+        ]
+    },
+    "RotationalFrequencyRateOfChangeQuantity": {
+        "ddhub:Quantity": "RotationalFrequencyRateOfChangeQuantity",
+        "rdfs:comment": [
+            "A frequency rate of change is the time derivative of a frequency: $\\frac{df}{dt}$, where $f$ is a frequency and $t$ is time.\r\nThe dimension of frequency rate of change is:\r\n$$[T^{-2}]$$.\r\nThe SI unit for **frequency rate of change** is: hertz per second with the associated unit label $\\frac{Hz}{s}$\r\nA rotation frequency rate of change is the time derivative of a rotation frequency.\r\nThe meaningful precision of rotational frequency is typically:  Hz/s\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "HertzPerSecond"
+        ]
+    },
+    "SolidAngleQuantity": {
+        "ddhub:Quantity": "SolidAngleQuantity",
+        "rdfs:comment": [
+            "A solid angle is a three-dimensional angle that measures the portion of a sphere's surface subtended by an object. It is the 3D equivalent of a planar angle in two dimensions.\r\nThe dimension of solid angle is:\r\n$$[{\\Omega}]$$.\r\nThe SI unit for **solid angle** is: steradian with the associated unit label $sr$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "DegreeSquared",
+            "Spat",
+            "Steradian"
+        ]
+    },
+    "StressQuantity": {
+        "ddhub:Quantity": "StressQuantity",
+        "rdfs:comment": [
+            "Stress in a material is the internal force per unit area that arises when the material is subjected to external forces or loads. It reflects how much the material is being compressed, stretched, or sheared.\r\nThe dimension of stress is:\r\n$$[ML^{-1}T^{-2}]$$.\r\nThe SI unit for **stress** is: pascal with the associated unit label $Pa$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "Bar",
+            "DynePerSquareCentimetre",
+            "Gigapascal",
+            "KilonewtonPerSquareMetre",
+            "Kilopascal",
+            "KilopoundPerSquareInch",
+            "Megapascal",
+            "MegapoundPerSquareInch",
+            "Microbar",
+            "Millibar",
+            "NewtonPerSquareCentimetre",
+            "NewtonPerSquareMetre",
+            "NewtonPerSquareMillimetre",
+            "Pascal",
+            "PoundPer100SquareFoot",
+            "PoundPerSquareFoot",
+            "PoundPerSquareInch"
+        ]
+    },
+    "TemperatureGradientPerLengthQuantity": {
+        "ddhub:Quantity": "TemperatureGradientPerLengthQuantity",
+        "rdfs:comment": [
+            "A temperature gradient per lenth is the first derivative of a temperature compared to a distance: $\\frac{dT}{ds}$, where $T$ is a temperature and $s$ is a distance.\r\nThe dimension of temperature gradient per length is:\r\n$$[KL^{-1}]$$.\r\nThe SI unit for **temperature gradient per length** is: kelvin per metre with the associated unit label $\\frac{K}{m}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "CelsiusPer100Foot",
+            "CelsiusPer100Metre",
+            "CelsiusPer10Metre",
+            "CelsiusPer30Foot",
+            "CelsiusPer30Metre",
+            "CelsiusPerFoot",
+            "CelsiusPerMetre",
+            "FahrenheitPer100Foot",
+            "FahrenheitPer30Foot",
+            "FahrenheitPerFoot",
+            "KelvinPerMetre"
+        ]
+    },
+    "TemperatureQuantity": {
+        "ddhub:Quantity": "TemperatureQuantity",
+        "rdfs:comment": [
+            "Temperature is a measure of the average kinetic energy of particles in a substance, indicating how hot or cold the substance is.\r\nThe dimension of temperature is:\r\n$$[K]$$.\r\nThe SI unit for **temperature** is: kelvin with the associated unit label $K$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "Celsius",
+            "Fahrenheit",
+            "Kelvin",
+            "Rankine",
+            "R\u00e9aumur"
+        ]
+    },
+    "TensionQuantity": {
+        "ddhub:Quantity": "TensionQuantity",
+        "rdfs:comment": [
+            "Tension is the pulling or stretching force transmitted axially along an object such as a string, rope, chain, rod, truss member, or other object, so as to stretch or pull apart the object. In terms of force, it is the opposite of compression. Tension might also be described as the action-reaction pair of forces acting at each end of an object.\r\nThe dimension of tension is:\r\n$$[LMT^{-2}]$$.\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "Decanewton",
+            "Kilodecanewton",
+            "KilogramForce",
+            "Kilonewton",
+            "KilopoundForce",
+            "Newton",
+            "PoundForce"
+        ]
+    },
+    "ThermalConductivityGradientPerTemperatureQuantity": {
+        "ddhub:Quantity": "ThermalConductivityGradientPerTemperatureQuantity",
+        "rdfs:comment": [
+            "A thermal conductivity gradient per temperature is the first derivative of a thermal conductivity compared to temperature: $\\frac{dk}{dT}$, where $k$ is a thermal conductivity and $T$ is temperature. \r\nThe dimension of thermal conductivity gradient per temperature is:\r\n$$[LMK^{-2}T^{-3}]$$.\r\nThe SI unit for **thermal conductivity gradient per temperature** is: watt per metre kelvin per kelvin with the associated unit label $\\frac{(\\frac{W}{(m \\cdot K)}}{K}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "BritishThermalUnitInchPerHourSquareFootDegreeFahrenheitSquared",
+            "BritishThermalUnitPerHourFootDegreeFahrenheitSquared",
+            "CaloriePerCentimetreSecondDegreeCelsiusSquared",
+            "CaloriePerMetreSecondDegreeCelsiusSquared",
+            "WattPerMetreKelvinPerKelvin"
+        ]
+    },
+    "ThermalConductivityQuantity": {
+        "ddhub:Quantity": "ThermalConductivityQuantity",
+        "rdfs:comment": [
+            "Thermal conductivity is a material's ability to conduct heat. It measures how efficiently heat is transferred through a material when there is a temperature difference.\r\nThe dimension of thermal conductivity is:\r\n$$[LMK^{-1}T^{-3}]$$.\r\nThe SI unit for **thermal conductivity** is: watt per metre kelvin with the associated unit label $\\frac{W}{m \\cdot K}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "BritishThermalUnitInchPerHourSquareFootDegreeFahrenheit",
+            "BritishThermalUnitPerHourFootDegreeFahrenheit",
+            "CaloriePerCentimetreSecondDegreeCelsius",
+            "CaloriePerMetreSecondDegreeCelsius",
+            "WattPerMetreKelvin"
+        ]
+    },
+    "TimeQuantity": {
+        "ddhub:Quantity": "TimeQuantity",
+        "rdfs:comment": [
+            "Time is a continuous, measurable progression in which events occur, from the past through the present to the future.\r\nThe dimension of time is:\r\n$$[T]$$.\r\nThe SI unit for **time** is: second with the associated unit label $s$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "Century",
+            "Day",
+            "Decade",
+            "Fortnight",
+            "Hour",
+            "Microsecond",
+            "Millenia",
+            "MillionYear",
+            "Millisecond",
+            "Minute",
+            "MonthCommon",
+            "MonthSideral",
+            "MonthSynodic",
+            "Nanosecond",
+            "Picosecond",
+            "QuarterCommon",
+            "Second",
+            "Shake",
+            "Week",
+            "YearAverageGregorian",
+            "YearCommon",
+            "YearJulian",
+            "YearLeap",
+            "YearTropical"
+        ]
+    },
+    "TorqueGradientPerLengthQuantity": {
+        "ddhub:Quantity": "TorqueGradientPerLengthQuantity",
+        "rdfs:comment": [
+            "A torque gradient per length is the first derivative of torque compared to a distance: $\\frac{d\\tau}{ds}$, where $\\tau$ is a torque and $s$ is a distance.\r\nThe dimension of torque gradient per length is:\r\n$$[LMT^{-2}]$$.\r\nThe SI unit for **torque gradient per length** is: newton metre per metre with the associated unit label $\\frac{N \\cdot m}{m}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "DecanewtonMetrePerCentimetre",
+            "DecanewtonMetrePerDecimetre",
+            "DecanewtonMetrePerFoot",
+            "DecanewtonMetrePerInch",
+            "DecanewtonMetrePerMetre",
+            "DecanewtonMetrePerMillimetre",
+            "FootPoundPerCentimetre",
+            "FootPoundPerDecimetre",
+            "FootPoundPerFoot",
+            "FootPoundPerInch",
+            "FootPoundPerMetre",
+            "FootPoundPerMillimetre",
+            "InchPoundPerCentimetre",
+            "InchPoundPerDecimetre",
+            "InchPoundPerFoot",
+            "InchPoundPerInch",
+            "InchPoundPerMetre",
+            "InchPoundPerMillimetre",
+            "KilofootPoundPerCentimetre",
+            "KilofootPoundPerDecimetre",
+            "KilofootPoundPerFoot",
+            "KilofootPoundPerInch",
+            "KilofootPoundPerMetre",
+            "KilofootPoundPerMillimetre",
+            "KilogramForceMetrePerCentimetre",
+            "KilogramForceMetrePerDecimetre",
+            "KilogramForceMetrePerFoot",
+            "KilogramForceMetrePerInch",
+            "KilogramForceMetrePerMetre",
+            "KilogramForceMetrePerMillimetre",
+            "KilonewtonMetrePerCentimetre",
+            "KilonewtonMetrePerDecimetre",
+            "KilonewtonMetrePerFoot",
+            "KilonewtonMetrePerInch",
+            "KilonewtonMetrePerMetre",
+            "KilonewtonMetrePerMillimetre",
+            "NewtonCentimetrePerCentimetre",
+            "NewtonCentimetrePerDecimetre",
+            "NewtonCentimetrePerFoot",
+            "NewtonCentimetrePerInch",
+            "NewtonCentimetrePerMetre",
+            "NewtonCentimetrePerMillimetre",
+            "NewtonDecimetrePerCentimetre",
+            "NewtonDecimetrePerDecimetre",
+            "NewtonDecimetrePerFoot",
+            "NewtonDecimetrePerInch",
+            "NewtonDecimetrePerMetre",
+            "NewtonDecimetrePerMillimetre",
+            "NewtonMetrePerCentimetre",
+            "NewtonMetrePerDecimetre",
+            "NewtonMetrePerFoot",
+            "NewtonMetrePerInch",
+            "NewtonMetrePerMetre",
+            "NewtonMetrePerMillimetre",
+            "NewtonMillimetrePerCentimetre",
+            "NewtonMillimetrePerDecimetre",
+            "NewtonMillimetrePerFoot",
+            "NewtonMillimetrePerInch",
+            "NewtonMillimetrePerMetre",
+            "NewtonMillimetrePerMillimetre"
+        ]
+    },
+    "TorqueQuantity": {
+        "ddhub:Quantity": "TorqueQuantity",
+        "rdfs:comment": [
+            "A torque is a measure of the rotational force applied to a body around an axis.\r\nThe dimension of torque is:\r\n$$[L^{2}MT^{-2}]$$.\r\nThe SI unit for **torque** is: newton metre with the associated unit label $N \\cdot m$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "DecanewtonMetre",
+            "FootPound",
+            "InchPound",
+            "KilofootPound",
+            "KilogramForceMetre",
+            "KilonewtonMetre",
+            "NewtonCentimetre",
+            "NewtonDecimetre",
+            "NewtonMetre",
+            "NewtonMillimetre"
+        ]
+    },
+    "VelocityQuantity": {
+        "ddhub:Quantity": "VelocityQuantity",
+        "rdfs:comment": [
+            "A velocity is the time derivative of a position or a displacement: $\\frac{dx}{dt}$, where $x$ is a position and $t$ is time.\r\nThe dimension of velocity is:\r\n$$[LT^{-1}]$$.\r\nThe SI unit for **velocity** is: metre per second with the associated unit label $\\frac{m}{s}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "CentimetrePerDay",
+            "CentimetrePerHour",
+            "CentimetrePerMinute",
+            "CentimetrePerSecond",
+            "DecimetrePerDay",
+            "DecimetrePerHour",
+            "DecimetrePerMinute",
+            "DecimetrePerSecond",
+            "FootPerDay",
+            "FootPerHour",
+            "FootPerMinute",
+            "FootPerSecond",
+            "FurlongPerFortnight",
+            "InchPerDay",
+            "InchPerHour",
+            "InchPerMinute",
+            "InchPerSecond",
+            "KilometrePerDay",
+            "KilometrePerHour",
+            "KilometrePerMinute",
+            "KilometrePerSecond",
+            "MetrePerDay",
+            "MetrePerHour",
+            "MetrePerMinute",
+            "MetrePerSecond",
+            "MilePerDay",
+            "MilePerHour",
+            "MilePerMinute",
+            "MilePerSecond",
+            "MillimetrePerDay",
+            "MillimetrePerHour",
+            "MillimetrePerMinute",
+            "MillimetrePerSecond"
+        ]
+    },
+    "VolumeQuantity": {
+        "ddhub:Quantity": "VolumeQuantity",
+        "rdfs:comment": [
+            "A volume is the amount of three-dimensional space occupied by a body.\r\nThe dimension of volume is:\r\n$$[L^{3}]$$.\r\nThe SI unit for **volume** is: cubic metre with the associated unit label $m^{3}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "Barrel",
+            "Centilitre",
+            "CubicFoot",
+            "CubicInch",
+            "CubicMetre",
+            "Decilitre",
+            "Litre",
+            "Millilitre",
+            "MillionBarrel",
+            "MillionCubicMetre",
+            "MillionLitre",
+            "MillionStandardCubicFoot",
+            "MillionUkGallon",
+            "MillionUsGallon",
+            "ThousandStandardCubicFoot",
+            "UkGallon",
+            "UsGallon"
+        ]
+    },
+    "VolumetricFlowRateOfChangeQuantity": {
+        "ddhub:Quantity": "VolumetricFlowRateOfChangeQuantity",
+        "rdfs:comment": [
+            "A volumetric flow rate of change is the time derivative of a volumetric flowrate: $\\frac{dQ}{dt}$, where $Q$ is a volumetric flowrate and $t$ is time.\r\nThe dimension of volumetric flow rate of change is:\r\n$$[L^{3}T^{-2}]$$.\r\nThe SI unit for **volumetric flow Rate rate of change** is: cubic metre per second squared with the associated unit label $\\frac{m^{3}}{s^{2}}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "CubicMetrePerSecondSquared",
+            "LitrePerMinutePerSecond",
+            "LitrePerMinuteSquared",
+            "LitrePerSecondSquared",
+            "UkGallonPerMinutePerSecond",
+            "UkGallonPerMinuteSquared",
+            "UsGallonPerMinutePerSecond",
+            "UsGallonPerMinuteSquared"
+        ]
+    },
+    "VolumetricFlowRateQuantity": {
+        "ddhub:Quantity": "VolumetricFlowRateQuantity",
+        "rdfs:comment": [
+            "A volumetric flowrate is the volume of fluid that passes per unit time: $\\frac{dV}{dt}$, where $V$ is a volume and $t$ is time.\r\nThe dimension of volumetric flowrate is:\r\n$$[L^{3}T^{-1}]$$.\r\nThe SI unit for **volumetric flow rate** is: cubic metre per second with the associated unit label $\\frac{m^{3}}{s}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "BarrelPerDay",
+            "BarrelPerHour",
+            "BarrelPerMinute",
+            "BarrelPerSecond",
+            "BarrelPerYear",
+            "CubicFootPerDay",
+            "CubicFootPerHour",
+            "CubicFootPerMinute",
+            "CubicFootPerSecond",
+            "CubicFootPerYear",
+            "CubicMetrePerDay",
+            "CubicMetrePerHour",
+            "CubicMetrePerMinute",
+            "CubicMetrePerSecond",
+            "CubicMetrePerYear",
+            "LitrePerDay",
+            "LitrePerHour",
+            "LitrePerMinute",
+            "LitrePerSecond",
+            "LitrePerYear",
+            "MillionCubicMetrePerDay",
+            "MillionLiterPerDay",
+            "MillionStandardCubicFootPerDay",
+            "MillionUkGallonPerDay",
+            "MillionUsGallonPerDay",
+            "ThousandStandardCubicFootPerDay",
+            "UkGallonPerDay",
+            "UkGallonPerHour",
+            "UkGallonPerMinute",
+            "UkGallonPerSecond",
+            "UkGallonPerYear",
+            "UsGallonPerDay",
+            "UsGallonPerHour",
+            "UsGallonPerMinute",
+            "UsGallonPerSecond",
+            "UsGallonPerYear"
+        ]
+    },
+    "WaveNumberQuantity": {
+        "ddhub:Quantity": "WaveNumberQuantity",
+        "rdfs:comment": [
+            "A wave number is the number of wave lengths per unit distance.\r\nThe dimension of wave number is:\r\n$$[L^{-1}]$$.\r\nThe SI unit for **wave number** is: reciprocal metre with the associated unit label $\\frac{1}{m}$\r\n"
+        ],
+        "zzz:QuantityHasUnit": [
+            "ReciprocalAangstroem",
+            "ReciprocalAstronomicalUnit",
+            "ReciprocalCentimetre",
+            "ReciprocalDecametre",
+            "ReciprocalDecimetre",
+            "ReciprocalFathom",
+            "ReciprocalFoot",
+            "ReciprocalFurlong",
+            "ReciprocalHand",
+            "ReciprocalHectometre",
+            "ReciprocalInch",
+            "ReciprocalInchPer32",
+            "ReciprocalInternationalNauticalMile",
+            "ReciprocalKilometre",
+            "ReciprocalLightYear",
+            "ReciprocalMetre",
+            "ReciprocalMicrometre",
+            "ReciprocalMil",
+            "ReciprocalMile",
+            "ReciprocalMillimetre",
+            "ReciprocalNanometre",
+            "ReciprocalParsec",
+            "ReciprocalPicometre",
+            "ReciprocalScandinavianMile",
+            "ReciprocalSurveyorsChain",
+            "ReciprocalThou",
+            "ReciprocalUkNauticalMile",
+            "ReciprocalUsSurveyFoot",
+            "ReciprocalYard"
+        ]
+    }
+}

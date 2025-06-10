@@ -1,0 +1,2871 @@
+{
+    "PASS_NAME": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "PASS_NAME",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"PASS\": \"Pass\", \"NAME\": \"Name\", \"Remark\": \"The unit is 'unitless', which means that this mnemonic does not represent a physical quantity with a measurable unit.\"}"
+    },
+    "DVER": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "DVER",
+        "PrototypeData_class": "TrueVerticalDepth",
+        "PrototypeData_class_candidates": [
+            "HoleDepth",
+            "TrueVerticalDepth",
+            "MeasuredDepth",
+            "CollapsePressureGradient",
+            "FracturingPressureGradient"
+        ],
+        "MeasurableQuantity_class": "DepthDrillingQuantity",
+        "Quantity_class": "LengthQuantity",
+        "Quantity_class_candidates": [
+            "LengthQuantity"
+        ],
+        "Unit_name": "m",
+        "Unit_class": "Metre",
+        "Unit_class_candidates": [
+            "Metre",
+            "Kilometre",
+            "Centimetre",
+            "Decimetre",
+            "Millimetre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"D\": \"Depth\", \"VER\": \"Vertical\", \"Remark\": \"The unit 'm' indicates that the physical quantity is related to 'Length' or 'Depth', specifically referring to 'True Vertical Depth'.\"}"
+    },
+    "BDTI": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "BDTI",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ROP",
+            "BitDepth",
+            "WOB",
+            "MechanicalSpecificEnergy"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "TimeQuantity",
+        "Quantity_class_candidates": [
+            "TimeQuantity"
+        ],
+        "Unit_name": "h",
+        "Unit_class": "Hour",
+        "Unit_class_candidates": [
+            "Hour",
+            "Minute",
+            "Second",
+            "Day",
+            "Week"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"B\": \"Bit\", \"DTI\": \"Drill Time\", \"Remark\": \"The unit 'h' signifies a measurement of time.\"}"
+    },
+    "S2AC": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "S2AC",
+        "PrototypeData_class": "SPP",
+        "PrototypeData_class_candidates": [
+            "SPP",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "PressureDrillingQuantity",
+        "Quantity_class": "PressureQuantity",
+        "Quantity_class_candidates": [
+            "PressureQuantity",
+            "PressureGradientPerLengthQuantity",
+            "PressureLossConstantQuantity"
+        ],
+        "Unit_name": "kPa",
+        "Unit_class": "Kilopascal",
+        "Unit_class_candidates": [
+            "Kilopascal",
+            "Bar",
+            "Megapascal",
+            "Pascal",
+            "Millibar"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"S\": \"Stand\", \"2\": \"index 2\", \"AC\": \"undefined\", \"Remark\": \"The unit is kPa, indicating that this mnemonic relates to pressure measurements, likely Stand Pipe Pressure.\"}"
+    },
+    "PMPT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "PMPT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "PumpRate",
+            "MPDPumpRate",
+            "SPP",
+            "BackPressurePumpPressure",
+            "MPDPumpFlowRate",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "TimeQuantity",
+        "Quantity_class_candidates": [
+            "TimeQuantity"
+        ],
+        "Unit_name": "h",
+        "Unit_class": "Hour",
+        "Unit_class_candidates": [
+            "Hour",
+            "Day",
+            "Minute",
+            "Second",
+            "Week"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"P\": \"Pump\", \"MPT\": \"Time\", \"Remark\": \"The physical quantity is 'Time' measured in hours.\"}"
+    },
+    "GR_CONF": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GR_CONF",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "WOB",
+            "BitDepth",
+            "ROP",
+            "MechanicalSpecificEnergy"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "%",
+        "Unit_class": "Percent",
+        "Unit_class_candidates": [
+            "Percent",
+            "Dimensionless"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GR\": \"Gamma Ray\", \"CONF\": \"Confidence\", \"Remark\": \"The unit '%' indicates that the physical quantity being measured is a statistical confidence level, which is a dimensionless quantity. It reflects the reliability of the Gamma Ray data collected during drilling operations.\"}"
+    },
+    "GS_HKLD": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_HKLD",
+        "PrototypeData_class": "HookLoad",
+        "PrototypeData_class_candidates": [
+            "HookLoad",
+            "WOB",
+            "MechanicalSpecificEnergy",
+            "HookPosition"
+        ],
+        "MeasurableQuantity_class": "HookLoadDrillingQuantity",
+        "Quantity_class": "ForceQuantity",
+        "Quantity_class_candidates": [
+            "ForceQuantity",
+            "GravitationalLoadQuantity"
+        ],
+        "Unit_name": "kkgf",
+        "Unit_class": "ThousandKilogramForce",
+        "Unit_class_candidates": [
+            "KilogramForce",
+            "ThousandKilogramForce",
+            "Kilonewton"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"HKLD\": \"Hookload\", \"Remark\": \"The unit 'kkgf' indicates that this is a measurement of force, specifically the weight on the hook of the drilling rig.\"}"
+    },
+    "A40H_COND_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "A40H_COND_RT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "FlowRateIn",
+            "SurfaceRPM",
+            "BitDepth",
+            "DownholeECD"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "None",
+        "Quantity_class_candidates": [
+            "HydraulicConductivityQuantity",
+            "ThermalConductivityQuantity"
+        ],
+        "Unit_name": "mS/m",
+        "Unit_class": "None",
+        "Unit_class_candidates": [],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"A40H\": \"Average, 40-inch measurement\", \"COND\": \"Conductivity\", \"RT\": \"undefined\", \"Remark\": \"The unit 'mS/m' indicates that the physical quantity is related to conductivity, which is a measure of how well a material can conduct an electric current.\"}"
+    },
+    "DRET": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "DRET",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"DRET\": undefined, Remark: unitless\"}"
+    },
+    "RPI5": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "RPI5",
+        "PrototypeData_class": "ROP",
+        "PrototypeData_class_candidates": [
+            "ROP",
+            "MechanicalSpecificEnergy",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "RateOfPenetrationDrillingQuantity",
+        "Quantity_class": "None",
+        "Quantity_class_candidates": [],
+        "Unit_name": "s/m",
+        "Unit_class": "Second",
+        "Unit_class_candidates": [
+            "MetrePerSecond",
+            "FootPerSecond",
+            "MetrePerMinute",
+            "FootPerMinute",
+            "Second"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"R\": Rate, \"P\": Penetration, \"I\": Inverse, \"5\": Average over 5 feet, Remark: The unit 's/m' indicates the time taken to penetrate a meter of material, relevant in drilling operations where efficiency and speed of penetration are critical metrics.}"
+    },
+    "STUCK_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "STUCK_RT",
+        "PrototypeData_class": "BOPOpening",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "ProportionStandardQuantity",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"STUCK\": \"Stuck condition\", \"RT\": \"undefined\", \"Remark\": \"The mnemonic 'STUCK_RT' indicates a stuck condition in drilling, with 'RT' remaining undefined. The overall unit is 'unitless', indicating that this mnemonic is likely used for status reporting rather than quantifying a physical measurement.\"}"
+    },
+    "APRS_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "APRS_RT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "SPP",
+            "MPDChokePressure",
+            "OverburdenPressure",
+            "BackPressurePumpPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "PressureQuantity",
+        "Quantity_class_candidates": [
+            "PressureQuantity"
+        ],
+        "Unit_name": "kPa",
+        "Unit_class": "Kilopascal",
+        "Unit_class_candidates": [
+            "Kilopascal",
+            "Megapascal",
+            "Bar",
+            "Pascal",
+            "Millibar"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"APRS\": \"Annular Pressure\", \"RT\": \"Real-Time\", \"Remark\": \"The unit 'kPa' indicates that the physical quantity being measured is pressure. The term 'Real-Time' suggests that the data is continuously updated, which is crucial for monitoring drilling operations effectively.\"}"
+    },
+    "RGX_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "RGX_RT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"RGX\": \"undefined\", \"RT\": \"undefined\", \"Remark\": \"The unit is 'unitless', which indicates that the mnemonic does not represent a physical quantity that can be measured in standard units.\"}"
+    },
+    "GS_G_C2": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_G_C2",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "GasFlowRate",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "ConcentrationQuantity",
+        "Quantity_class_candidates": [
+            "ConcentrationQuantity"
+        ],
+        "Unit_name": "ppm",
+        "Unit_class": "PartPerMillion",
+        "Unit_class_candidates": [
+            "PartPerMillion"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"G\": \"undefined\", \"C2\": \"Ethane (C2)\", \"Remark\": \"The unit 'ppm' indicates that the physical quantity being measured is a concentration level, typically used for gases in the context of drilling and environmental monitoring.\"}"
+    },
+    "RPM": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "RPM",
+        "PrototypeData_class": "SurfaceRPM",
+        "PrototypeData_class_candidates": [
+            "SurfaceRPM",
+            "DownholeRPM",
+            "ROP",
+            "HookVelocity"
+        ],
+        "MeasurableQuantity_class": "RotationalFrequencyQuantity",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity",
+            "RotationalFrequencyRateOfChangeQuantity"
+        ],
+        "Unit_name": "rpm",
+        "Unit_class": "Rpm",
+        "Unit_class_candidates": [
+            "Rpm",
+            "RotationPerSecond",
+            "ReciprocalSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"RPM\": \"Revolutions Per Minute\", \"Remark\": \"The unit 'rpm' signifies a measure of frequency, specifically related to the rotary speed of drilling equipment.\"}"
+    },
+    "AJAM_MWD": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "AJAM_MWD",
+        "PrototypeData_class": "MPDChokeOpening",
+        "PrototypeData_class_candidates": [
+            "MPDChokeOpening",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "ProportionStandardQuantity",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"AJAM\": \"Undefined\", \"MWD\": \"Measurement While Drilling\", \"Remark\": \"The unit is 'unitless', which suggests that the data represented by this mnemonic does not have a physical dimension. The component 'MWD' indicates a process related to drilling operations, specifically the method of obtaining measurements while drilling.\"}"
+    },
+    "CRPM_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "CRPM_RT",
+        "PrototypeData_class": "SurfaceRPM",
+        "PrototypeData_class_candidates": [
+            "SurfaceRPM",
+            "DownholeRPM",
+            "MechanicalSpecificEnergy",
+            "ActiveVolume"
+        ],
+        "MeasurableQuantity_class": "RotationalFrequencyQuantity",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity",
+            "RotationalFrequencyRateOfChangeQuantity"
+        ],
+        "Unit_name": "rpm",
+        "Unit_class": "Rpm",
+        "Unit_class_candidates": [
+            "Rpm",
+            "RotationPerSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"C\": \"Collar\", \"RPM\": \"Revolutions Per Minute\", \"RT\": \"Real Time\", \"Remark\": \"The overall interpretation of 'CRPM_RT' can be understood as the real-time measurement of the collar's rotational speed in revolutions per minute.\"}"
+    },
+    "P28H_UNC_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "P28H_UNC_RT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "SPP",
+            "WOB",
+            "ROP",
+            "FlowRateIn",
+            "SurfaceRPM",
+            "BitDepth",
+            "DownholeECD"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "ElectricResistivityQuantity",
+        "Quantity_class_candidates": [
+            "ElectricResistivityQuantity"
+        ],
+        "Unit_name": "ohm.m",
+        "Unit_class": "OhmMetre",
+        "Unit_class_candidates": [
+            "GigaOhmMetre",
+            "KiloOhmMetre",
+            "MegaOhmMetre",
+            "OhmMetre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"P\": \"Phase\", \"28\": \"28-in.\", \"H\": \"undefined\", \"UNC\": \"undefined\", \"RT\": \"Resistivity\", \"Remark\": \"The unit 'ohm.m' indicates that the physical quantity is related to electrical resistivity, which is a measure of how strongly a material opposes the flow of electric current. The presence of '28' suggests that this measurement is specific to a 28-inch diameter tool or measurement context. The components 'UNC' and 'H' remain undefined without further context or complementary knowledge.\"}"
+    },
+    "HKLD": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "HKLD",
+        "PrototypeData_class": "HookLoad",
+        "PrototypeData_class_candidates": [
+            "HookLoad",
+            "WOB",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening"
+        ],
+        "MeasurableQuantity_class": "HookLoadDrillingQuantity",
+        "Quantity_class": "ForceQuantity",
+        "Quantity_class_candidates": [
+            "ForceQuantity",
+            "GravitationalLoadQuantity",
+            "TensionQuantity"
+        ],
+        "Unit_name": "kkgf",
+        "Unit_class": "ThousandKilogramForce",
+        "Unit_class_candidates": [
+            "KilogramForce",
+            "ThousandKilogramForce",
+            "Kilonewton",
+            "PoundForce"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"HKLD\": \"Hookload\", Remark: \"Force\"}"
+    },
+    "GS_DRTV": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_DRTV",
+        "PrototypeData_class": "TrueVerticalDepth",
+        "PrototypeData_class_candidates": [
+            "TrueVerticalDepth",
+            "HoleDepth",
+            "CollapsePressureGradient",
+            "FracturingPressureGradient"
+        ],
+        "MeasurableQuantity_class": "DepthDrillingQuantity",
+        "Quantity_class": "LengthQuantity",
+        "Quantity_class_candidates": [
+            "LengthQuantity"
+        ],
+        "Unit_name": "m",
+        "Unit_class": "Metre",
+        "Unit_class_candidates": [
+            "Metre",
+            "Centimetre",
+            "Decametre",
+            "Hectometre",
+            "Kilometre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"DR\": \"Depth Rate\", \"TV\": \"True Vertical depth\", \"Remark\": \"The unit 'm' indicates that the physical quantity is related to 'Length' or 'Depth', specifically referring to 'True Vertical Depth' in this context.\"}"
+    },
+    "GS_SPPA": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_SPPA",
+        "PrototypeData_class": "SPP",
+        "PrototypeData_class_candidates": [
+            "SPP",
+            "MPDChokePressure",
+            "OverburdenPressure",
+            "BackPressurePumpPressure"
+        ],
+        "MeasurableQuantity_class": "PressureDrillingQuantity",
+        "Quantity_class": "PressureQuantity",
+        "Quantity_class_candidates": [
+            "PressureQuantity"
+        ],
+        "Unit_name": "kPa",
+        "Unit_class": "Kilopascal",
+        "Unit_class_candidates": [
+            "Kilopascal",
+            "Megapascal",
+            "Bar"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"SPP\": \"Stand Pipe Pressure\", \"A\": \"Average\", \"Remark\": \"The interpretation suggests that 'GS_SPPA' refers to the average stand pipe pressure measured in kilopascals, which is a common measurement in drilling operations.\"}"
+    },
+    "GS_G_C1": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_G_C1",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "ConcentrationQuantity",
+        "Quantity_class_candidates": [
+            "ConcentrationQuantity"
+        ],
+        "Unit_name": "ppm",
+        "Unit_class": "PartPerMillion",
+        "Unit_class_candidates": [
+            "PartPerMillion"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"G\": \"undefined\", \"C\": \"Methane\", \"1\": \"index 1\", \"Remark\": \"The unit is 'ppm', which stands for parts per million. The overall interpretation of the mnemonic 'GS_G_C1' suggests that it is related to the measurement of methane concentration (C1) in the context of GeoService, with the 'G' being undefined in this context.\"}"
+    },
+    "GS_TFLO": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_TFLO",
+        "PrototypeData_class": "FlowRateIn",
+        "PrototypeData_class_candidates": [
+            "FlowRateIn",
+            "FlowRateOut",
+            "MPDPumpFlowRate",
+            "GasFlowRate"
+        ],
+        "MeasurableQuantity_class": "VolumetricFlowrateDrillingQuantity",
+        "Quantity_class": "VolumetricFlowRateQuantity",
+        "Quantity_class_candidates": [
+            "VolumetricFlowRateQuantity",
+            "VolumetricFlowRateOfChangeQuantity"
+        ],
+        "Unit_name": "L/min",
+        "Unit_class": "LitrePerMinute",
+        "Unit_class_candidates": [
+            "LitrePerMinute",
+            "LitrePerSecond",
+            "LitrePerHour",
+            "LitrePerDay",
+            "LitrePerMinutePerSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"TFLO\": \"Total Flow\", \"Remark\": \"The unit 'L/min' indicates that this is a flow rate measurement.\"}"
+    },
+    "P40H_COND_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "P40H_COND_RT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "FlowRateIn",
+            "SurfaceRPM",
+            "BitDepth",
+            "DownholeECD"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "None",
+        "Quantity_class_candidates": [
+            "HydraulicConductivityQuantity"
+        ],
+        "Unit_name": "mS/m",
+        "Unit_class": "None",
+        "Unit_class_candidates": [],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"P40H\": \"Undefined\", \"COND\": \"Conductivity\", \"RT\": \"Real-Time\", \"Remark\": \"The unit 'mS/m' indicates that the measurement is related to electrical conductivity, which is relevant in the context of drilling fluids and formations.\"}"
+    },
+    "GS_TDH": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_TDH",
+        "PrototypeData_class": "DownholeTemperature",
+        "PrototypeData_class_candidates": [
+            "DownholeTemperature",
+            "BitDepth",
+            "DownholeECD",
+            "MinimumHorizontalStress",
+            "ActiveVolume"
+        ],
+        "MeasurableQuantity_class": "TemperatureDrillingQuantity",
+        "Quantity_class": "TemperatureQuantity",
+        "Quantity_class_candidates": [
+            "TemperatureQuantity",
+            "RelativeTemperatureQuantity"
+        ],
+        "Unit_name": "degC",
+        "Unit_class": "Celsius",
+        "Unit_class_candidates": [
+            "Celsius",
+            "RelativeCelsius"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"TDH\": \"Total Depth Hole\", \"Remark\": \"The unit is degC, which indicates a temperature measurement. The physical quantity represented here is Temperature.\"}"
+    },
+    "TREV": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "TREV",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "MechanicalSpecificEnergy",
+            "HoleDepth",
+            "WOB",
+            "BitDepth"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"T\": \"Total\", \"REV\": \"Revolutions\", \"Remark\": \"The unit is unitless, indicating a count of revolutions without physical dimensions.\"}"
+    },
+    "AVG_CONF": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "AVG_CONF",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"AVG\": \"Average\", \"CONF\": \"undefined\", \"Remark\": \"The unit is 'unitless', indicating a dimensionless quantity, likely a ratio or average value in the drilling context.\"}"
+    },
+    "GS_G_IC4": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_G_IC4",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "GasFlowRate",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "ConcentrationQuantity",
+        "Quantity_class_candidates": [
+            "ConcentrationQuantity"
+        ],
+        "Unit_name": "ppm",
+        "Unit_class": "PartPerMillion",
+        "Unit_class_candidates": [
+            "PartPerMillion"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"G\": \"undefined\", \"IC4\": \"Iso-butane (specific index/type)\", \"Remark\": \"The unit 'ppm' indicates a concentration measurement, commonly used for gases or chemical compounds in the drilling domain.\"}"
+    },
+    "GS_G_C3": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_G_C3",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "GasFlowRate",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "ConcentrationQuantity",
+        "Quantity_class_candidates": [
+            "ConcentrationQuantity"
+        ],
+        "Unit_name": "ppm",
+        "Unit_class": "PartPerMillion",
+        "Unit_class_candidates": [
+            "PartPerMillion"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"G\": \"undefined\", \"C3\": \"Propane\", \"Remark\": \"The unit provided is 'ppm', which stands for parts per million. This indicates that the physical quantity being measured is a concentration level of Propane in the context of GeoService.\"}"
+    },
+    "HKLO": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "HKLO",
+        "PrototypeData_class": "HookLoad",
+        "PrototypeData_class_candidates": [
+            "HookLoad",
+            "WOB",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "HookLoadDrillingQuantity",
+        "Quantity_class": "ForceQuantity",
+        "Quantity_class_candidates": [
+            "ForceQuantity",
+            "GravitationalLoadQuantity"
+        ],
+        "Unit_name": "kkgf",
+        "Unit_class": "ThousandKilogramForce",
+        "Unit_class_candidates": [
+            "KilogramForce",
+            "ThousandKilogramForce"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"HK\": \"Hook\", \"LO\": \"undefined\", \"Remark\": \"The unit 'kkgf' indicates that the physical quantity is a force measurement related to 'Hookload', which is essential in drilling operations to monitor the weight on the hook.\"}"
+    },
+    "DMEA": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "DMEA",
+        "PrototypeData_class": "MeasuredDepth",
+        "PrototypeData_class_candidates": [
+            "MeasuredDepth",
+            "HoleDepth",
+            "TrueVerticalDepth",
+            "CollapsePressureGradient",
+            "FracturingPressureGradient",
+            "OverburdenPressureGradient"
+        ],
+        "MeasurableQuantity_class": "DepthDrillingQuantity",
+        "Quantity_class": "LengthQuantity",
+        "Quantity_class_candidates": [
+            "LengthQuantity"
+        ],
+        "Unit_name": "m",
+        "Unit_class": "Metre",
+        "Unit_class_candidates": [
+            "Metre",
+            "Kilometre",
+            "Centimetre",
+            "Decimetre",
+            "Millimetre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"D\": undefined, \"M\": Measured, \"E\": undefined, \"A\": undefined, \"Remark\": \"The mnemonic 'DMEA' effectively communicates the concept of 'Measured Depth' in the context of drilling.\"}"
+    },
+    "SHKRSK_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "SHKRSK_RT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SHK\": \"Shock\", \"RSK\": \"Risk\", \"RT\": \"Real-Time\", \"Remark\": \"The unit is unitless, indicating a qualitative measure of risk rather than a quantitative one.\"}"
+    },
+    "GTF_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GTF_RT",
+        "PrototypeData_class": "Azimuth",
+        "PrototypeData_class_candidates": [
+            "Azimuth",
+            "Inclination",
+            "ActiveVolume",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "PlaneAngleDrillingQuantity",
+        "Quantity_class": "PlaneAngleQuantity",
+        "Quantity_class_candidates": [
+            "PlaneAngleQuantity"
+        ],
+        "Unit_name": "dega",
+        "Unit_class": "Degree",
+        "Unit_class_candidates": [
+            "Degree",
+            "Gon",
+            "Grad",
+            "Radian",
+            "ArcMinute"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GTF\": \"Undefined\", \"RT\": \"Undefined\", \"Remark\": \"The unit is 'dega', which typically refers to degrees. This indicates that the physical quantity could be an angle or orientation. The description provided is 'MWD Gravity Toolface', which suggests that GTF relates to the orientation of the gravity toolface in Measurement While Drilling (MWD) applications.\"}"
+    },
+    "GS_G_NC4": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_G_NC4",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "ConcentrationQuantity",
+        "Quantity_class_candidates": [
+            "ConcentrationQuantity"
+        ],
+        "Unit_name": "ppm",
+        "Unit_class": "PartPerMillion",
+        "Unit_class_candidates": [
+            "PartPerMillion"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"G\": \"Undefined\", \"NC4\": \"Nor-butane\", \"Remark\": \"The unit 'ppm' suggests that the physical quantity being measured is a concentration, specifically of Nor-butane in a fluid, which is relevant in the context of drilling operations. The component 'G' remains undefined, indicating that it may require further context or clarification to interpret accurately.\"}"
+    },
+    "DEPTH": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "DEPTH",
+        "PrototypeData_class": "MeasuredDepth",
+        "PrototypeData_class_candidates": [
+            "MeasuredDepth",
+            "HoleDepth",
+            "TrueVerticalDepth",
+            "CollapsePressureGradient",
+            "FracturingPressureGradient",
+            "OverburdenPressureGradient"
+        ],
+        "MeasurableQuantity_class": "DepthDrillingQuantity",
+        "Quantity_class": "LengthQuantity",
+        "Quantity_class_candidates": [
+            "LengthQuantity"
+        ],
+        "Unit_name": "m",
+        "Unit_class": "Metre",
+        "Unit_class_candidates": [
+            "Metre",
+            "Kilometre",
+            "Centimetre",
+            "Decimetre",
+            "Millimetre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"DEPTH\": \"Measured Depth\", \"Remark\": \"The unit 'm' signifies that the measurement is in meters, which is appropriate for depth measurements in drilling operations.\"}"
+    },
+    "MWTI": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "MWTI",
+        "PrototypeData_class": "DensityIn",
+        "PrototypeData_class_candidates": [
+            "DensityIn",
+            "DownholeECD",
+            "BitDepth",
+            "MinimumHorizontalStress"
+        ],
+        "MeasurableQuantity_class": "MassDensityDrillingQuantity",
+        "Quantity_class": "MassDensityQuantity",
+        "Quantity_class_candidates": [
+            "MassDensityQuantity"
+        ],
+        "Unit_name": "g/cm3",
+        "Unit_class": "GramPerCubicCentimetre",
+        "Unit_class_candidates": [
+            "GramPerCubicCentimetre",
+            "KilogramPerCubicMetre",
+            "GramPerCubicMetre",
+            "PoundPerCubicFoot",
+            "PoundPerCubicInch"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"M\": \"Mud\", \"W\": \"Weight\", \"T\": \"Total\", \"I\": \"In\", \"Remark\": \"The unit 'g/cm3' indicates that the physical quantity is 'Density'.\"}"
+    },
+    "OSTM": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "OSTM",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "PumpRate",
+            "SurfaceRPM",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "TimeQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity",
+            "FrequencyRateOfChangeQuantity",
+            "TimeQuantity"
+        ],
+        "Unit_name": "s",
+        "Unit_class": "Second",
+        "Unit_class_candidates": [
+            "Microsecond",
+            "Millisecond",
+            "Nanosecond",
+            "Picosecond",
+            "Second"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"O\": undefined, \"S\": undefined, \"T\": undefined, \"M\": undefined, Remark: The unit 's' indicates that the physical quantity is related to time. However, without a clear definition of 'OSTM', we cannot ascertain its specific meaning in the drilling context.}"
+    },
+    "GS_G_NC5": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_G_NC5",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "GasFlowRate",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "ConcentrationQuantity",
+        "Quantity_class_candidates": [
+            "ConcentrationQuantity"
+        ],
+        "Unit_name": "ppm",
+        "Unit_class": "PartPerMillion",
+        "Unit_class_candidates": [
+            "PartPerMillion"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"G\": \"Undefined\", \"NC5\": \"n-Penthane, index 5\", \"Remark\": \"The unit 'ppm' indicates that the physical quantity being measured is a concentration level of n-Penthane in the context of GeoService data. The presence of '5' in 'NC5' suggests that this is the fifth instance or measurement of n-Penthane concentration.\"}"
+    },
+    "GRM1": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GRM1",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "DownholeECD",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "None",
+        "Quantity_class_candidates": [
+            "MassDensityQuantity"
+        ],
+        "Unit_name": "gAPI",
+        "Unit_class": "None",
+        "Unit_class_candidates": [],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"G\": \"Gamma\", \"R\": \"Ray\", \"M\": \"Measurement\", \"1\": \"index 1\", \"Remark\": \"The unit 'gAPI' signifies that this is a measurement of gamma radiation, which is crucial for understanding the geological formations during drilling operations.\"}"
+    },
+    "GS_TVA": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_TVA",
+        "PrototypeData_class": "ActiveVolume",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "MechanicalSpecificEnergy",
+            "Azimuth",
+            "BOPOpening"
+        ],
+        "MeasurableQuantity_class": "VolumeDrillingQuantity",
+        "Quantity_class": "VolumeQuantity",
+        "Quantity_class_candidates": [
+            "VolumeQuantity"
+        ],
+        "Unit_name": "m3",
+        "Unit_class": "CubicMetre",
+        "Unit_class_candidates": [
+            "CubicMetre",
+            "Litre",
+            "MillionCubicMetre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"TV\": \"Tank volume\", \"A\": \"Active\", \"Remark\": \"The unit 'm3' signifies that the physical quantity is related to volume, specifically the volume of the tank that is currently active.\"}"
+    },
+    "ACTC": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "ACTC",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"ACTC\": \"undefined\", Remark: \"The unit being 'unitless' indicates that 'ACTC' is likely a categorical or state variable rather than a measurement of a physical quantity.\"}"
+    },
+    "GS_DXC": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_DXC",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "MechanicalSpecificEnergy",
+            "MPDPumpRate",
+            "PorePressure",
+            "DownholeECD"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"DXC\": \"undefined\", \"Remark\": \"The unit is 'unitless', indicating a dimensionless quantity related to the 'Corr. Drilling Exponent'.\"}"
+    },
+    "GS_RPM": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_RPM",
+        "PrototypeData_class": "SurfaceRPM",
+        "PrototypeData_class_candidates": [
+            "SurfaceRPM",
+            "DownholeRPM",
+            "MechanicalSpecificEnergy",
+            "ActiveVolume"
+        ],
+        "MeasurableQuantity_class": "RotationalFrequencyQuantity",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity",
+            "RotationalFrequencyRateOfChangeQuantity"
+        ],
+        "Unit_name": "rpm",
+        "Unit_class": "Rpm",
+        "Unit_class_candidates": [
+            "Rpm",
+            "RotationPerSecond",
+            "ReciprocalSecond",
+            "Hertz"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"RPM\": \"Revolutions Per Minute\", \"Remark\": \"The unit 'rpm' indicates a frequency quantity relevant to drilling operations.\"}"
+    },
+    "CWOB": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "CWOB",
+        "PrototypeData_class": "WOB",
+        "PrototypeData_class_candidates": [
+            "WOB",
+            "MechanicalSpecificEnergy",
+            "OverburdenPressure",
+            "HookLoad"
+        ],
+        "MeasurableQuantity_class": "WeightOnBitDrillingQuantity",
+        "Quantity_class": "ForceQuantity",
+        "Quantity_class_candidates": [
+            "ForceQuantity"
+        ],
+        "Unit_name": "kkgf",
+        "Unit_class": "ThousandKilogramForce",
+        "Unit_class_candidates": [
+            "KilogramForce",
+            "ThousandKilogramForce"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"C\": \"Corrected\", \"WOB\": \"Weight of Bit\", \"Remark\": \"Force\"}"
+    },
+    "TQA": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "TQA",
+        "PrototypeData_class": "SurfaceTorque",
+        "PrototypeData_class_candidates": [
+            "SurfaceTorque",
+            "DownholeTorque",
+            "SurfaceRPM",
+            "TrueVerticalDepth"
+        ],
+        "MeasurableQuantity_class": "TorqueDrillingQuantity",
+        "Quantity_class": "TorqueQuantity",
+        "Quantity_class_candidates": [
+            "TorqueQuantity"
+        ],
+        "Unit_name": "kN.m",
+        "Unit_class": "KilonewtonMetre",
+        "Unit_class_candidates": [
+            "KilonewtonMetre",
+            "DecanewtonMetre",
+            "KilogramForceMetre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"TQ\": \"Torque\", \"A\": \"Average\", \"Remark\": \"Average Surface Torque measured in kilonewton-meters (kN.m).\"}"
+    },
+    "TEMP_DNI_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "TEMP_DNI_RT",
+        "PrototypeData_class": "DownholeTemperature",
+        "PrototypeData_class_candidates": [
+            "DownholeTemperature",
+            "TemperatureIn",
+            "TemperatureOut",
+            "ActiveVolume"
+        ],
+        "MeasurableQuantity_class": "TemperatureDrillingQuantity",
+        "Quantity_class": "TemperatureQuantity",
+        "Quantity_class_candidates": [
+            "TemperatureQuantity",
+            "RelativeTemperatureQuantity"
+        ],
+        "Unit_name": "degC",
+        "Unit_class": "Celsius",
+        "Unit_class_candidates": [
+            "Celsius"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"TEMP\": \"Temperature\", \"DNI\": \"undefined\", \"RT\": \"undefined\", \"Remark\": \"The unit 'degC' indicates a measurement of temperature. The components DNI and RT are not defined in the complementary knowledge.\"}"
+    },
+    "TOFB": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "TOFB",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity",
+            "FrequencyRateOfChangeQuantity"
+        ],
+        "Unit_name": "s",
+        "Unit_class": "None",
+        "Unit_class_candidates": [
+            "ReciprocalSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"TOFB\": undefined, Remark: The mnemonic 'TOFB' remains undefined and is associated with a unit of time (seconds).}"
+    },
+    "IMWT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "IMWT",
+        "PrototypeData_class": "DensityIn",
+        "PrototypeData_class_candidates": [
+            "DensityIn",
+            "DensityOut",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "MassDensityDrillingQuantity",
+        "Quantity_class": "MassDensityQuantity",
+        "Quantity_class_candidates": [
+            "MassDensityQuantity"
+        ],
+        "Unit_name": "g/cm3",
+        "Unit_class": "GramPerCubicCentimetre",
+        "Unit_class_candidates": [
+            "GramPerCubicCentimetre",
+            "GramPerCubicMetre",
+            "KilogramPerCubicMetre",
+            "PoundPerCubicFoot",
+            "PoundPerCubicInch"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"IMWT\": undefined, Remark: The physical quantity is likely related to density, but the mnemonic itself does not correspond to any known drilling terms or concepts.}"
+    },
+    "BITRUN": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "BITRUN",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "WOB",
+            "BitDepth",
+            "ROP",
+            "MechanicalSpecificEnergy"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"BIT\": \"Bit\", \"RUN\": \"Run\", \"Remark\": \"The mnemonic 'BITRUN' represents a count of how many times a bit has been run, which is a common metric in drilling operations.\"}"
+    },
+    "TVDE": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "TVDE",
+        "PrototypeData_class": "TrueVerticalDepth",
+        "PrototypeData_class_candidates": [
+            "TrueVerticalDepth",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening"
+        ],
+        "MeasurableQuantity_class": "DepthDrillingQuantity",
+        "Quantity_class": "LengthQuantity",
+        "Quantity_class_candidates": [
+            "LengthQuantity"
+        ],
+        "Unit_name": "m",
+        "Unit_class": "Metre",
+        "Unit_class_candidates": [
+            "Metre",
+            "Kilometre",
+            "Centimetre",
+            "Decimetre",
+            "Millimetre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"TV\": \"True Vertical\", \"D\": \"Extrapolated\", \"Remark\": \"The unit 'm' signifies that the physical quantity is related to 'Depth'.\"}"
+    },
+    "GRR": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GRR",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity",
+            "FrequencyRateOfChangeQuantity"
+        ],
+        "Unit_name": "1/s",
+        "Unit_class": "Hertz",
+        "Unit_class_candidates": [
+            "Hertz",
+            "ReciprocalSecond",
+            "Gigahertz",
+            "Kilohertz",
+            "Megahertz"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"G\": \"Gamma\", \"R\": \"Ray\", \"R\": \"Raw\", \"Remark\": \"The measurement represents the frequency of gamma ray detection per second, relevant in MWD operations.\"}"
+    },
+    "BHFG": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "BHFG",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"BHFG\": undefined, Remark: The unit is 'unitless', suggesting it may serve as a categorical identifier rather than a quantifiable measurement.}"
+    },
+    "DRPM": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "DRPM",
+        "PrototypeData_class": "DownholeRPM",
+        "PrototypeData_class_candidates": [
+            "DownholeRPM",
+            "SurfaceRPM",
+            "DownholePressure",
+            "DownholeTemperature",
+            "DownholeTorque"
+        ],
+        "MeasurableQuantity_class": "RotationalFrequencyQuantity",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity"
+        ],
+        "Unit_name": "rpm",
+        "Unit_class": "Rpm",
+        "Unit_class_candidates": [
+            "Rpm",
+            "RotationPerSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"D\": \"Downhole\", \"RPM\": \"Revolutions Per Minute\", \"Remark\": \"The unit 'rpm' indicates a frequency quantity, relevant for measuring the rotational speed in drilling operations.\"}"
+    },
+    "HKLI": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "HKLI",
+        "PrototypeData_class": "HookLoad",
+        "PrototypeData_class_candidates": [
+            "HookLoad",
+            "WOB",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "HookLoadDrillingQuantity",
+        "Quantity_class": "ForceQuantity",
+        "Quantity_class_candidates": [
+            "ForceQuantity",
+            "GravitationalLoadQuantity",
+            "TensionQuantity"
+        ],
+        "Unit_name": "kkgf",
+        "Unit_class": "ThousandKilogramForce",
+        "Unit_class_candidates": [
+            "KilogramForce",
+            "ThousandKilogramForce"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"HKD\": \"Hookload\", \"LI\": \"undefined\", \"Remark\": \"The unit 'kkgf' indicates that it measures force, specifically related to the hookload in drilling operations.\"}"
+    },
+    "SHKPK_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "SHKPK_RT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "SPP",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "AccelerationQuantity",
+        "Quantity_class_candidates": [
+            "AccelerationQuantity",
+            "AngularAccelerationQuantity"
+        ],
+        "Unit_name": "m/s2",
+        "Unit_class": "MetrePerSecondSquared",
+        "Unit_class_candidates": [
+            "MetrePerSecondSquared",
+            "KilometrePerSecondSquared",
+            "FootPerSecondSquared",
+            "InchPerSecondSquared",
+            "CentimetrePerSecondSquared"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SHK\": \"Shock\", \"PK\": \"Peak\", \"RT\": \"Real-Time\", \"Remark\": \"The unit 'm/s\u00b2' indicates that the physical quantity being measured is 'Acceleration', which is relevant in the context of drilling as it can indicate the intensity of shocks experienced during drilling operations.\"}"
+    },
+    "AZIM_CONT_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "AZIM_CONT_RT",
+        "PrototypeData_class": "Azimuth",
+        "PrototypeData_class_candidates": [
+            "Azimuth",
+            "ActiveVolume",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "PlaneAngleDrillingQuantity",
+        "Quantity_class": "PlaneAngleQuantity",
+        "Quantity_class_candidates": [
+            "PlaneAngleQuantity"
+        ],
+        "Unit_name": "dega",
+        "Unit_class": "Degree",
+        "Unit_class_candidates": [
+            "Degree",
+            "ArcMinute",
+            "ArcSecond",
+            "Gon",
+            "Grad"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"AZIM\": \"Azimuth\", \"CONT\": \"Continuous\", \"RT\": \"Real-Time\", \"Remark\": \"The unit 'dega' (degrees) indicates that the physical quantity being measured is an angle, specifically the azimuth angle. The continuous and real-time aspects suggest that this measurement is crucial for navigation and positioning during drilling operations.\"}"
+    },
+    "TRPM_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "TRPM_RT",
+        "PrototypeData_class": "SurfaceRPM",
+        "PrototypeData_class_candidates": [
+            "SurfaceRPM",
+            "DownholeRPM",
+            "MechanicalSpecificEnergy",
+            "ActiveVolume"
+        ],
+        "MeasurableQuantity_class": "RotationalFrequencyQuantity",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity",
+            "AngularVelocityQuantity"
+        ],
+        "Unit_name": "rpm",
+        "Unit_class": "Rpm",
+        "Unit_class_candidates": [
+            "Rpm",
+            "Hertz",
+            "Kilohertz",
+            "Megahertz",
+            "ReciprocalSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"T\": \"Turbine\", \"RPM\": \"Revolutions Per Minute\", \"RT\": \"Real-Time\", \"Remark\": \"The unit 'rpm' indicates a frequency measurement, which is crucial for understanding the operational status of the drilling equipment.\"}"
+    },
+    "ROP5": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "ROP5",
+        "PrototypeData_class": "ROP",
+        "PrototypeData_class_candidates": [
+            "ROP",
+            "MechanicalSpecificEnergy",
+            "ShearRate",
+            "CollapsePressureGradient",
+            "FracturingPressureGradient"
+        ],
+        "MeasurableQuantity_class": "RateOfPenetrationDrillingQuantity",
+        "Quantity_class": "VelocityQuantity",
+        "Quantity_class_candidates": [
+            "VelocityQuantity"
+        ],
+        "Unit_name": "m/h",
+        "Unit_class": "MetrePerHour",
+        "Unit_class_candidates": [
+            "MetrePerHour",
+            "KilometrePerHour",
+            "DecimetrePerHour",
+            "CentimetrePerHour",
+            "FootPerHour"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"ROP\": \"Rate of Penetration\", \"5\": \"average over 5 feet\", \"Remark\": \"The unit 'm/h' indicates the measurement is in meters per hour, representing the speed of drilling.\"}"
+    },
+    "GS_MWTI": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_MWTI",
+        "PrototypeData_class": "DensityIn",
+        "PrototypeData_class_candidates": [
+            "DensityIn",
+            "DownholeECD",
+            "BitDepth",
+            "MinimumHorizontalStress"
+        ],
+        "MeasurableQuantity_class": "MassDensityDrillingQuantity",
+        "Quantity_class": "MassDensityQuantity",
+        "Quantity_class_candidates": [
+            "MassDensityQuantity",
+            "MassDensityGradientPerLengthQuantity",
+            "MassDensityRateOfChangeQuantity"
+        ],
+        "Unit_name": "g/cm3",
+        "Unit_class": "GramPerCubicCentimetre",
+        "Unit_class_candidates": [
+            "GramPerCubicCentimetre",
+            "GramPerCubicMetre",
+            "KilogramPerCubicMetre",
+            "PoundPerCubicFoot",
+            "PoundPerCubicInch"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"MWTI\": \"Mud Weight (Density) In\", \"Remark\": \"The unit 'g/cm3' indicates that the measurement pertains to the density of the mud used in drilling.\"}"
+    },
+    "DEPT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "DEPT",
+        "PrototypeData_class": "BitDepth",
+        "PrototypeData_class_candidates": [
+            "BitDepth",
+            "HoleDepth",
+            "WOB",
+            "CollapsePressureGradient"
+        ],
+        "MeasurableQuantity_class": "DepthDrillingQuantity",
+        "Quantity_class": "LengthQuantity",
+        "Quantity_class_candidates": [
+            "LengthQuantity"
+        ],
+        "Unit_name": "m",
+        "Unit_class": "Metre",
+        "Unit_class_candidates": [
+            "Metre",
+            "Kilometre",
+            "Centimetre",
+            "Decimetre",
+            "Millimetre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"D\": \"Depth\", \"E\": \"Undefined\", \"P\": \"Undefined\", \"T\": \"Undefined\", \"Remark\": \"The mnemonic 'DEPT' is interpreted as representing 'Bit Depth', with the unit of measurement being meters (m), indicating a physical quantity related to depth.\"}"
+    },
+    "SPM2": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "SPM2",
+        "PrototypeData_class": "PumpRate",
+        "PrototypeData_class_candidates": [
+            "PumpRate",
+            "MPDPumpFlowRate",
+            "MPDPumpRate",
+            "BackPressurePumpPressure"
+        ],
+        "MeasurableQuantity_class": "StrokeFrequencyQuantity",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity"
+        ],
+        "Unit_name": "1/min",
+        "Unit_class": "Spm",
+        "Unit_class_candidates": [
+            "Spm",
+            "Rpm",
+            "Hertz",
+            "ReciprocalSecond",
+            "StrokePerSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SPM\": \"Strokes Per Minute\", \"2\": \"index 2\", \"Remark\": \"The unit is '1/min', indicating a frequency quantity related to the pump's operation.\"}"
+    },
+    "ETSL": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "ETSL",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "BitDepth",
+            "DownholeECD",
+            "MinimumHorizontalStress",
+            "ActiveVolume"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "TimeQuantity",
+        "Quantity_class_candidates": [
+            "TimeQuantity"
+        ],
+        "Unit_name": "s",
+        "Unit_class": "Second",
+        "Unit_class_candidates": [
+            "Second",
+            "Millisecond",
+            "Microsecond",
+            "Nanosecond",
+            "Picosecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"E\": \"Elapsed\", \"T\": \"Time\", \"S\": \"In\", \"L\": \"Slips\", \"Remark\": \"The unit 's' indicates that the physical quantity is 'Time'. The mnemonic 'ETSL' effectively communicates the concept of measuring the elapsed time during the slips phase of drilling operations.\"}"
+    },
+    "GS_BDDI": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_BDDI",
+        "PrototypeData_class": "BitDepth",
+        "PrototypeData_class_candidates": [
+            "BitDepth",
+            "HoleDepth",
+            "MeasuredDepth",
+            "MechanicalSpecificEnergy",
+            "WOB",
+            "MPDPumpRate",
+            "PorePressure"
+        ],
+        "MeasurableQuantity_class": "DepthDrillingQuantity",
+        "Quantity_class": "LengthQuantity",
+        "Quantity_class_candidates": [
+            "LengthQuantity"
+        ],
+        "Unit_name": "m",
+        "Unit_class": "Metre",
+        "Unit_class_candidates": [
+            "Metre",
+            "Centimetre",
+            "Decimetre",
+            "Kilometre",
+            "Foot"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"BDDI\": \"Bit Drilling, DI: undefined\", \"Remark\": \"The unit 'm' suggests that this data relates to a measurement of length or depth in the context of drilling operations.\"}"
+    },
+    "GS_TREV": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_TREV",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "MechanicalSpecificEnergy",
+            "WOB",
+            "BitDepth",
+            "ROP"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"TREV\": \"Bit Revolutions (cum)\", \"Remark\": \"The unit is 'unitless', indicating that 'TREV' is a count of revolutions and does not have a physical dimension like length or time.\"}"
+    },
+    "STK2": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "STK2",
+        "PrototypeData_class": "MPDPumpRate",
+        "PrototypeData_class_candidates": [
+            "MPDPumpRate",
+            "PumpRate",
+            "BackPressurePumpPressure",
+            "MPDPumpFlowRate",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "StrokeFrequencyQuantity",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity",
+            "FrequencyQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent",
+            "ReciprocalSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"STK\": \"Strokes\", \"2\": \"Index 2\", \"Remark\": \"The unit is 'unitless', indicating a count or frequency measurement.\"}"
+    },
+    "ROPI": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "ROPI",
+        "PrototypeData_class": "ROP",
+        "PrototypeData_class_candidates": [
+            "ROP",
+            "MechanicalSpecificEnergy",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "RateOfPenetrationDrillingQuantity",
+        "Quantity_class": "VelocityQuantity",
+        "Quantity_class_candidates": [
+            "VelocityQuantity",
+            "TimeQuantity"
+        ],
+        "Unit_name": "s/m",
+        "Unit_class": "MetrePerSecond",
+        "Unit_class_candidates": [
+            "MetrePerSecond",
+            "CentimetrePerSecond",
+            "DecimetrePerSecond",
+            "MillimetrePerSecond",
+            "KilometrePerSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"R\": \"Rate\", \"O\": \"of\", \"P\": \"Penetration\", \"I\": \"Inverse\", \"Remark\": \"The unit 's/m' indicates a time-related measurement, suggesting that 'ROPI' is a derived quantity that reflects how long it takes to penetrate one meter of material, which is useful for assessing drilling efficiency.\"}"
+    },
+    "GS_MDOA": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_MDOA",
+        "PrototypeData_class": "DensityOut",
+        "PrototypeData_class_candidates": [
+            "DensityIn",
+            "DensityOut",
+            "DownholeECD",
+            "FlowRateOut"
+        ],
+        "MeasurableQuantity_class": "MassDensityDrillingQuantity",
+        "Quantity_class": "MassDensityQuantity",
+        "Quantity_class_candidates": [
+            "MassDensityQuantity"
+        ],
+        "Unit_name": "g/cm3",
+        "Unit_class": "GramPerCubicCentimetre",
+        "Unit_class_candidates": [
+            "GramPerCubicCentimetre",
+            "KilogramPerCubicMetre",
+            "GramPerCubicMetre",
+            "PoundPerCubicFoot",
+            "PoundPerCubicInch"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"MDOA\": \"Mud Density Out\", \"Remark\": \"The unit 'g/cm3' indicates that the physical quantity is related to density, representing the density of the mud, which is crucial for wellbore stability and fluid dynamics.\"}"
+    },
+    "STK1": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "STK1",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "BackPressurePumpPressure",
+            "MPDPumpFlowRate",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"STK\": \"Strokes\", \"1\": \"Index 1\", \"Remark\": \"The unit is unitless, indicating a count of strokes made by Pump 1 in a drilling operation.\"}"
+    },
+    "SHKRATE_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "SHKRATE_RT",
+        "PrototypeData_class": "PumpRate",
+        "PrototypeData_class_candidates": [
+            "PumpRate",
+            "GasFlowRate",
+            "CollapsePressureGradient",
+            "FracturingPressureGradient",
+            "OverburdenPressureGradient"
+        ],
+        "MeasurableQuantity_class": "StrokeFrequencyQuantity",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity",
+            "FrequencyRateOfChangeQuantity"
+        ],
+        "Unit_name": "1/s",
+        "Unit_class": "ReciprocalSecond",
+        "Unit_class_candidates": [
+            "ShockPerSecond",
+            "Hertz",
+            "ReciprocalSecond",
+            "Rpm",
+            "Kilohertz"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SHK\": \"Shock\", \"RATE\": \"Rate\", \"RT\": \"Real-Time\", \"Remark\": \"The unit '1/s' indicates that the physical quantity is a frequency, specifically the rate at which shocks occur per second.\"}"
+    },
+    "SPM4": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "SPM4",
+        "PrototypeData_class": "PumpRate",
+        "PrototypeData_class_candidates": [
+            "PumpRate",
+            "MPDPumpFlowRate",
+            "MPDPumpRate",
+            "BackPressurePumpPressure"
+        ],
+        "MeasurableQuantity_class": "StrokeFrequencyQuantity",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity"
+        ],
+        "Unit_name": "1/min",
+        "Unit_class": "Spm",
+        "Unit_class_candidates": [
+            "Hertz",
+            "ReciprocalSecond",
+            "Rpm",
+            "Spm"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SPM\": \"Strokes Per Minute\", \"4\": \"index 4\", \"Remark\": \"The unit '1/min' indicates that the measurement is in terms of frequency, specifically the number of strokes per minute.\"}"
+    },
+    "INCL_CONT_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "INCL_CONT_RT",
+        "PrototypeData_class": "Inclination",
+        "PrototypeData_class_candidates": [
+            "Inclination",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening"
+        ],
+        "MeasurableQuantity_class": "PlaneAngleDrillingQuantity",
+        "Quantity_class": "PlaneAngleQuantity",
+        "Quantity_class_candidates": [
+            "PlaneAngleQuantity"
+        ],
+        "Unit_name": "dega",
+        "Unit_class": "Degree",
+        "Unit_class_candidates": [
+            "Degree",
+            "Radian",
+            "ArcMinute",
+            "ArcSecond",
+            "Milliradian"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"INCL\": \"Inclination\", \"CONT\": \"Continuous\", \"RT\": \"Rate\", \"Remark\": \"The unit 'dega' indicates that the physical quantity being measured is an angle, specifically the inclination of the borehole.\"}"
+    },
+    "GS_BDTI": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_BDTI",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "MechanicalSpecificEnergy",
+            "WOB",
+            "MPDPumpRate",
+            "PorePressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "TimeQuantity",
+        "Quantity_class_candidates": [
+            "TimeQuantity"
+        ],
+        "Unit_name": "h",
+        "Unit_class": "Hour",
+        "Unit_class_candidates": [
+            "Hour",
+            "Minute",
+            "Second",
+            "Day",
+            "Week"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"BDTI\": \"Bit Drilling Time\", \"Remark\": \"The unit indicates a measurement of time related to the drilling process.\"}"
+    },
+    "ATMP_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "ATMP_RT",
+        "PrototypeData_class": "DownholeTemperature",
+        "PrototypeData_class_candidates": [
+            "DownholeTemperature",
+            "TemperatureIn",
+            "TemperatureOut",
+            "ActiveVolume"
+        ],
+        "MeasurableQuantity_class": "TemperatureDrillingQuantity",
+        "Quantity_class": "TemperatureQuantity",
+        "Quantity_class_candidates": [
+            "TemperatureQuantity",
+            "RelativeTemperatureQuantity"
+        ],
+        "Unit_name": "degC",
+        "Unit_class": "Celsius",
+        "Unit_class_candidates": [
+            "Celsius",
+            "RelativeCelsius"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"ATMP\": \"Annular Temperature\", \"RT\": \"Real-Time\", \"Remark\": \"The unit 'degC' indicates that the physical quantity is 'Temperature'.\"}"
+    },
+    "TSPM": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "TSPM",
+        "PrototypeData_class": "PumpRate",
+        "PrototypeData_class_candidates": [
+            "MPDPumpRate",
+            "PumpRate",
+            "HoleDepth",
+            "HookLoad",
+            "ActiveVolume"
+        ],
+        "MeasurableQuantity_class": "StrokeFrequencyQuantity",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity",
+            "FrequencyRateOfChangeQuantity"
+        ],
+        "Unit_name": "1/min",
+        "Unit_class": "Spm",
+        "Unit_class_candidates": [
+            "Spm",
+            "Rpm",
+            "ReciprocalSecond",
+            "ShockPerMinute",
+            "StrokePerSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"T\": \"Total\", \"SPM\": \"Strokes Per Minute\", \"Remark\": \"The physical quantity represented by 'TSPM' is a frequency, specifically the total number of strokes made by the pump in one minute.\"}"
+    },
+    "CHK": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "CHK",
+        "PrototypeData_class": "HookLoad",
+        "PrototypeData_class_candidates": [
+            "HookLoad",
+            "WOB",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening"
+        ],
+        "MeasurableQuantity_class": "HookLoadDrillingQuantity",
+        "Quantity_class": "ForceQuantity",
+        "Quantity_class_candidates": [
+            "ForceQuantity",
+            "GravitationalLoadQuantity",
+            "TensionQuantity"
+        ],
+        "Unit_name": "kkgf",
+        "Unit_class": "ThousandKilogramForce",
+        "Unit_class_candidates": [
+            "KilogramForce",
+            "ThousandKilogramForce",
+            "Kilonewton",
+            "Kilodecanewton"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"C\": \"Corrected\", \"HK\": \"Hookload\", \"Remark\": \"The unit indicates a force measurement related to the hookload in drilling operations.\"}"
+    },
+    "SMOD": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "SMOD",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "BOPOpening",
+            "MPDChokeOpening",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"S\": \"undefined\", \"MOD\": \"Mode\", \"Remark\": \"The mnemonic 'SMOD' represents the operational mode of the rig at a frequency of 2 Hz, and it is unitless, indicating it is a categorical descriptor rather than a measurable physical quantity.\"}"
+    },
+    "GS_DVER": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_DVER",
+        "PrototypeData_class": "TrueVerticalDepth",
+        "PrototypeData_class_candidates": [
+            "TrueVerticalDepth",
+            "HoleDepth",
+            "Inclination",
+            "CollapsePressureGradient",
+            "FracturingPressureGradient"
+        ],
+        "MeasurableQuantity_class": "DepthDrillingQuantity",
+        "Quantity_class": "LengthQuantity",
+        "Quantity_class_candidates": [
+            "LengthQuantity"
+        ],
+        "Unit_name": "m",
+        "Unit_class": "Metre",
+        "Unit_class_candidates": [
+            "Metre",
+            "Centimetre",
+            "Decametre",
+            "Decimetre",
+            "Kilometre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"DVER\": \"Depth Vertical\", \"Remark\": \"The unit 'm' indicates that it measures 'Length' or 'Depth', specifically referring to 'Total Vertical Depth'.\"}"
+    },
+    "S1AC": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "S1AC",
+        "PrototypeData_class": "SPP",
+        "PrototypeData_class_candidates": [
+            "SPP",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "PressureDrillingQuantity",
+        "Quantity_class": "PressureQuantity",
+        "Quantity_class_candidates": [
+            "PressureQuantity",
+            "PressureGradientPerLengthQuantity",
+            "PressureLossConstantQuantity"
+        ],
+        "Unit_name": "kPa",
+        "Unit_class": "Kilopascal",
+        "Unit_class_candidates": [
+            "Kilopascal",
+            "Megapascal",
+            "Bar",
+            "Millibar",
+            "Pascal"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"S\": \"Stand\", \"1\": \"index 1\", \"AC\": \"undefined\", \"Remark\": \"The unit 'kPa' indicates that this is a pressure measurement, specifically related to the Stand Pipe Pressure at the first index. The 'AC' component does not have a clear definition based on the provided knowledge.\"}"
+    },
+    "P40H_UNC_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "P40H_UNC_RT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "FlowRateIn",
+            "SurfaceRPM",
+            "BitDepth",
+            "DownholeECD"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "ElectricResistivityQuantity",
+        "Quantity_class_candidates": [
+            "ElectricResistivityQuantity"
+        ],
+        "Unit_name": "ohm.m",
+        "Unit_class": "OhmMetre",
+        "Unit_class_candidates": [
+            "OhmMetre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"P\": \"Undefined\", \"40H\": \"40-in. Horizontal\", \"UNC\": \"Undefined\", \"RT\": \"Resistivity\", \"Remark\": \"The unit is ohm.m, which indicates electrical resistivity.\"}"
+    },
+    "CTH": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "CTH",
+        "PrototypeData_class": "HookLoad",
+        "PrototypeData_class_candidates": [
+            "HookLoad",
+            "WOB",
+            "HoleDepth",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "HookLoadDrillingQuantity",
+        "Quantity_class": "ForceQuantity",
+        "Quantity_class_candidates": [
+            "ForceQuantity",
+            "GravitationalLoadQuantity"
+        ],
+        "Unit_name": "kkgf",
+        "Unit_class": "ThousandKilogramForce",
+        "Unit_class_candidates": [
+            "KilogramForce",
+            "ThousandKilogramForce"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"C\": \"Corrected\", \"TH\": \"Total Hookload\", \"Remark\": \"The unit 'kkgf' indicates a force measurement, specifically in terms of weight or load.\"}"
+    },
+    "TFLO": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "TFLO",
+        "PrototypeData_class": "FlowRateIn",
+        "PrototypeData_class_candidates": [
+            "FlowRateIn",
+            "FlowRateOut",
+            "MPDPumpFlowRate",
+            "BitDepth",
+            "DownholeECD"
+        ],
+        "MeasurableQuantity_class": "VolumetricFlowrateDrillingQuantity",
+        "Quantity_class": "VolumetricFlowRateQuantity",
+        "Quantity_class_candidates": [
+            "VolumetricFlowRateQuantity"
+        ],
+        "Unit_name": "L/min",
+        "Unit_class": "LitrePerMinute",
+        "Unit_class_candidates": [
+            "LitrePerMinute",
+            "CubicMetrePerMinute",
+            "CubicFootPerMinute",
+            "BarrelPerMinute"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"T\": \"Undefined\", \"FLO\": \"Flow\", \"Remark\": \"The unit 'L/min' indicates that the physical quantity is a flow rate, referring to the flow of mud into the system, which is critical for maintaining drilling operations.\"}"
+    },
+    "SPM1": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "SPM1",
+        "PrototypeData_class": "PumpRate",
+        "PrototypeData_class_candidates": [
+            "PumpRate",
+            "MPDPumpFlowRate",
+            "MPDPumpRate",
+            "BackPressurePumpPressure"
+        ],
+        "MeasurableQuantity_class": "StrokeFrequencyQuantity",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity",
+            "FrequencyRateOfChangeQuantity"
+        ],
+        "Unit_name": "1/min",
+        "Unit_class": "Spm",
+        "Unit_class_candidates": [
+            "Spm",
+            "Rpm",
+            "Hertz",
+            "ReciprocalSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SPM\": \"Strokes Per Minute\", \"1\": \"index 1\", \"Remark\": \"The unit '1/min' signifies that this is a frequency quantity, specifically the rate of Pump 1's strokes per minute.\"}"
+    },
+    "GS_GASA": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_GASA",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "GasFlowRate",
+            "FlowRateIn",
+            "FlowRateOut",
+            "PorePressure",
+            "FracturingPressure",
+            "ActiveVolume"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "ConcentrationQuantity",
+        "Quantity_class_candidates": [
+            "ConcentrationQuantity"
+        ],
+        "Unit_name": "%",
+        "Unit_class": "PartPerMillion",
+        "Unit_class_candidates": [
+            "PartPerMillion"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"GASA\": \"Gas Average\", \"Remark\": \"The unit '%' indicates that this is a measurement of gas concentration, which is relevant in the drilling domain for monitoring gas levels in the drilling fluid or environment.\"}"
+    },
+    "SHK3TM_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "SHK3TM_RT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "PumpRate",
+            "SurfaceRPM",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "TimeQuantity",
+        "Quantity_class_candidates": [
+            "TimeQuantity",
+            "FrequencyQuantity",
+            "FrequencyRateOfChangeQuantity"
+        ],
+        "Unit_name": "min",
+        "Unit_class": "Minute",
+        "Unit_class_candidates": [
+            "Minute",
+            "Second",
+            "Millisecond",
+            "Microsecond",
+            "Hour"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SHK\": undefined, \"3\": index 3, \"TM\": undefined, \"RT\": undefined, Remark: The unit is 'min', indicating a time-related measurement.\"}"
+    },
+    "ARC_GR_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "ARC_GR_RT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "None",
+        "Quantity_class_candidates": [
+            "MassDensityQuantity",
+            "ConcentrationQuantity"
+        ],
+        "Unit_name": "gAPI",
+        "Unit_class": "None",
+        "Unit_class_candidates": [
+            "SpecificGravity"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"ARC\": \"Undefined\", \"GR\": \"Gamma Ray\", \"RT\": \"Undefined\", \"Remark\": \"The unit 'gAPI' indicates that the Gamma Ray measurement is in American Petroleum Institute (API) units, which is a standard unit for measuring the radioactivity of geological formations.\"}"
+    },
+    "THKD": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "THKD",
+        "PrototypeData_class": "HookLoad",
+        "PrototypeData_class_candidates": [
+            "HookLoad",
+            "WOB",
+            "HoleDepth",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "HookLoadDrillingQuantity",
+        "Quantity_class": "ForceQuantity",
+        "Quantity_class_candidates": [
+            "ForceQuantity",
+            "GravitationalLoadQuantity",
+            "TensionQuantity"
+        ],
+        "Unit_name": "kkgf",
+        "Unit_class": "ThousandKilogramForce",
+        "Unit_class_candidates": [
+            "KilogramForce",
+            "ThousandKilogramForce",
+            "Kilonewton"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"T\": \"Total\", \"HKD\": \"Hookload\", \"Remark\": \"The unit 'kkgf' indicates that the physical quantity is a force measurement, specifically 'kilo kilogram force' or 'thousand kilogram force', suggesting that 'THKD' represents the total hookload measured in a force unit.\"}"
+    },
+    "A40H_UNC_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "A40H_UNC_RT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "DownholePressure",
+            "SPP",
+            "PorePressure",
+            "FlowRateIn",
+            "SurfaceRPM",
+            "BitDepth",
+            "DownholeECD"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "ElectricResistivityQuantity",
+        "Quantity_class_candidates": [
+            "ElectricResistivityQuantity"
+        ],
+        "Unit_name": "ohm.m",
+        "Unit_class": "OhmMetre",
+        "Unit_class_candidates": [
+            "OhmMetre",
+            "KiloOhmMetre",
+            "MegaOhmMetre",
+            "GigaOhmMetre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"A40H\": \"Average\", \"40\": \"index\", \"H\": \"undefined\", \"UNC\": \"undefined\", \"RT\": \"undefined\", \"Remark\": \"The resistivity measurement is likely related to the attenuation resistivity at a specific frequency (2 MHz) and depth (40-inches), but the exact meanings of H, UNC, and RT remain undefined based on the provided complementary knowledge.\"}"
+    },
+    "Stick_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "Stick_RT",
+        "PrototypeData_class": "SurfaceRPM",
+        "PrototypeData_class_candidates": [
+            "SurfaceRPM",
+            "DownholeRPM",
+            "MechanicalSpecificEnergy",
+            "ActiveVolume"
+        ],
+        "MeasurableQuantity_class": "RotationalFrequencyQuantity",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity",
+            "RotationalFrequencyRateOfChangeQuantity"
+        ],
+        "Unit_name": "rpm",
+        "Unit_class": "Rpm",
+        "Unit_class_candidates": [
+            "Rpm",
+            "RotationPerSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"Stick\": \"undefined\", \"RT\": \"undefined\", \"Remark\": \"The unit 'rpm' indicates that the physical quantity is related to frequency, specifically 'Revolutions Per Minute'. This suggests that the mnemonic is likely measuring some form of rotational activity, but without a clear definition for 'Stick' or 'RT', the exact context remains ambiguous.\"}"
+    },
+    "TSTK": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "TSTK",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "PumpRate",
+            "MPDPumpRate",
+            "HoleDepth",
+            "HookLoad",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "None",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity",
+            "FrequencyQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "None",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "StrokePerHour",
+            "StrokePerSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"T\": \"Total\", \"STK\": \"Strokes\", \"Remark\": \"The physical quantity represented by 'TSTK' is a count of strokes, which is a measure of frequency in the context of drilling operations.\"}"
+    },
+    "ROP": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "ROP",
+        "PrototypeData_class": "ROP",
+        "PrototypeData_class_candidates": [
+            "ROP",
+            "MechanicalSpecificEnergy",
+            "ShearRate",
+            "CollapsePressureGradient"
+        ],
+        "MeasurableQuantity_class": "RateOfPenetrationDrillingQuantity",
+        "Quantity_class": "VelocityQuantity",
+        "Quantity_class_candidates": [
+            "LengthQuantity",
+            "VelocityQuantity"
+        ],
+        "Unit_name": "m/h",
+        "Unit_class": "MetrePerHour",
+        "Unit_class_candidates": [
+            "MetrePerHour",
+            "FootPerHour"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"ROP\": \"Rate of Penetration\", \"Unit\": \"m/h\", \"Remark\": \"The unit indicates a rate of penetration, measuring the speed of drilling in meters per hour.\"}"
+    },
+    "RHX_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "RHX_RT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"RHX\": \"undefined\", \"RT\": \"undefined\", \"Remark\": \"The unit is unitless, suggesting it may represent a ratio or a dimensionless quantity.\"}"
+    },
+    "EDRT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "EDRT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"E\": undefined, \"D\": undefined, \"R\": undefined, \"T\": undefined, \"Remark\": \"The unit is 'unitless', which means that 'EDRT' does not represent a physical quantity that can be measured in standard units. It is likely a code or identifier that does not convey specific information in the context of drilling.\"}"
+    },
+    "TOBO": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "TOBO",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "SurfaceRPM",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "TimeQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity",
+            "TimeQuantity"
+        ],
+        "Unit_name": "s",
+        "Unit_class": "Second",
+        "Unit_class_candidates": [
+            "Second",
+            "Microsecond",
+            "Millisecond",
+            "Minute",
+            "Nanosecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"TOBO\": undefined, Remark: The unit 's' indicates that the mnemonic relates to a time measurement, but without a clear definition for 'TOBO', we cannot ascertain its relevance or application in the drilling domain.}"
+    },
+    "A28H_UNC_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "A28H_UNC_RT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "DownholePressure",
+            "PorePressure",
+            "FlowRateIn",
+            "SurfaceRPM",
+            "BitDepth",
+            "DownholeECD"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "ElectricResistivityQuantity",
+        "Quantity_class_candidates": [
+            "ElectricResistivityQuantity"
+        ],
+        "Unit_name": "ohm.m",
+        "Unit_class": "OhmMetre",
+        "Unit_class_candidates": [
+            "GigaOhmMetre",
+            "KiloOhmMetre",
+            "MegaOhmMetre",
+            "OhmMetre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"A28H\": \"Average, 28H: 28-inch (undefined)\", \"UNC\": \"undefined\", \"RT\": \"Resistivity\", \"Remark\": \"The unit 'ohm.m' indicates that the physical quantity is related to electrical resistivity, which is a measure of how strongly a material opposes the flow of electric current. The presence of 'Average' suggests that the data represents an averaged value over a certain period or set of measurements. The '28-inch' reference likely pertains to the size of the drilling equipment or the measurement context, but it remains undefined without further context.\"}"
+    },
+    "GS_MTOA": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_MTOA",
+        "PrototypeData_class": "TemperatureOut",
+        "PrototypeData_class_candidates": [
+            "TemperatureOut",
+            "DownholeTemperature",
+            "TemperatureIn",
+            "FlowRateOut"
+        ],
+        "MeasurableQuantity_class": "TemperatureDrillingQuantity",
+        "Quantity_class": "TemperatureQuantity",
+        "Quantity_class_candidates": [
+            "TemperatureQuantity",
+            "RelativeTemperatureQuantity"
+        ],
+        "Unit_name": "degC",
+        "Unit_class": "Celsius",
+        "Unit_class_candidates": [
+            "Celsius",
+            "RelativeCelsius"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"MTOA\": \"Temperature Out\", \"Remark\": \"The mnemonic 'GS_MTOA' measures temperature related to GeoService activities.\"}"
+    },
+    "STK3": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "STK3",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "BackPressurePumpPressure",
+            "MPDPumpFlowRate",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"STK\": \"Strokes\", \"3\": \"index 3\", \"Remark\": \"unitless, indicating a count of strokes rather than a physical measurement.\"}"
+    },
+    "ROPH": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "ROPH",
+        "PrototypeData_class": "ROP",
+        "PrototypeData_class_candidates": [
+            "ROP",
+            "MechanicalSpecificEnergy",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "RateOfPenetrationDrillingQuantity",
+        "Quantity_class": "VelocityQuantity",
+        "Quantity_class_candidates": [
+            "LengthQuantity",
+            "VelocityQuantity"
+        ],
+        "Unit_name": "m/h",
+        "Unit_class": "MetrePerHour",
+        "Unit_class_candidates": [
+            "MetrePerHour",
+            "KilometrePerHour",
+            "FootPerHour",
+            "CentimetrePerHour",
+            "DecimetrePerHour"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"ROP\": \"Rate of Penetration\", \"H\": \"per Hour\", \"Remark\": \"The unit 'm/h' indicates that this is a measurement of how many meters the drill penetrates per hour, which is a critical metric in drilling operations.\"}"
+    },
+    "P28H_COND_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "P28H_COND_RT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "FlowRateIn",
+            "DensityIn",
+            "PumpRate",
+            "SurfaceRPM",
+            "BitDepth",
+            "DownholeECD"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "None",
+        "Quantity_class_candidates": [
+            "HydraulicConductivityQuantity",
+            "ThermalConductivityQuantity"
+        ],
+        "Unit_name": "mS/m",
+        "Unit_class": "None",
+        "Unit_class_candidates": [],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"P\": \"Phase\", \"28\": \"Index 28\", \"H\": \"undefined\", \"COND\": \"Conductivity\", \"RT\": \"Rate\", \"Remark\": \"The unit 'mS/m' indicates that the physical quantity is 'Conductivity'.\"}"
+    },
+    "GS_G_IC5": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_G_IC5",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "ConcentrationQuantity",
+        "Quantity_class_candidates": [
+            "ConcentrationQuantity"
+        ],
+        "Unit_name": "ppm",
+        "Unit_class": "PartPerMillion",
+        "Unit_class_candidates": [
+            "PartPerMillion"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"G\": \"undefined\", \"IC5\": \"Iso-pentane (IC5)\", \"Remark\": \"The unit 'ppm' indicates a concentration measurement, which is commonly used in chemical analysis.\"}"
+    },
+    "SPPA": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "SPPA",
+        "PrototypeData_class": "SPP",
+        "PrototypeData_class_candidates": [
+            "SPP",
+            "MPDChokePressure",
+            "OverburdenPressure",
+            "BackPressurePumpPressure"
+        ],
+        "MeasurableQuantity_class": "PressureDrillingQuantity",
+        "Quantity_class": "PressureQuantity",
+        "Quantity_class_candidates": [
+            "PressureQuantity"
+        ],
+        "Unit_name": "kPa",
+        "Unit_class": "Kilopascal",
+        "Unit_class_candidates": [
+            "Kilopascal"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SPP\": \"Stand Pipe Pressure\", \"A\": \"Average\", \"Remark\": \"The unit of 'kPa' indicates that the physical quantity being measured is pressure, representing the average standpipe pressure measured in kilopascals (kPa).\"}"
+    },
+    "GS_SWOB": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_SWOB",
+        "PrototypeData_class": "WOB",
+        "PrototypeData_class_candidates": [
+            "WOB",
+            "MechanicalSpecificEnergy",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "WeightOnBitDrillingQuantity",
+        "Quantity_class": "ForceQuantity",
+        "Quantity_class_candidates": [
+            "ForceQuantity"
+        ],
+        "Unit_name": "kkgf",
+        "Unit_class": "ThousandKilogramForce",
+        "Unit_class_candidates": [
+            "KilogramForce",
+            "ThousandKilogramForce"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"SWOB\": \"Surface Weight of Bit\", \"Remark\": \"The unit 'kkgf' indicates a force measurement, specifically the weight of the bit at the surface level.\"}"
+    },
+    "STK4": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "STK4",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "BackPressurePumpPressure",
+            "MPDPumpFlowRate",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "None",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"STK\": \"Strokes\", \"4\": \"index 4\", \"Remark\": \"unitless frequency quantity related to the operation of the pump.\"}"
+    },
+    "SPM3": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "SPM3",
+        "PrototypeData_class": "PumpRate",
+        "PrototypeData_class_candidates": [
+            "PumpRate",
+            "MPDPumpRate",
+            "MPDPumpFlowRate",
+            "BackPressurePumpPressure"
+        ],
+        "MeasurableQuantity_class": "StrokeFrequencyQuantity",
+        "Quantity_class": "FrequencyQuantity",
+        "Quantity_class_candidates": [
+            "FrequencyQuantity",
+            "FrequencyRateOfChangeQuantity"
+        ],
+        "Unit_name": "1/min",
+        "Unit_class": "Spm",
+        "Unit_class_candidates": [
+            "Spm",
+            "Rpm",
+            "Hertz",
+            "ReciprocalSecond",
+            "StrokePerSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SPM\": \"Strokes Per Minute\", \"3\": \"index 3\", \"Remark\": \"The unit '1/min' signifies a frequency quantity, indicating the rate at which the pump operates, which is essential for drilling operations.\"}"
+    },
+    "SHKTOT_RT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "SHKTOT_RT",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "HoleDepth",
+            "HookLoad",
+            "ActiveVolume",
+            "Azimuth"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"SHK\": \"Shock\", \"TOT\": \"Total\", \"RT\": \"Rate\", \"Remark\": \"The unit is 'unitless', which suggests that the physical quantity being measured does not have a specific unit associated with it. This could imply a ratio or a count of total shocks experienced during drilling operations.\"}"
+    },
+    "MIN_CONF": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "MIN_CONF",
+        "PrototypeData_class": "None",
+        "PrototypeData_class_candidates": [
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "None",
+        "Quantity_class": "DimensionlessQuantity",
+        "Quantity_class_candidates": [
+            "DimensionlessQuantity"
+        ],
+        "Unit_name": "unitless",
+        "Unit_class": "Dimensionless",
+        "Unit_class_candidates": [
+            "Dimensionless",
+            "Percent"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"MIN\": \"Minimum\", \"CONF\": \"Confidence\", \"Remark\": \"The unit is unitless, indicating a statistical measure rather than a physical quantity.\"}"
+    },
+    "STWT": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "STWT",
+        "PrototypeData_class": "WOB",
+        "PrototypeData_class_candidates": [
+            "HookLoad",
+            "WOB",
+            "SurfaceTorque",
+            "TopOfStringPosition"
+        ],
+        "MeasurableQuantity_class": "WeightOnBitDrillingQuantity",
+        "Quantity_class": "ForceQuantity",
+        "Quantity_class_candidates": [
+            "ForceQuantity"
+        ],
+        "Unit_name": "kkgf",
+        "Unit_class": "ThousandKilogramForce",
+        "Unit_class_candidates": [
+            "KilogramForce",
+            "ThousandKilogramForce",
+            "Kilonewton",
+            "Decanewton",
+            "Kilodecanewton"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"S\": \"String\", \"WT\": \"Weight\", \"Remark\": \"Represents the average weight of the string during rotation, measured in kilo kilogram force.\"}"
+    },
+    "GS_TQA": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_TQA",
+        "PrototypeData_class": "SurfaceTorque",
+        "PrototypeData_class_candidates": [
+            "SurfaceTorque",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "TorqueDrillingQuantity",
+        "Quantity_class": "TorqueQuantity",
+        "Quantity_class_candidates": [
+            "TorqueQuantity"
+        ],
+        "Unit_name": "kN.m",
+        "Unit_class": "KilonewtonMetre",
+        "Unit_class_candidates": [
+            "KilonewtonMetre",
+            "DecanewtonMetre",
+            "KilogramForceMetre",
+            "NewtonMetre"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"TQ\": \"Torque\", \"A\": \"Average\", \"Remark\": \"The overall interpretation is that it refers to the averaged torque measurement provided by the GeoService, with the unit of measurement being kilonewton-meters (kN.m).\"}"
+    },
+    "SWOB": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "SWOB",
+        "PrototypeData_class": "WOB",
+        "PrototypeData_class_candidates": [
+            "WOB",
+            "MechanicalSpecificEnergy",
+            "HookLoad",
+            "BitDepth"
+        ],
+        "MeasurableQuantity_class": "WeightOnBitDrillingQuantity",
+        "Quantity_class": "None",
+        "Quantity_class_candidates": [
+            "ForceQuantity"
+        ],
+        "Unit_name": "kkgf",
+        "Unit_class": "ThousandKilogramForce",
+        "Unit_class_candidates": [
+            "KilogramForce",
+            "ThousandKilogramForce"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"S\": \"Surface\", \"WOB\": \"Weight of Bit\", \"Remark\": \"The physical quantity represented by 'SWOB' is 'Weight', specifically the weight of the drill bit at the surface measured in kilo kilogram force (kkgf), indicating a force measurement related to the drilling operation.\"}"
+    },
+    "ROPIH": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "ROPIH",
+        "PrototypeData_class": "ROP",
+        "PrototypeData_class_candidates": [
+            "ROP",
+            "ActiveVolume",
+            "Azimuth",
+            "BOPOpening",
+            "BOPPressure"
+        ],
+        "MeasurableQuantity_class": "RateOfPenetrationDrillingQuantity",
+        "Quantity_class": "VelocityQuantity",
+        "Quantity_class_candidates": [
+            "VelocityQuantity"
+        ],
+        "Unit_name": "s/m",
+        "Unit_class": "MetrePerSecond",
+        "Unit_class_candidates": [
+            "CentimetrePerSecond",
+            "DecimetrePerSecond",
+            "FootPerSecond",
+            "InchPerSecond",
+            "MetrePerSecond"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"ROP\": \"Rate of Penetration\", \"IH\": \"undefined\", \"Remark\": \"The unit 's/m' indicates a rate, aligning with the interpretation of ROP as a measure of penetration speed in drilling.\"}"
+    },
+    "GS_ROP": {
+        "Namespace": "http://ddhub.demo/zzz/Norway-NA-15__47__9-F-9_A+1+log+2+2+1+00001",
+        "DrillingDataPoint_name": "GS_ROP",
+        "PrototypeData_class": "ROP",
+        "PrototypeData_class_candidates": [
+            "ROP",
+            "MechanicalSpecificEnergy",
+            "ShearRate",
+            "CollapsePressureGradient",
+            "FracturingPressureGradient"
+        ],
+        "MeasurableQuantity_class": "RateOfPenetrationDrillingQuantity",
+        "Quantity_class": "VelocityQuantity",
+        "Quantity_class_candidates": [
+            "VelocityQuantity"
+        ],
+        "Unit_name": "m/h",
+        "Unit_class": "MetrePerHour",
+        "Unit_class_candidates": [
+            "MetrePerHour",
+            "KilometrePerHour",
+            "DecimetrePerHour",
+            "CentimetrePerHour",
+            "MillimetrePerHour"
+        ],
+        "Provider_name": "",
+        "Interpretation_user": "LLM: {\"GS\": \"GeoService\", \"ROP\": \"Rate of Penetration\", \"Remark\": \"The unit 'm/h' indicates a rate, specifically the rate of penetration, which is a critical parameter in drilling operations.\"}"
+    }
+}
